@@ -54,3 +54,4 @@ build-iPhoneSimulator/
 
 # Do not save security keys
 jobs/keys/*
+!jobs/keys/.gitkeep
