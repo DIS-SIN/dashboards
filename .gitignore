@@ -53,4 +53,4 @@ build-iPhoneSimulator/
 .rvmrc
 
 # Do not save security keys
-jobs/keys
+jobs/keys/*
