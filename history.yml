@@ -1,0 +1,311 @@
+---
+valuation: "data: {\"current\":27,\"last\":15,\"id\":\"valuation\",\"updatedAt\":1583175888618}\n\n"
+karma: "data: {\"current\":195001,\"last\":23936,\"id\":\"karma\",\"updatedAt\":1583175888618}\n\n"
+synergy: "data: {\"value\":2,\"id\":\"synergy\",\"updatedAt\":1583175888618}\n\n"
+buzzwords: "data: {\"items\":[{\"label\":\"Paradigm shift\",\"value\":21},{\"label\":\"Exit
+  strategy\",\"value\":18},{\"label\":\"Synergy\",\"value\":15},{\"label\":\"Pivoting\",\"value\":17},{\"label\":\"Turn-key\",\"value\":17},{\"label\":\"Streamlininess\",\"value\":19},{\"label\":\"Enterprise\",\"value\":16},{\"label\":\"Leverage\",\"value\":19},{\"label\":\"Web
+  2.0\",\"value\":21}],\"id\":\"buzzwords\",\"updatedAt\":1583175888618}\n\n"
+convergence: "data: {\"points\":[{\"x\":163,\"y\":44},{\"x\":164,\"y\":2},{\"x\":165,\"y\":47},{\"x\":166,\"y\":32},{\"x\":167,\"y\":40},{\"x\":168,\"y\":11},{\"x\":169,\"y\":48},{\"x\":170,\"y\":4},{\"x\":171,\"y\":14},{\"x\":172,\"y\":22}],\"id\":\"convergence\",\"updatedAt\":1583175886816}\n\n"
+activities: "data: {\"current\":\"5096\",\"id\":\"activities\",\"updatedAt\":1583175565355}\n\n"
+events: "data: {\"current\":\"14403\",\"id\":\"events\",\"updatedAt\":1583175565355}\n\n"
+innovate_on_demand: "data: {\"current\":\"31,380\",\"id\":\"innovate_on_demand\",\"updatedAt\":1583175565355}\n\n"
+newsletters: "data: {\"current\":\"2772\",\"id\":\"newsletters\",\"updatedAt\":1583175565355}\n\n"
+twitter: "data: {\"current\":\"2896\",\"id\":\"twitter\",\"updatedAt\":1583175565355}\n\n"
+chart: "data: {\"type\":\"bar\",\"header\":\"Calories Burned\",\"labels\":[\"Day 1\",\"Day
+  2\",\"Day 3\",\"Day 4\",\"Day 5\"],\"colorNames\":[\"yellow\",\"yellow\",\"yellow\",\"yellow\",\"yellow\"],\"datasets\":[210,339,220,494,109],\"id\":\"chart\",\"updatedAt\":1583175886816}\n\n"
+visitor_count_real_time: "data: {\"current\":\"1\",\"id\":\"visitor_count_real_time\",\"updatedAt\":1583175883045}\n\n"
+busrides_Users: "data: {\"current\":347,\"id\":\"busrides_Users\",\"updatedAt\":1583164515481}\n\n"
+busrides_newUsers: "data: {\"current\":\"274\",\"id\":\"busrides_newUsers\",\"updatedAt\":1583175563421}\n\n"
+busrides_users: "data: {\"current\":\"347\",\"id\":\"busrides_users\",\"updatedAt\":1583175563421}\n\n"
+busrides_returnUsers: "data: {\"current\":73,\"id\":\"busrides_returnUsers\",\"updatedAt\":1583175563421}\n\n"
+twitter_hashtag_terms: "data: {\"comments\":[{\"created_at\":\" 1:53PM - Mar  2, 2020\",\"name\":\"Britt
+  Hurley\",\"body\":\"Anyone know a tool that lets me drag out of outlook, into a
+  Kanban board? Or an outlook plug-in to create tasks into Trello, gitlab? Email is
+  piling up, and I find myself forgetting things & wasting time searching. Need a
+  visible & easy to use personal backlog. #gcdigital #helpme\",\"avatar\":\"https://pbs.twimg.com/profile_images/1047477594076172288/TzsrCrpE_normal.jpg\",\"screen_name\":\"@britthurleyott\"},{\"created_at\":\"
+  1:28PM - Mar  2, 2020\",\"name\":\"Anne Simonis\",\"body\":\"A proposed rule to
+  only allow #OpenData for agency decisions sounds like a transparency win, but would
+  eliminate consideration of studies that use classified or personal data. Informed
+  decision making should not be restricted to publicly available data\\nhttps://t.co/YyR7M4ORT3\",\"avatar\":\"https://pbs.twimg.com/profile_images/1203382164538232833/Df26MOel_normal.jpg\",\"screen_name\":\"@AnneListens\"},{\"created_at\":\"12:32PM
+  - Mar  2, 2020\",\"name\":\"Federal Acquisition Service\",\"body\":\"Retweet: Would
+  you like to participate in the Open Data Community of Practice? https://t.co/ZFib6p0Mlh
+  Open to anyone with a .gov or .mil email address. #listserv #opendata\",\"avatar\":\"https://pbs.twimg.com/profile_images/823902886006497280/CE_1i84z_normal.jpg\",\"screen_name\":\"@FAS_Outreach\"},{\"created_at\":\"12:28PM
+  - Mar  2, 2020\",\"name\":\"Data.gov\",\"body\":\"Would you like to participate
+  in the Open Data Community of Practice? https://t.co/ZFib6p0Mlh Open to anyone with
+  a .gov or .mil email address. #listserv #opendata\",\"avatar\":\"https://pbs.twimg.com/profile_images/525356670382133248/muq55HrN_normal.png\",\"screen_name\":\"@usdatagov\"},{\"created_at\":\"11:06AM
+  - Mar  2, 2020\",\"name\":\"Olivier Berger aka obergix\",\"body\":\"Retweet: “You
+  wouldn’t buy a car with the hood welded shut. Why would you buy software that you
+  can’t maintain or modify?” @waldojaquith on software procurement is the absolute
+  best: https://t.co/gmebyfjo6F \U0001F4AF\U0001F4AF #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/1084474998100762624/_waZR-pj_normal.jpg\",\"screen_name\":\"@olberger\"},{\"created_at\":\"11:06AM
+  - Mar  2, 2020\",\"name\":\"Shelley Rolland\",\"body\":\"Worth a read if you work
+  in #internalcomss or help build/create/maintain an #intranet site. @gerrymcgovern:
+  State of intranets in 2020 https://t.co/EG5RigrAuu #gccomms #internalcomms #gcdigital
+  #EmployeeEngagement #employeecomms\",\"avatar\":\"https://pbs.twimg.com/profile_images/1160637154084761606/OHOqcAS8_normal.jpg\",\"screen_name\":\"@chatshell\"},{\"created_at\":\"10:15AM
+  - Mar  2, 2020\",\"name\":\"Abie\",\"body\":\"Retweet: “You wouldn’t buy a car with
+  the hood welded shut. Why would you buy software that you can’t maintain or modify?”
+  @waldojaquith on software procurement is the absolute best: https://t.co/gmebyfjo6F
+  \U0001F4AF\U0001F4AF #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/397990314/avatar_normal.jpg\",\"screen_name\":\"@temptoetiam\"},{\"created_at\":\"10:15AM
+  - Mar  2, 2020\",\"name\":\"Bastien Guerry\",\"body\":\"Retweet: “You wouldn’t buy
+  a car with the hood welded shut. Why would you buy software that you can’t maintain
+  or modify?” @waldojaquith on software procurement is the absolute best: https://t.co/gmebyfjo6F
+  \U0001F4AF\U0001F4AF #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/1204999567311286272/UoU5IIkw_normal.jpg\",\"screen_name\":\"@bzg2\"},{\"created_at\":\"
+  8:32AM - Mar  2, 2020\",\"name\":\"Fiona Morley Clarke\",\"body\":\"Retweet: Are
+  u a user or publisher of #OpenData in the Health & Wellbeing domain? We're organising
+  the next #ODImpact series and would love for you to participate. Ping me if you
+  are interested in presenting your data / app / project / etc. Cheers @GovDataIE
+  @smartdublin @SmartDocklands https://t.co/p8B8cMR0c1\",\"avatar\":\"https://pbs.twimg.com/profile_images/868377448873897984/sUopcgwA_normal.jpg\",\"screen_name\":\"@morleyfme\"},{\"created_at\":\"
+  6:50AM - Mar  2, 2020\",\"name\":\"Jody Converse\",\"body\":\"Retweet: Wyatt @GAC_Corporate
+  is helping public servants communicate via sign language. This matters just like
+  audio for the blind or text for the deaf. Narrative/text heavy videos are boring
+  and inaccessible to all audiences\\n\\n+ Sound FX to interviews + Text to b-roll
+  #GC2020 @SignallUS https://t.co/nwEbw3AMQi\",\"avatar\":\"https://pbs.twimg.com/profile_images/875013646954274817/h3Kgmfq7_normal.jpg\",\"screen_name\":\"@JodyConverse\"},{\"created_at\":\"
+  6:22AM - Mar  2, 2020\",\"name\":\"lay and Chen pls appoint me as Ur maid\",\"body\":\"Okay
+  so maybe RT and I'll try making a GC ?\\nI'm a multi so yeah anyone can RT but pls
+  don't RT if u a solo who can't respect other members or other groups\\n#gc \\n#kpop
+  https://t.co/HqsSjFC8aa\",\"avatar\":\"https://pbs.twimg.com/profile_images/1234430231345164289/n91ri0YK_normal.jpg\",\"screen_name\":\"@cultleaderksoo\"},{\"created_at\":\"
+  4:11AM - Mar  2, 2020\",\"name\":\"RepairData\",\"body\":\"Retweet: One week to
+  go till Open Data Day 2020 on Saturday 7th March!\\n\\nDiscover events taking place
+  in your part of the world at https://t.co/ybIxLiK8Sk \U0001F30E\U0001F30D\U0001F30F\\n\\nAnd
+  use the #OpenDataDay or #ODD2020 hashtags to spread the word about your plans to
+  celebrate #opendata this year. https://t.co/s49jUUW6RT\",\"avatar\":\"https://pbs.twimg.com/profile_images/1140601575951491072/qtBOYeo0_normal.png\",\"screen_name\":\"@RepairData\"},{\"created_at\":\"
+  4:02AM - Mar  2, 2020\",\"name\":\"Fired up mama\",\"body\":\"Retweet: Virginia's
+  population in 2019 was 8,535,519 or 2.6% of the American population. With 99 delegates
+  up for grabs in VA on #SuperTuesday, what will be influencing voters in that state?
+  Get the facts #opendata #USAFacts https://t.co/Ad4MIZkveU https://t.co/uI1zstgjFY\",\"avatar\":\"https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png\",\"screen_name\":\"@FiredMama\"},{\"created_at\":\"
+  3:23AM - Mar  2, 2020\",\"name\":\"Matthew Skelton \U0001F3BA\",\"body\":\"Retweet:
+  “You wouldn’t buy a car with the hood welded shut. Why would you buy software that
+  you can’t maintain or modify?” @waldojaquith on software procurement is the absolute
+  best: https://t.co/gmebyfjo6F \U0001F4AF\U0001F4AF #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/1149634242621530112/kBmmBIiQ_normal.png\",\"screen_name\":\"@matthewpskelton\"},{\"created_at\":\"
+  3:15AM - Mar  2, 2020\",\"name\":\"Ray\",\"body\":\"No better place to start then,
+  @tiptoptoptips for me the lads over at #GC now a thing or two when it comes to betting.
+  They’ll have you covered with all the stats you’ll ever need when it comes to betting.
+  The members group chat unearths some right gems at times too.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1210338844001869824/36CJmZVb_normal.jpg\",\"screen_name\":\"@raymanbets\"},{\"created_at\":\"
+  2:01AM - Mar  2, 2020\",\"name\":\"Carlos Rozo\",\"body\":\"Retweet: Miss out on
+  a ticket for #OpenData #OpenPotential?\\n\\nOr are you outside of Wellington but
+  want to see what goes on?\\n\\nWe have set up a #livestream at https://t.co/70uAsbx0YS\",\"avatar\":\"https://pbs.twimg.com/profile_images/1223021449751015426/6WN3um30_normal.jpg\",\"screen_name\":\"@crozo\"},{\"created_at\":\"12:10AM
+  - Mar  2, 2020\",\"name\":\"Niokoz\",\"body\":\"We are working around the #VPOC
+  for the moment\\n\\n#XAUUSD | #OR #GOLD #GC #COMEX\\n#quant #spread #tracker\\n#metals\\n#quantprint
+  https://t.co/lrAgxnPNIG\",\"avatar\":\"https://pbs.twimg.com/profile_images/754835352255361024/j0eqW1Yv_normal.jpg\",\"screen_name\":\"@NicoooooooFX\"},{\"created_at\":\"
+  8:56PM - Mar  1, 2020\",\"name\":\"BMEGS San Antonio\",\"body\":\"Retweet: Interested
+  in space tech? #AI, #biotech or #opendata? Compete in the 2020 Act In Space International
+  Hackathon. @QutubLab is hosting @UTSA in San Antonio April 24-25 https://t.co/qdh2QeNn18\",\"avatar\":\"https://pbs.twimg.com/profile_images/848605718311833600/14cSblCV_normal.jpg\",\"screen_name\":\"@BMEGS_SA\"},{\"created_at\":\"
+  8:55PM - Mar  1, 2020\",\"name\":\"BME UTSA\",\"body\":\"Retweet: Interested in
+  space tech? #AI, #biotech or #opendata? Compete in the 2020 Act In Space International
+  Hackathon. @QutubLab is hosting @UTSA in San Antonio April 24-25 https://t.co/qdh2QeNn18\",\"avatar\":\"https://pbs.twimg.com/profile_images/1042089603551723520/nKWwaQ4d_normal.jpg\",\"screen_name\":\"@BmeUtsa\"},{\"created_at\":\"
+  8:43PM - Mar  1, 2020\",\"name\":\"Some Body\",\"body\":\"@inkl @TheEconomist Saving
+  your life will likely be conditional on you getting free access to the information
+  you need without signing away your #PersonalData or giving someone else your money.
+  \\nIn the very near future, #Life will be reserved for those who can afford it.
+  \\nWe need #OpenData.\",\"avatar\":\"https://pbs.twimg.com/profile_images/922617271264186369/Swd3x6AK_normal.jpg\",\"screen_name\":\"@KevinOnEarth\"},{\"created_at\":\"
+  7:59PM - Mar  1, 2020\",\"name\":\"Denis Skinner\",\"body\":\"Retweet: “You wouldn’t
+  buy a car with the hood welded shut. Why would you buy software that you can’t maintain
+  or modify?” @waldojaquith on software procurement is the absolute best: https://t.co/gmebyfjo6F
+  \U0001F4AF\U0001F4AF #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/967166539261603840/YWIbM2xx_normal.jpg\",\"screen_name\":\"@SkinnerDenis\"},{\"created_at\":\"
+  6:02PM - Mar  1, 2020\",\"name\":\"QADAN NSA\",\"body\":\"Trudyloops update plot
+  to include Native Origins and Beothuk enigma in Kanata.\\nPortal entry GC9 approved.
+  +Dragonklan drifted in or rifted through to AE project (0/)\\n#Tamarra gateway is
+  gc8.9 projection cast inclusion.\\nAmended upon tribute to #AllMoms #GC #byeIRONbirdmentality\",\"avatar\":\"https://pbs.twimg.com/profile_images/1234402661719347200/lYfErHjm_normal.jpg\",\"screen_name\":\"@QADANNSA\"},{\"created_at\":\"
+  4:51PM - Mar  1, 2020\",\"name\":\"Mary Elizabeth Baker\",\"body\":\"Retweet: @yowcivictech
+  @lchski In the meantime, check out the data! You can filter it by department acronym
+  (e.g. “ssc”) or keyword (e.g. “gcdocs”). \U0001F50D Find something interesting?
+  Let us know! https://t.co/YRLCU8KEio #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/1211406843068719105/Kwm5Ellh_normal.jpg\",\"screen_name\":\"@bethmaru\"},{\"created_at\":\"
+  3:24PM - Mar  1, 2020\",\"name\":\"Bianca Wylie\",\"body\":\"Retweet: @yowcivictech
+  @lchski In the meantime, check out the data! You can filter it by department acronym
+  (e.g. “ssc”) or keyword (e.g. “gcdocs”). \U0001F50D Find something interesting?
+  Let us know! https://t.co/YRLCU8KEio #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/968629586547261440/GdVFQb5-_normal.jpg\",\"screen_name\":\"@biancawylie\"},{\"created_at\":\"
+  3:24PM - Mar  1, 2020\",\"name\":\"Sean Boots\",\"body\":\"@yowcivictech @lchski
+  In the meantime, check out the data! You can filter it by department acronym (e.g.
+  “ssc”) or keyword (e.g. “gcdocs”). \U0001F50D Find something interesting? Let us
+  know! https://t.co/YRLCU8KEio #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/1237150005/twitterz_normal.jpg\",\"screen_name\":\"@sboots\"}],\"id\":\"twitter_hashtag_terms\",\"updatedAt\":1583175864261}\n\n"
+twitter_user_terms: "data: {\"comments\":[{\"created_at\":\" 9:39AM - Mar  2, 2020\",\"name\":\"Michael
+  Karlin\",\"body\":\"@seanmmcdonald @DerekAlton @trbouma @TDAndrea23 @KayleHatt @piacandrews
+  @teh_aimee @PierreFerron @IFiniq @owbitar @scott_pm @edent @ToferC @rumon @hslaird
+  @andrewjb_ @sboots @richardjpope @ae_clarke @mgifford @LivNeal @RoboRobbins @firebethfox
+  But you're right, I misworded. I shouldn't have said \\\"duties\\\" but \\\"activities.\\\"
+  We're heavily criticized when we stop monitoring common threats, or when we miss
+  something, so the knee-jerk reaction is to watch more.\",\"avatar\":\"https://pbs.twimg.com/profile_images/869695918106431488/q7_8-AY2_normal.jpg\",\"screen_name\":\"@supergovernance\"},{\"created_at\":\"
+  9:15AM - Mar  2, 2020\",\"name\":\"Sean McDonald\",\"body\":\"@supergovernance @DerekAlton
+  @trbouma @TDAndrea23 @KayleHatt @piacandrews @teh_aimee @PierreFerron @IFiniq @owbitar
+  @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @sboots @richardjpope @ae_clarke
+  @mgifford @LivNeal @RoboRobbins @firebethfox This one stuck with me over the weekend
+  - that isn’t the duty of the government, @supergovernance. \\n\\nThe duty of the
+  government is to protect the things that you’re describing (or, in some cases, the
+  things they attack). They have decided that surveillance is necessary to do so.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1110991481895034885/2ghSN9BF_normal.jpg\",\"screen_name\":\"@seanmmcdonald\"},{\"created_at\":\"
+  5:32PM - Mar  1, 2020\",\"name\":\"Alex G Smith\",\"body\":\"Retweet: @KayleHatt
+  @DerekAlton @trbouma @TDAndrea23 @supergovernance @piacandrews @PierreFerron @IFiniq
+  @owbitar @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald @sboots
+  @richardjpope @ae_clarke @mgifford @LivNeal @RoboRobbins @firebethfox I think we’re
+  at an inflection point on these technologies - the enormous privacy concerns involved
+  and the appalling (and sadly unsurprising) behaviour of the tech giants offering
+  them, could result in such tech being hobbled or (as in my case) avoided like the
+  proverbial.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1195680140107427840/ftuWv3pV_normal.jpg\",\"screen_name\":\"@alexgsmith\"},{\"created_at\":\"
+  5:17PM - Mar  1, 2020\",\"name\":\"Pia Andrews\",\"body\":\"Retweet: @KayleHatt
+  @DerekAlton @trbouma @TDAndrea23 @supergovernance @piacandrews @PierreFerron @IFiniq
+  @owbitar @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald @sboots
+  @richardjpope @ae_clarke @mgifford @LivNeal @RoboRobbins @firebethfox I think we’re
+  at an inflection point on these technologies - the enormous privacy concerns involved
+  and the appalling (and sadly unsurprising) behaviour of the tech giants offering
+  them, could result in such tech being hobbled or (as in my case) avoided like the
+  proverbial.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1182395771108249600/DavXTVQc_normal.jpg\",\"screen_name\":\"@piacandrews\"},{\"created_at\":\"
+  7:12PM - Feb 29, 2020\",\"name\":\"Kayle Hatt\",\"body\":\"@scott_pm Sure, edited
+  audio or using a program run from a supercomputer that can't (yet) be built into
+  a smartphone ... But a publicly traded technology firm actually faking a technology
+  announcement/demo would be a SEC violation and I don't think Google would do that.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1254896702/kayle_normal.jpg\",\"screen_name\":\"@KayleHatt\"},{\"created_at\":\"
+  7:06PM - Feb 29, 2020\",\"name\":\"Kayle Hatt\",\"body\":\"@scott_pm Hey Scott,
+  the article says they were accused of faking or editing the recording, pointing
+  to the lack of background noise as a point of evidence. Even if the recording was
+  doctored for clarity on the stage, I don't believe the tech behind it is fake.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1254896702/kayle_normal.jpg\",\"screen_name\":\"@KayleHatt\"},{\"created_at\":\"
+  6:44PM - Feb 29, 2020\",\"name\":\"Kayle Hatt\",\"body\":\"@DerekAlton @trbouma
+  @TDAndrea23 @supergovernance @piacandrews @teh_aimee @PierreFerron @IFiniq @owbitar
+  @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald @sboots @richardjpope
+  @ae_clarke @mgifford @LivNeal @RoboRobbins @firebethfox @turbotax @CanRevAgency
+  Or imagine an alternative future where someone loses their job: \\n\\n-they tell
+  @Google assistant, who completed the EI application forms for them and send them
+  to the wifi printer to be signed and mailed... but can't interface directly\\n\\n9/n\",\"avatar\":\"https://pbs.twimg.com/profile_images/1254896702/kayle_normal.jpg\",\"screen_name\":\"@KayleHatt\"},{\"created_at\":\"
+  6:44PM - Feb 29, 2020\",\"name\":\"Marc R Gagné MAPP \U0001F341\",\"body\":\"Retweet:
+  @trbouma @KayleHatt @DerekAlton @TDAndrea23 @supergovernance @piacandrews @PierreFerron
+  @IFiniq @owbitar @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald
+  @sboots @richardjpope @ae_clarke @mgifford @LivNeal @RoboRobbins @firebethfox @lizdubois
+  Right?! Tweet length meant Inwas trying to stay super brief. #privacy is only one
+  part of the utter morass of potential or actual, real harm involved in this stuff.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1011580749928124421/mnOfYYe9_normal.jpg\",\"screen_name\":\"@OttLegalRebels\"},{\"created_at\":\"
+  6:44PM - Feb 29, 2020\",\"name\":\"aimee whitcroft\",\"body\":\"@trbouma @KayleHatt
+  @DerekAlton @TDAndrea23 @supergovernance @piacandrews @PierreFerron @IFiniq @owbitar
+  @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald @sboots @richardjpope
+  @ae_clarke @mgifford @LivNeal @RoboRobbins @firebethfox @lizdubois Right?! Tweet
+  length meant Inwas trying to stay super brief. #privacy is only one part of the
+  utter morass of potential or actual, real harm involved in this stuff.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1227480745607716864/DFQw18Br_normal.jpg\",\"screen_name\":\"@teh_aimee\"},{\"created_at\":\"
+  6:38PM - Feb 29, 2020\",\"name\":\"aimee whitcroft\",\"body\":\"@KayleHatt @DerekAlton
+  @trbouma @TDAndrea23 @supergovernance @piacandrews @PierreFerron @IFiniq @owbitar
+  @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald @sboots @richardjpope
+  @ae_clarke @mgifford @LivNeal @RoboRobbins @firebethfox I think we’re at an inflection
+  point on these technologies - the enormous privacy concerns involved and the appalling
+  (and sadly unsurprising) behaviour of the tech giants offering them, could result
+  in such tech being hobbled or (as in my case) avoided like the proverbial.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1227480745607716864/DFQw18Br_normal.jpg\",\"screen_name\":\"@teh_aimee\"},{\"created_at\":\"
+  6:35PM - Feb 29, 2020\",\"name\":\"Derek Alton\",\"body\":\"Retweet: @KayleHatt
+  @DerekAlton @trbouma @TDAndrea23 @supergovernance @piacandrews @teh_aimee @PierreFerron
+  @IFiniq @owbitar @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald
+  @sboots @richardjpope @ae_clarke @mgifford @LivNeal @RoboRobbins Interesting take....
+  maybe the “puck” we could wonder or hypothesize about is more like this. New Behaviours
+  vs technology? Things like:\\nDistributed decision making and decentralization of
+  authority\\nAdaptive systems that reorganize quickly in response to nodes\\nSomething
+  else?\",\"avatar\":\"https://pbs.twimg.com/profile_images/837370914073276416/F_i4T9Pn_normal.jpg\",\"screen_name\":\"@DerekAlton\"},{\"created_at\":\"
+  6:26PM - Feb 29, 2020\",\"name\":\"Beth Fox\",\"body\":\"@KayleHatt @DerekAlton
+  @trbouma @TDAndrea23 @supergovernance @piacandrews @teh_aimee @PierreFerron @IFiniq
+  @owbitar @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald @sboots
+  @richardjpope @ae_clarke @mgifford @LivNeal @RoboRobbins Interesting take.... maybe
+  the “puck” we could wonder or hypothesize about is more like this. New Behaviours
+  vs technology? Things like:\\nDistributed decision making and decentralization of
+  authority\\nAdaptive systems that reorganize quickly in response to nodes\\nSomething
+  else?\",\"avatar\":\"https://pbs.twimg.com/profile_images/1228839203691122688/SrVqsjOo_normal.jpg\",\"screen_name\":\"@firebethfox\"},{\"created_at\":\"
+  6:17PM - Feb 29, 2020\",\"name\":\"Kayle Hatt\",\"body\":\"@DerekAlton @trbouma
+  @TDAndrea23 @supergovernance @piacandrews @teh_aimee @PierreFerron @IFiniq @owbitar
+  @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald @sboots @richardjpope
+  @ae_clarke @mgifford @LivNeal @RoboRobbins @firebethfox Our websites still give
+  information and manuals rather than answers (Wizards can help with this) and many
+  applications are hard or impossible to submit on mobile. \\n\\n2/n\",\"avatar\":\"https://pbs.twimg.com/profile_images/1254896702/kayle_normal.jpg\",\"screen_name\":\"@KayleHatt\"},{\"created_at\":\"
+  1:35PM - Feb 29, 2020\",\"name\":\"rumon carter\",\"body\":\"Retweet: @trbouma @DerekAlton
+  @TDAndrea23 @supergovernance @KayleHatt @piacandrews @teh_aimee @PierreFerron @IFiniq
+  @owbitar @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald @sboots
+  @richardjpope @ae_clarke @mgifford @LivNeal @RoboRobbins \U0001F4AF. So how might
+  we create structures/conditions/expectations within government that make empowered
+  teams the presumptive default? So that working that way doesn’t require stealth,
+  luck, or heroic burnout?\",\"avatar\":\"https://pbs.twimg.com/profile_images/880818747220475904/5VKZmyzY_normal.jpg\",\"screen_name\":\"@rumon\"},{\"created_at\":\"12:18PM
+  - Feb 29, 2020\",\"name\":\"Derek Alton\",\"body\":\"@evanwolf @firebethfox @trbouma
+  @TDAndrea23 @supergovernance @KayleHatt @piacandrews @teh_aimee @PierreFerron @IFiniq
+  @owbitar @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald @sboots
+  @richardjpope @ae_clarke @mgifford @LivNeal @RoboRobbins Do you have links or titles?
+  \ Would love to dig into this more.\",\"avatar\":\"https://pbs.twimg.com/profile_images/837370914073276416/F_i4T9Pn_normal.jpg\",\"screen_name\":\"@DerekAlton\"},{\"created_at\":\"12:04PM
+  - Feb 29, 2020\",\"name\":\"Winter Wonderland\",\"body\":\"@supergovernance @DerekAlton
+  @trbouma @TDAndrea23 @KayleHatt @piacandrews @teh_aimee @PierreFerron @IFiniq @owbitar
+  @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald @sboots @richardjpope
+  @ae_clarke @mgifford @LivNeal @RoboRobbins @firebethfox Well...we can’t get trains
+  or license plates  right, so what could go wrong?\",\"avatar\":\"https://pbs.twimg.com/profile_images/465971622667513856/IVqP77HM_normal.jpeg\",\"screen_name\":\"@DonIsStillHere\"},{\"created_at\":\"12:00PM
+  - Feb 29, 2020\",\"name\":\"Beth Fox\",\"body\":\"@trbouma @DerekAlton @TDAndrea23
+  @supergovernance @KayleHatt @piacandrews @teh_aimee @PierreFerron @IFiniq @owbitar
+  @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald @sboots @richardjpope
+  @ae_clarke @mgifford @LivNeal @RoboRobbins \U0001F4AF. So how might we create structures/conditions/expectations
+  within government that make empowered teams the presumptive default? So that working
+  that way doesn’t require stealth, luck, or heroic burnout?\",\"avatar\":\"https://pbs.twimg.com/profile_images/1228839203691122688/SrVqsjOo_normal.jpg\",\"screen_name\":\"@firebethfox\"},{\"created_at\":\"11:48AM
+  - Feb 29, 2020\",\"name\":\"Tim Bouma\U0001F1E8\U0001F1E6\U0001F194\",\"body\":\"Retweet:
+  @DerekAlton @trbouma @TDAndrea23 @supergovernance @KayleHatt @piacandrews @teh_aimee
+  @PierreFerron @IFiniq @owbitar @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald
+  @sboots @richardjpope @ae_clarke @mgifford @LivNeal @RoboRobbins @firebethfox I
+  presented this week on what we have learned through a year doing demonstration projects
+  and innovation and most of the lessons were about people or people created things.
+  Here’s the deck and you’d want the last two slides https://t.co/V8qvGyiqo6\",\"avatar\":\"https://pbs.twimg.com/profile_images/1082084674745159680/abN7iTzL_normal.jpg\",\"screen_name\":\"@trbouma\"},{\"created_at\":\"11:29AM
+  - Feb 29, 2020\",\"name\":\"Beth Fox\",\"body\":\"@DerekAlton @trbouma @TDAndrea23
+  @supergovernance @KayleHatt @piacandrews @teh_aimee @PierreFerron @IFiniq @owbitar
+  @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald @sboots @richardjpope
+  @ae_clarke @mgifford @LivNeal @RoboRobbins Your outcomes feel like outcomes for
+  technology. What are the problems these solve for people or institutions? Maybe
+  I just wish you had said “as a ___ I need [insert 1-6 here] so that _____....\\nIt’s
+  that last part I wish there was more attention on.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1228839203691122688/SrVqsjOo_normal.jpg\",\"screen_name\":\"@firebethfox\"},{\"created_at\":\"11:26AM
+  - Feb 29, 2020\",\"name\":\"Derek Alton\",\"body\":\"@firebethfox @trbouma @TDAndrea23
+  @supergovernance @KayleHatt @piacandrews @teh_aimee @PierreFerron @IFiniq @owbitar
+  @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald @sboots @richardjpope
+  @ae_clarke @mgifford @LivNeal @RoboRobbins I think the first 6 are outcomes.  Is
+  having empowered teams driven by solid, transparent, equitable evidence and data,
+  an outcome? Or is it the way we get there? Could be both really.  Either way I completely
+  agree it is essential, I just didn't have it in scope at first.\",\"avatar\":\"https://pbs.twimg.com/profile_images/837370914073276416/F_i4T9Pn_normal.jpg\",\"screen_name\":\"@DerekAlton\"},{\"created_at\":\"
+  1:04PM - Feb 28, 2020\",\"name\":\"Ericka S-R\",\"body\":\"@freethetalent @EtiennLaliberte
+  @NatashaFraser3 @pamjamhildy @steph_percival @worldofabe @frankassubc @nataliecrandal5
+  @PetalEkelman @FreeAgentLibre My take: Screens are a #catch22. Good for working,
+  but you have to have a place for them or you can feel like you’re always at work.
+  #flexGC I’m lucky to live in #cohousing and have a shared “home office” with the
+  other residents.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1088288740525498368/IiWJAtVK_normal.jpg\",\"screen_name\":\"@erickasr\"},{\"created_at\":\"12:15AM
+  - Feb 28, 2020\",\"name\":\"Sean Boots\",\"body\":\"Retweet: @DerekAlton @RoboRobbins
+  @firebethfox @s_floresco @ColleenTiernan @TaranWasson @JaysonMcIntosh @Jillian_LeBlanc
+  @ThatRobDavidson @PetalEkelman @brenna_613 @sboots @IFiniq @Joutram @jstweedie @supergovernance
+  @RobButler @RyanAndrosoff @rumon @BiancaTomazeli @honeygolightly @ToferC @thePaulV
+  @vasta @alox @opennorth @patconnolly @p_lagioia Here's a basic one that's been on
+  my to-do list for months now! Its not on GCwiki or anything, but anyone is welcome
+  to contribute to it! \\nhttps://t.co/D7weBMnIu5\",\"avatar\":\"https://pbs.twimg.com/profile_images/1237150005/twitterz_normal.jpg\",\"screen_name\":\"@sboots\"},{\"created_at\":\"
+  8:54PM - Feb 27, 2020\",\"name\":\"Derek Alton\",\"body\":\"Retweet: @DerekAlton
+  @RoboRobbins @firebethfox @s_floresco @ColleenTiernan @TaranWasson @JaysonMcIntosh
+  @Jillian_LeBlanc @ThatRobDavidson @PetalEkelman @brenna_613 @sboots @IFiniq @Joutram
+  @jstweedie @supergovernance @RobButler @RyanAndrosoff @rumon @BiancaTomazeli @honeygolightly
+  @ToferC @thePaulV @vasta @alox @opennorth @patconnolly @p_lagioia Here's a basic
+  one that's been on my to-do list for months now! Its not on GCwiki or anything,
+  but anyone is welcome to contribute to it! \\nhttps://t.co/D7weBMnIu5\",\"avatar\":\"https://pbs.twimg.com/profile_images/837370914073276416/F_i4T9Pn_normal.jpg\",\"screen_name\":\"@DerekAlton\"},{\"created_at\":\"
+  8:17PM - Feb 27, 2020\",\"name\":\"Doug Vidal-Hernández\",\"body\":\"@DerekAlton
+  @RoboRobbins @firebethfox @s_floresco @ColleenTiernan @TaranWasson @JaysonMcIntosh
+  @Jillian_LeBlanc @ThatRobDavidson @PetalEkelman @brenna_613 @sboots @IFiniq @Joutram
+  @jstweedie @supergovernance @RobButler @RyanAndrosoff @rumon @BiancaTomazeli @honeygolightly
+  @ToferC @thePaulV @vasta @alox @opennorth @patconnolly @p_lagioia Here's a basic
+  one that's been on my to-do list for months now! Its not on GCwiki or anything,
+  but anyone is welcome to contribute to it! \\nhttps://t.co/D7weBMnIu5\",\"avatar\":\"https://pbs.twimg.com/profile_images/1103291539449622528/imwFb1dH_normal.jpg\",\"screen_name\":\"@Douglas_VH\"},{\"created_at\":\"11:54PM
+  - Feb 26, 2020\",\"name\":\"Kara Eusebio\",\"body\":\"@heymosef @MobileAppQueen
+  @Jillian_LeBlanc @mariamzohouri @womenandcolor @megberetta @alexandras_dev @tackaberry
+  @HubOttawa @PinkRobotTO @drt3ch @nutpetten @ErinBlaskie @AVV @joinmovethedial @KDJWaseem
+  @iamcelinacc @BibiHakim @BrittanyAmofah @allyfreedman @wickdchiq @ChaneleMcF So
+  grateful for your support, @MobileAppQueen! As @heymosef said, we'd love to know
+  of any #OttCity leaders or groups we should be connecting with.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1156757503679651843/yYec_YRr_normal.jpg\",\"screen_name\":\"@kbeuseb\"},{\"created_at\":\"
+  5:37PM - Feb 26, 2020\",\"name\":\"Derek Alton\",\"body\":\"@jstweedie @RoboRobbins
+  @firebethfox @s_floresco @ColleenTiernan @TaranWasson @JaysonMcIntosh @Jillian_LeBlanc
+  @ThatRobDavidson @PetalEkelman @brenna_613 @sboots @IFiniq @Joutram @supergovernance
+  I don't have any particular date but sooner rather than later.  We could create
+  a google doc or something and then crowdsource a lot of the content via our networks.
+  \ That was my original thinking but wanted to make sure it didn't already exist
+  before reinventing the wheel\",\"avatar\":\"https://pbs.twimg.com/profile_images/837370914073276416/F_i4T9Pn_normal.jpg\",\"screen_name\":\"@DerekAlton\"},{\"created_at\":\"11:52AM
+  - Feb 26, 2020\",\"name\":\"Meg Beretta\",\"body\":\"@mariamzohouri @kbeuseb @womenandcolor
+  @alexandras_dev @Jillian_LeBlanc @tackaberry @HubOttawa @PinkRobotTO @drt3ch @nutpetten
+  @ErinBlaskie @AVV @samsadasivan @saraminaeian @emanelfy @MithulaNaik @DioneMiScott
+  @adriannehlee @sidewalkballet @itsMichelleNgai @sabrinaahmad_ @evadbee @JuliannaRowsell
+  - please share with your communities and/or apply! #womenintech #nomoremanels\",\"avatar\":\"https://pbs.twimg.com/profile_images/1057798438664851456/jIWiPRkI_normal.jpg\",\"screen_name\":\"@megberetta\"},{\"created_at\":\"10:33AM
+  - Feb 26, 2020\",\"name\":\"Janelle Hinds\",\"body\":\"@Jillian_LeBlanc @mariamzohouri
+  @kbeuseb @womenandcolor @megberetta @alexandras_dev @tackaberry @HubOttawa @PinkRobotTO
+  @drt3ch @nutpetten @ErinBlaskie @AVV @joinmovethedial @KDJWaseem @iamcelinacc @BibiHakim
+  @BrittanyAmofah @allyfreedman @wickdchiq @womenandcolor @heymosef @ChaneleMcF know
+  I’m here if you ever need my support. \\n\\nI’ve lost count of how many people I’ve
+  referred to @womenandcolor to both join as speakers or to look for speakers.  #DiversityandInclusion\",\"avatar\":\"https://pbs.twimg.com/profile_images/1102429602540974080/0uFjKGM4_normal.png\",\"screen_name\":\"@MobileAppQueen\"},{\"created_at\":\"
+  1:20AM - Feb 24, 2020\",\"name\":\"Ding Wang, Ph.D\",\"body\":\"@drt3ch I was just
+  thinking here, maybe, if we surround ourselves with people or a world that resemble
+  a swirl of wind, we might feel we have slowed down, given the relativity... okay,
+  I am the worst....\",\"avatar\":\"https://pbs.twimg.com/profile_images/535905725935919104/UtpVLgpF_normal.jpeg\",\"screen_name\":\"@justaturbo\"},{\"created_at\":\"
+  7:44PM - Feb 23, 2020\",\"name\":\"Jason Morris\U0001F4BB⚖️\U0001F393\U0001F1E8\U0001F1E6\",\"body\":\"@mengwong
+  @MartinClausen8 @scott_pm @verbman Sorry, what I mean to say is, don't use DMN,
+  but a representation native to something like Drools or Flora-2. DMN seems sub-optimal,
+  and BPMN seems orthogonal.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1044985308771577856/IJMNO723_normal.jpg\",\"screen_name\":\"@RoundTableLaw\"}],\"id\":\"twitter_user_terms\",\"updatedAt\":1583175865309}\n\n"
+visitor_count: "data: {\"current\":1327,\"id\":\"visitor_count\",\"updatedAt\":1583175563426}\n\n"
+episode_list: "data: {\"items\":[{\"label\":\"Episode 17\"},{\"label\":\"Episode 18\"},{\"label\":\"Episode
+  14\"},{\"label\":\"Episode 16\"},{\"label\":\"Episode 15\"}],\"id\":\"episode_list\",\"updatedAt\":1583175563702}\n\n"
