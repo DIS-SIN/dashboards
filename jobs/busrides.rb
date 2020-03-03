@@ -29,11 +29,11 @@ end
 SCHEDULER.every '12h', :first_in => 0 do
   analytics = getCredentials(service, key_file)
 
-  ga_response = analytics.get_ga_data("ga:" + profile_id, "7daysAgo", "yesterday","ga:users,ga:newUsers")
+  ga_response = analytics.get_ga_data("ga:" + profile_id, "7daysAgo", "today","ga:users,ga:newUsers")
   ga_comparative = analytics.get_ga_data("ga:" + profile_id, "14daysAgo", "7daysAgo", "ga:users,ga:newUsers")
   ga_topArticles = analytics.get_ga_data("ga:" + profile_id, 
   "7daysAgo",
-  "yesterday",
+  "today",
   "ga:pageviews",
   sort:"-ga:pageviews",
   dimensions: "ga:pagePath",
@@ -90,8 +90,6 @@ SCHEDULER.every '12h', :first_in => 0 do
   ga_comparative = analytics.get_ga_data("ga:" + profile_id, comparative_startDate, startDate, "ga:users,ga:newUsers")
   ga_referrers = analytics.get_ga_data("ga:" + profile_id, startDate, endDate, "ga:users", dimensions:"ga:source", start_index:2, max_results:5, sort:"-ga:users")
   ga_device = analytics.get_ga_data("ga:" + profile_id, startDate, endDate, "ga:users", dimensions:"ga:deviceCategory")
-
-  p ga_referrers.rows
 
   # Get the Google Analytics data for top pages in the last month
   top_pages_monthly = analytics.get_ga_data("ga:" + profile_id, 

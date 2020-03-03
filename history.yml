@@ -1,129 +1,148 @@
 ---
-valuation: "data: {\"current\":27,\"last\":15,\"id\":\"valuation\",\"updatedAt\":1583175888618}\n\n"
-karma: "data: {\"current\":195001,\"last\":23936,\"id\":\"karma\",\"updatedAt\":1583175888618}\n\n"
-synergy: "data: {\"value\":2,\"id\":\"synergy\",\"updatedAt\":1583175888618}\n\n"
-buzzwords: "data: {\"items\":[{\"label\":\"Paradigm shift\",\"value\":21},{\"label\":\"Exit
-  strategy\",\"value\":18},{\"label\":\"Synergy\",\"value\":15},{\"label\":\"Pivoting\",\"value\":17},{\"label\":\"Turn-key\",\"value\":17},{\"label\":\"Streamlininess\",\"value\":19},{\"label\":\"Enterprise\",\"value\":16},{\"label\":\"Leverage\",\"value\":19},{\"label\":\"Web
-  2.0\",\"value\":21}],\"id\":\"buzzwords\",\"updatedAt\":1583175888618}\n\n"
-convergence: "data: {\"points\":[{\"x\":163,\"y\":44},{\"x\":164,\"y\":2},{\"x\":165,\"y\":47},{\"x\":166,\"y\":32},{\"x\":167,\"y\":40},{\"x\":168,\"y\":11},{\"x\":169,\"y\":48},{\"x\":170,\"y\":4},{\"x\":171,\"y\":14},{\"x\":172,\"y\":22}],\"id\":\"convergence\",\"updatedAt\":1583175886816}\n\n"
-activities: "data: {\"current\":\"5096\",\"id\":\"activities\",\"updatedAt\":1583175565355}\n\n"
-events: "data: {\"current\":\"14403\",\"id\":\"events\",\"updatedAt\":1583175565355}\n\n"
-innovate_on_demand: "data: {\"current\":\"31,380\",\"id\":\"innovate_on_demand\",\"updatedAt\":1583175565355}\n\n"
-newsletters: "data: {\"current\":\"2772\",\"id\":\"newsletters\",\"updatedAt\":1583175565355}\n\n"
-twitter: "data: {\"current\":\"2896\",\"id\":\"twitter\",\"updatedAt\":1583175565355}\n\n"
+valuation: "data: {\"current\":95,\"last\":38,\"id\":\"valuation\",\"updatedAt\":1583269226144}\n\n"
+karma: "data: {\"current\":36203,\"last\":172784,\"id\":\"karma\",\"updatedAt\":1583269226144}\n\n"
+synergy: "data: {\"value\":58,\"id\":\"synergy\",\"updatedAt\":1583269226144}\n\n"
+buzzwords: "data: {\"items\":[{\"label\":\"Synergy\",\"value\":0},{\"label\":\"Exit
+  strategy\",\"value\":18},{\"label\":\"Leverage\",\"value\":17},{\"label\":\"Paradigm
+  shift\",\"value\":19},{\"label\":\"Web 2.0\",\"value\":20},{\"label\":\"Turn-key\",\"value\":29},{\"label\":\"Streamlininess\",\"value\":14},{\"label\":\"Pivoting\",\"value\":15},{\"label\":\"Enterprise\",\"value\":14}],\"id\":\"buzzwords\",\"updatedAt\":1583269226144}\n\n"
+convergence: "data: {\"points\":[{\"x\":447,\"y\":7},{\"x\":448,\"y\":37},{\"x\":449,\"y\":23},{\"x\":450,\"y\":2},{\"x\":451,\"y\":33},{\"x\":452,\"y\":31},{\"x\":453,\"y\":27},{\"x\":454,\"y\":45},{\"x\":455,\"y\":37},{\"x\":456,\"y\":0}],\"id\":\"convergence\",\"updatedAt\":1583269226444}\n\n"
+activities: "data: {\"current\":\"5096\",\"id\":\"activities\",\"updatedAt\":1583255496070}\n\n"
+events: "data: {\"current\":\"14403\",\"id\":\"events\",\"updatedAt\":1583255496070}\n\n"
+innovate_on_demand: "data: {\"current\":\"31,380\",\"id\":\"innovate_on_demand\",\"updatedAt\":1583255496070}\n\n"
+newsletters: "data: {\"current\":\"2772\",\"id\":\"newsletters\",\"updatedAt\":1583255496070}\n\n"
+twitter: "data: {\"current\":\"2896\",\"id\":\"twitter\",\"updatedAt\":1583255496070}\n\n"
 chart: "data: {\"type\":\"bar\",\"header\":\"Calories Burned\",\"labels\":[\"Day 1\",\"Day
-  2\",\"Day 3\",\"Day 4\",\"Day 5\"],\"colorNames\":[\"yellow\",\"yellow\",\"yellow\",\"yellow\",\"yellow\"],\"datasets\":[210,339,220,494,109],\"id\":\"chart\",\"updatedAt\":1583175886816}\n\n"
-visitor_count_real_time: "data: {\"current\":\"1\",\"id\":\"visitor_count_real_time\",\"updatedAt\":1583175883045}\n\n"
+  2\",\"Day 3\",\"Day 4\",\"Day 5\"],\"colorNames\":[\"yellow\",\"yellow\",\"yellow\",\"yellow\",\"yellow\"],\"datasets\":[210,339,220,494,109],\"id\":\"chart\",\"updatedAt\":1583269226444}\n\n"
+visitor_count_real_time: "data: {\"current\":\"0\",\"id\":\"visitor_count_real_time\",\"updatedAt\":1583177082606}\n\n"
 busrides_Users: "data: {\"current\":347,\"id\":\"busrides_Users\",\"updatedAt\":1583164515481}\n\n"
-busrides_newUsers: "data: {\"current\":\"274\",\"id\":\"busrides_newUsers\",\"updatedAt\":1583175563421}\n\n"
-busrides_users: "data: {\"current\":\"347\",\"id\":\"busrides_users\",\"updatedAt\":1583175563421}\n\n"
-busrides_returnUsers: "data: {\"current\":73,\"id\":\"busrides_returnUsers\",\"updatedAt\":1583175563421}\n\n"
-twitter_hashtag_terms: "data: {\"comments\":[{\"created_at\":\" 1:53PM - Mar  2, 2020\",\"name\":\"Britt
-  Hurley\",\"body\":\"Anyone know a tool that lets me drag out of outlook, into a
-  Kanban board? Or an outlook plug-in to create tasks into Trello, gitlab? Email is
-  piling up, and I find myself forgetting things & wasting time searching. Need a
-  visible & easy to use personal backlog. #gcdigital #helpme\",\"avatar\":\"https://pbs.twimg.com/profile_images/1047477594076172288/TzsrCrpE_normal.jpg\",\"screen_name\":\"@britthurleyott\"},{\"created_at\":\"
-  1:28PM - Mar  2, 2020\",\"name\":\"Anne Simonis\",\"body\":\"A proposed rule to
-  only allow #OpenData for agency decisions sounds like a transparency win, but would
-  eliminate consideration of studies that use classified or personal data. Informed
-  decision making should not be restricted to publicly available data\\nhttps://t.co/YyR7M4ORT3\",\"avatar\":\"https://pbs.twimg.com/profile_images/1203382164538232833/Df26MOel_normal.jpg\",\"screen_name\":\"@AnneListens\"},{\"created_at\":\"12:32PM
-  - Mar  2, 2020\",\"name\":\"Federal Acquisition Service\",\"body\":\"Retweet: Would
-  you like to participate in the Open Data Community of Practice? https://t.co/ZFib6p0Mlh
-  Open to anyone with a .gov or .mil email address. #listserv #opendata\",\"avatar\":\"https://pbs.twimg.com/profile_images/823902886006497280/CE_1i84z_normal.jpg\",\"screen_name\":\"@FAS_Outreach\"},{\"created_at\":\"12:28PM
-  - Mar  2, 2020\",\"name\":\"Data.gov\",\"body\":\"Would you like to participate
-  in the Open Data Community of Practice? https://t.co/ZFib6p0Mlh Open to anyone with
-  a .gov or .mil email address. #listserv #opendata\",\"avatar\":\"https://pbs.twimg.com/profile_images/525356670382133248/muq55HrN_normal.png\",\"screen_name\":\"@usdatagov\"},{\"created_at\":\"11:06AM
-  - Mar  2, 2020\",\"name\":\"Olivier Berger aka obergix\",\"body\":\"Retweet: “You
-  wouldn’t buy a car with the hood welded shut. Why would you buy software that you
-  can’t maintain or modify?” @waldojaquith on software procurement is the absolute
-  best: https://t.co/gmebyfjo6F \U0001F4AF\U0001F4AF #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/1084474998100762624/_waZR-pj_normal.jpg\",\"screen_name\":\"@olberger\"},{\"created_at\":\"11:06AM
-  - Mar  2, 2020\",\"name\":\"Shelley Rolland\",\"body\":\"Worth a read if you work
-  in #internalcomss or help build/create/maintain an #intranet site. @gerrymcgovern:
-  State of intranets in 2020 https://t.co/EG5RigrAuu #gccomms #internalcomms #gcdigital
-  #EmployeeEngagement #employeecomms\",\"avatar\":\"https://pbs.twimg.com/profile_images/1160637154084761606/OHOqcAS8_normal.jpg\",\"screen_name\":\"@chatshell\"},{\"created_at\":\"10:15AM
-  - Mar  2, 2020\",\"name\":\"Abie\",\"body\":\"Retweet: “You wouldn’t buy a car with
-  the hood welded shut. Why would you buy software that you can’t maintain or modify?”
-  @waldojaquith on software procurement is the absolute best: https://t.co/gmebyfjo6F
-  \U0001F4AF\U0001F4AF #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/397990314/avatar_normal.jpg\",\"screen_name\":\"@temptoetiam\"},{\"created_at\":\"10:15AM
-  - Mar  2, 2020\",\"name\":\"Bastien Guerry\",\"body\":\"Retweet: “You wouldn’t buy
-  a car with the hood welded shut. Why would you buy software that you can’t maintain
-  or modify?” @waldojaquith on software procurement is the absolute best: https://t.co/gmebyfjo6F
-  \U0001F4AF\U0001F4AF #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/1204999567311286272/UoU5IIkw_normal.jpg\",\"screen_name\":\"@bzg2\"},{\"created_at\":\"
-  8:32AM - Mar  2, 2020\",\"name\":\"Fiona Morley Clarke\",\"body\":\"Retweet: Are
-  u a user or publisher of #OpenData in the Health & Wellbeing domain? We're organising
-  the next #ODImpact series and would love for you to participate. Ping me if you
-  are interested in presenting your data / app / project / etc. Cheers @GovDataIE
-  @smartdublin @SmartDocklands https://t.co/p8B8cMR0c1\",\"avatar\":\"https://pbs.twimg.com/profile_images/868377448873897984/sUopcgwA_normal.jpg\",\"screen_name\":\"@morleyfme\"},{\"created_at\":\"
-  6:50AM - Mar  2, 2020\",\"name\":\"Jody Converse\",\"body\":\"Retweet: Wyatt @GAC_Corporate
-  is helping public servants communicate via sign language. This matters just like
-  audio for the blind or text for the deaf. Narrative/text heavy videos are boring
-  and inaccessible to all audiences\\n\\n+ Sound FX to interviews + Text to b-roll
-  #GC2020 @SignallUS https://t.co/nwEbw3AMQi\",\"avatar\":\"https://pbs.twimg.com/profile_images/875013646954274817/h3Kgmfq7_normal.jpg\",\"screen_name\":\"@JodyConverse\"},{\"created_at\":\"
-  6:22AM - Mar  2, 2020\",\"name\":\"lay and Chen pls appoint me as Ur maid\",\"body\":\"Okay
-  so maybe RT and I'll try making a GC ?\\nI'm a multi so yeah anyone can RT but pls
-  don't RT if u a solo who can't respect other members or other groups\\n#gc \\n#kpop
-  https://t.co/HqsSjFC8aa\",\"avatar\":\"https://pbs.twimg.com/profile_images/1234430231345164289/n91ri0YK_normal.jpg\",\"screen_name\":\"@cultleaderksoo\"},{\"created_at\":\"
-  4:11AM - Mar  2, 2020\",\"name\":\"RepairData\",\"body\":\"Retweet: One week to
-  go till Open Data Day 2020 on Saturday 7th March!\\n\\nDiscover events taking place
-  in your part of the world at https://t.co/ybIxLiK8Sk \U0001F30E\U0001F30D\U0001F30F\\n\\nAnd
-  use the #OpenDataDay or #ODD2020 hashtags to spread the word about your plans to
-  celebrate #opendata this year. https://t.co/s49jUUW6RT\",\"avatar\":\"https://pbs.twimg.com/profile_images/1140601575951491072/qtBOYeo0_normal.png\",\"screen_name\":\"@RepairData\"},{\"created_at\":\"
-  4:02AM - Mar  2, 2020\",\"name\":\"Fired up mama\",\"body\":\"Retweet: Virginia's
-  population in 2019 was 8,535,519 or 2.6% of the American population. With 99 delegates
-  up for grabs in VA on #SuperTuesday, what will be influencing voters in that state?
-  Get the facts #opendata #USAFacts https://t.co/Ad4MIZkveU https://t.co/uI1zstgjFY\",\"avatar\":\"https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png\",\"screen_name\":\"@FiredMama\"},{\"created_at\":\"
-  3:23AM - Mar  2, 2020\",\"name\":\"Matthew Skelton \U0001F3BA\",\"body\":\"Retweet:
-  “You wouldn’t buy a car with the hood welded shut. Why would you buy software that
-  you can’t maintain or modify?” @waldojaquith on software procurement is the absolute
-  best: https://t.co/gmebyfjo6F \U0001F4AF\U0001F4AF #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/1149634242621530112/kBmmBIiQ_normal.png\",\"screen_name\":\"@matthewpskelton\"},{\"created_at\":\"
-  3:15AM - Mar  2, 2020\",\"name\":\"Ray\",\"body\":\"No better place to start then,
-  @tiptoptoptips for me the lads over at #GC now a thing or two when it comes to betting.
-  They’ll have you covered with all the stats you’ll ever need when it comes to betting.
-  The members group chat unearths some right gems at times too.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1210338844001869824/36CJmZVb_normal.jpg\",\"screen_name\":\"@raymanbets\"},{\"created_at\":\"
-  2:01AM - Mar  2, 2020\",\"name\":\"Carlos Rozo\",\"body\":\"Retweet: Miss out on
-  a ticket for #OpenData #OpenPotential?\\n\\nOr are you outside of Wellington but
-  want to see what goes on?\\n\\nWe have set up a #livestream at https://t.co/70uAsbx0YS\",\"avatar\":\"https://pbs.twimg.com/profile_images/1223021449751015426/6WN3um30_normal.jpg\",\"screen_name\":\"@crozo\"},{\"created_at\":\"12:10AM
-  - Mar  2, 2020\",\"name\":\"Niokoz\",\"body\":\"We are working around the #VPOC
-  for the moment\\n\\n#XAUUSD | #OR #GOLD #GC #COMEX\\n#quant #spread #tracker\\n#metals\\n#quantprint
-  https://t.co/lrAgxnPNIG\",\"avatar\":\"https://pbs.twimg.com/profile_images/754835352255361024/j0eqW1Yv_normal.jpg\",\"screen_name\":\"@NicoooooooFX\"},{\"created_at\":\"
-  8:56PM - Mar  1, 2020\",\"name\":\"BMEGS San Antonio\",\"body\":\"Retweet: Interested
-  in space tech? #AI, #biotech or #opendata? Compete in the 2020 Act In Space International
-  Hackathon. @QutubLab is hosting @UTSA in San Antonio April 24-25 https://t.co/qdh2QeNn18\",\"avatar\":\"https://pbs.twimg.com/profile_images/848605718311833600/14cSblCV_normal.jpg\",\"screen_name\":\"@BMEGS_SA\"},{\"created_at\":\"
-  8:55PM - Mar  1, 2020\",\"name\":\"BME UTSA\",\"body\":\"Retweet: Interested in
-  space tech? #AI, #biotech or #opendata? Compete in the 2020 Act In Space International
-  Hackathon. @QutubLab is hosting @UTSA in San Antonio April 24-25 https://t.co/qdh2QeNn18\",\"avatar\":\"https://pbs.twimg.com/profile_images/1042089603551723520/nKWwaQ4d_normal.jpg\",\"screen_name\":\"@BmeUtsa\"},{\"created_at\":\"
-  8:43PM - Mar  1, 2020\",\"name\":\"Some Body\",\"body\":\"@inkl @TheEconomist Saving
-  your life will likely be conditional on you getting free access to the information
-  you need without signing away your #PersonalData or giving someone else your money.
-  \\nIn the very near future, #Life will be reserved for those who can afford it.
-  \\nWe need #OpenData.\",\"avatar\":\"https://pbs.twimg.com/profile_images/922617271264186369/Swd3x6AK_normal.jpg\",\"screen_name\":\"@KevinOnEarth\"},{\"created_at\":\"
-  7:59PM - Mar  1, 2020\",\"name\":\"Denis Skinner\",\"body\":\"Retweet: “You wouldn’t
-  buy a car with the hood welded shut. Why would you buy software that you can’t maintain
-  or modify?” @waldojaquith on software procurement is the absolute best: https://t.co/gmebyfjo6F
-  \U0001F4AF\U0001F4AF #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/967166539261603840/YWIbM2xx_normal.jpg\",\"screen_name\":\"@SkinnerDenis\"},{\"created_at\":\"
-  6:02PM - Mar  1, 2020\",\"name\":\"QADAN NSA\",\"body\":\"Trudyloops update plot
-  to include Native Origins and Beothuk enigma in Kanata.\\nPortal entry GC9 approved.
-  +Dragonklan drifted in or rifted through to AE project (0/)\\n#Tamarra gateway is
-  gc8.9 projection cast inclusion.\\nAmended upon tribute to #AllMoms #GC #byeIRONbirdmentality\",\"avatar\":\"https://pbs.twimg.com/profile_images/1234402661719347200/lYfErHjm_normal.jpg\",\"screen_name\":\"@QADANNSA\"},{\"created_at\":\"
-  4:51PM - Mar  1, 2020\",\"name\":\"Mary Elizabeth Baker\",\"body\":\"Retweet: @yowcivictech
-  @lchski In the meantime, check out the data! You can filter it by department acronym
-  (e.g. “ssc”) or keyword (e.g. “gcdocs”). \U0001F50D Find something interesting?
-  Let us know! https://t.co/YRLCU8KEio #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/1211406843068719105/Kwm5Ellh_normal.jpg\",\"screen_name\":\"@bethmaru\"},{\"created_at\":\"
-  3:24PM - Mar  1, 2020\",\"name\":\"Bianca Wylie\",\"body\":\"Retweet: @yowcivictech
-  @lchski In the meantime, check out the data! You can filter it by department acronym
-  (e.g. “ssc”) or keyword (e.g. “gcdocs”). \U0001F50D Find something interesting?
-  Let us know! https://t.co/YRLCU8KEio #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/968629586547261440/GdVFQb5-_normal.jpg\",\"screen_name\":\"@biancawylie\"},{\"created_at\":\"
-  3:24PM - Mar  1, 2020\",\"name\":\"Sean Boots\",\"body\":\"@yowcivictech @lchski
-  In the meantime, check out the data! You can filter it by department acronym (e.g.
-  “ssc”) or keyword (e.g. “gcdocs”). \U0001F50D Find something interesting? Let us
-  know! https://t.co/YRLCU8KEio #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/1237150005/twitterz_normal.jpg\",\"screen_name\":\"@sboots\"}],\"id\":\"twitter_hashtag_terms\",\"updatedAt\":1583175864261}\n\n"
-twitter_user_terms: "data: {\"comments\":[{\"created_at\":\" 9:39AM - Mar  2, 2020\",\"name\":\"Michael
-  Karlin\",\"body\":\"@seanmmcdonald @DerekAlton @trbouma @TDAndrea23 @KayleHatt @piacandrews
-  @teh_aimee @PierreFerron @IFiniq @owbitar @scott_pm @edent @ToferC @rumon @hslaird
-  @andrewjb_ @sboots @richardjpope @ae_clarke @mgifford @LivNeal @RoboRobbins @firebethfox
-  But you're right, I misworded. I shouldn't have said \\\"duties\\\" but \\\"activities.\\\"
-  We're heavily criticized when we stop monitoring common threats, or when we miss
-  something, so the knee-jerk reaction is to watch more.\",\"avatar\":\"https://pbs.twimg.com/profile_images/869695918106431488/q7_8-AY2_normal.jpg\",\"screen_name\":\"@supergovernance\"},{\"created_at\":\"
+busrides_newUsers: "data: {\"current\":\"274\",\"last\":\"403\",\"id\":\"busrides_newUsers\",\"updatedAt\":1583179846520}\n\n"
+busrides_users: "data: {\"current\":\"347\",\"last\":\"506\",\"id\":\"busrides_users\",\"updatedAt\":1583179846520}\n\n"
+busrides_returnUsers: "data: {\"current\":73,\"last\":103,\"id\":\"busrides_returnUsers\",\"updatedAt\":1583179846520}\n\n"
+twitter_hashtag_terms: "data: {\"comments\":[{\"created_at\":\" 3:45PM - Mar  3, 2020\",\"name\":\"frostfeet2\",\"body\":\"Retweet:
+  Every state has its own primary or caucus, but they each hold national importance.
+  So, how do these states compare to the rest of the nation? Check out #Oklahoma right
+  here: https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1097530174382444545/C0GtN7_-_normal.jpg\",\"screen_name\":\"@frostfeet21\"},{\"created_at\":\"
+  3:36PM - Mar  3, 2020\",\"name\":\"45Drives\",\"body\":\"Happy #TechTuesday! \\n\\nLearn
+  how you as a desktop or server user can integrate S3 buckets.\\n\\nCheck out the
+  video below for a few free & #opensource tools and some great platforms that make
+  this integration seamless. https://t.co/Zmxr37dIJv\\n\\n#bigdata #opendata #MachineLearning\",\"avatar\":\"https://pbs.twimg.com/profile_images/1197242990529597441/CChzRWHd_normal.jpg\",\"screen_name\":\"@45Drives\"},{\"created_at\":\"
+  3:14PM - Mar  3, 2020\",\"name\":\"lb\",\"body\":\"Retweet: Every state has its
+  own primary or caucus, but they each hold national importance. So, how do these
+  states compare to the rest of the nation? Check out #Oklahoma right here: https://t.co/drceS1Tv2f
+  #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/489539511173394433/yR8jT3MK_normal.jpeg\",\"screen_name\":\"@liliaballard\"},{\"created_at\":\"
+  3:12PM - Mar  3, 2020\",\"name\":\"HubofMachineLearning\",\"body\":\"Retweet: Looking
+  for a coding challenge this summer? @esowc_ecmwf invites applications for ECMWF's
+  Summer of Weather Code (#ESoWC2020). Check out the challenges or propose your own:
+  https://t.co/fqsdjYPZaW @CopernicusECMWF @awscloud #MachineLearning #AI #CloudComputing
+  #opendata https://t.co/Ki0Bs3HbKH\",\"avatar\":\"https://pbs.twimg.com/profile_images/1218282511521980418/A_mORr5l_normal.jpg\",\"screen_name\":\"@hubofml\"},{\"created_at\":\"
+  3:12PM - Mar  3, 2020\",\"name\":\"Lee Sanders\",\"body\":\"Retweet: Looking for
+  a coding challenge this summer? @esowc_ecmwf invites applications for ECMWF's Summer
+  of Weather Code (#ESoWC2020). Check out the challenges or propose your own: https://t.co/fqsdjYPZaW
+  @CopernicusECMWF @awscloud #MachineLearning #AI #CloudComputing #opendata https://t.co/Ki0Bs3HbKH\",\"avatar\":\"https://pbs.twimg.com/profile_images/1096593695346954242/rrAX47UB_normal.jpg\",\"screen_name\":\"@Lees_Sandbox\"},{\"created_at\":\"
+  3:10PM - Mar  3, 2020\",\"name\":\"Christine MacDonald\",\"body\":\"Retweet: Every
+  state has its own primary or caucus, but they each hold national importance. So,
+  how do these states compare to the rest of the nation? Check out #Oklahoma right
+  here: https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1039659369888194561/yWXuPbYp_normal.jpg\",\"screen_name\":\"@chrismac2562\"},{\"created_at\":\"
+  3:07PM - Mar  3, 2020\",\"name\":\"\U0001F1FA\U0001F1F8 Sara Conaway-Burns \U0001F1FA\U0001F1F8\",\"body\":\"Retweet:
+  Every state has its own primary or caucus, but they each hold national importance.
+  So, how do these states compare to the rest of the nation? Check out #Oklahoma right
+  here: https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1055447538201968642/wD4bGEJs_normal.jpg\",\"screen_name\":\"@PatriotPirate74\"},{\"created_at\":\"
+  2:54PM - Mar  3, 2020\",\"name\":\"SlyGentleman\U0001F339\U0001F35E☭\",\"body\":\"Retweet:
+  Every state has its own primary or caucus, but they each hold national importance.
+  So, how do these states compare to the rest of the nation? Check out #Oklahoma right
+  here: https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1071458923339628546/n-p9dNdW_normal.jpg\",\"screen_name\":\"@GentlemanSly\"},{\"created_at\":\"
+  2:20PM - Mar  3, 2020\",\"name\":\"Claire Niedbala\",\"body\":\"Retweet: If you
+  ever thought #GCDigital doesn't apply to you or your work, our learners are a perfect
+  example of those proving you wrong. They push themselves to  build new skills that
+  can benefit themselves & their teams. Meet Monique, today's #IWD20in20 & former
+  #PremiumC1 alumni! https://t.co/Dc8EhkSFz1\",\"avatar\":\"https://pbs.twimg.com/profile_images/870663741121146881/UKb3xHYO_normal.jpg\",\"screen_name\":\"@nied_claire\"},{\"created_at\":\"
+  1:46PM - Mar  3, 2020\",\"name\":\"Christine Copers\",\"body\":\"Retweet: Google,
+  Microsoft, Facebook have their own #knowledgegraphs. But there's a larger body of
+  publicly available KGs, such as @DBpedia or #Wikidata @heikopaulheim @svenhertling
+  @n_heist @dwsunima provide overview & comparison #opendata #EmergingTech #research
+  https://t.co/RZ17Ewi4Fz https://t.co/QqCTPlVTYY\",\"avatar\":\"https://pbs.twimg.com/profile_images/880406331563397120/p9QIphK8_normal.jpg\",\"screen_name\":\"@ChristineCopers\"},{\"created_at\":\"12:48PM
+  - Mar  3, 2020\",\"name\":\"Matteo Brunati\",\"body\":\"Retweet: Google, Microsoft,
+  Facebook have their own #knowledgegraphs. But there's a larger body of publicly
+  available KGs, such as @DBpedia or #Wikidata @heikopaulheim @svenhertling @n_heist
+  @dwsunima provide overview & comparison #opendata #EmergingTech #research https://t.co/RZ17Ewi4Fz
+  https://t.co/QqCTPlVTYY\",\"avatar\":\"https://pbs.twimg.com/profile_images/452104500698812417/WTFK1iwB_normal.jpeg\",\"screen_name\":\"@dagoneye\"},{\"created_at\":\"12:11PM
+  - Mar  3, 2020\",\"name\":\"Genevieve\",\"body\":\"Retweet: Virginia's population
+  in 2019 was 8,535,519 or 2.6% of the American population. With 99 delegates up for
+  grabs in VA on #SuperTuesday, what will be influencing voters in that state? Get
+  the facts #opendata #USAFacts https://t.co/Ad4MIZkveU https://t.co/uI1zstgjFY\",\"avatar\":\"https://pbs.twimg.com/profile_images/1230290209616650241/VEdUER5N_normal.jpg\",\"screen_name\":\"@HoneysuklDesign\"},{\"created_at\":\"12:07PM
+  - Mar  3, 2020\",\"name\":\"Ani Lopez\",\"body\":\"#opendata of course but #openalgorithms
+  too.\\n\\\"Being ruled through secret source code or algorithms should never be
+  allowed in a democratic country under the rule of law\\\" @civio\\nhttps://t.co/P6YqG9nDhu\",\"avatar\":\"https://pbs.twimg.com/profile_images/1161079166399393794/h9bMdWiu_normal.jpg\",\"screen_name\":\"@anilopez\"},{\"created_at\":\"12:01PM
+  - Mar  3, 2020\",\"name\":\"Qutub Lab\",\"body\":\"Retweet: Interested in space
+  tech? #AI, #biotech or #opendata? Compete in the 2020 Act In Space International
+  Hackathon. @QutubLab is hosting @UTSA in San Antonio April 24-25 https://t.co/qdh2QeNn18\",\"avatar\":\"https://pbs.twimg.com/profile_images/1088995217913524224/Yjir92Mh_normal.jpg\",\"screen_name\":\"@QutubLab\"},{\"created_at\":\"12:00PM
+  - Mar  3, 2020\",\"name\":\"CSPS Digital Academy\",\"body\":\"If you ever thought
+  #GCDigital doesn't apply to you or your work, our learners are a perfect example
+  of those proving you wrong. They push themselves to  build new skills that can benefit
+  themselves & their teams. Meet Monique, today's #IWD20in20 & former #PremiumC1 alumni!
+  https://t.co/Dc8EhkSFz1\",\"avatar\":\"https://pbs.twimg.com/profile_images/1230530655110348803/aHk8Dj4t_normal.jpg\",\"screen_name\":\"@DigiAcademyCAN\"},{\"created_at\":\"11:45AM
+  - Mar  3, 2020\",\"name\":\"George Anadiotis\",\"body\":\"Building a #KnowledgeGraph
+  from a #Wikipedia Category from scratch: scrape the Wikipedia hierarchy, or use
+  #data dump #softwareengineering #datascience #tutorial #opendata https://t.co/fu7t1xf7ni
+  https://t.co/rMFFYe4fEh\",\"avatar\":\"https://pbs.twimg.com/profile_images/787184408503746560/aWhY3xx2_normal.jpg\",\"screen_name\":\"@linked_do\"},{\"created_at\":\"11:30AM
+  - Mar  3, 2020\",\"name\":\"NYC Opportunity\",\"body\":\"How can we use #OpenData
+  to help low-income New Yorkers navigate public benefits? Join us for Open Data Week
+  2020 workshops exploring data sets & API resources 3/3 or 3/6 RSVP: https://t.co/tYvSl5aXGp
+  Full schedule: https://t.co/MJlTJ7N8ml Organized w/ @BetaNYC @NYCAnalytics https://t.co/ferlYRrTx8\",\"avatar\":\"https://pbs.twimg.com/profile_images/1091349809540354050/nL8POa5-_normal.jpg\",\"screen_name\":\"@NYCOpportunity\"},{\"created_at\":\"
+  9:22AM - Mar  3, 2020\",\"name\":\"USAFacts\",\"body\":\"Every state has its own
+  primary or caucus, but they each hold national importance. So, how do these states
+  compare to the rest of the nation? Check out #Oklahoma right here: https://t.co/drceS1Tv2f
+  #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1228080445780193280/UpnPsKs5_normal.jpg\",\"screen_name\":\"@USAFacts\"},{\"created_at\":\"
+  8:53AM - Mar  3, 2020\",\"name\":\"Visual Culture Caffe\",\"body\":\"Retweet: Google,
+  Microsoft, Facebook have their own #knowledgegraphs. But there's a larger body of
+  publicly available KGs, such as @DBpedia or #Wikidata @heikopaulheim @svenhertling
+  @n_heist @dwsunima provide overview & comparison #opendata #EmergingTech #research
+  https://t.co/RZ17Ewi4Fz https://t.co/QqCTPlVTYY\",\"avatar\":\"https://pbs.twimg.com/profile_images/823981526320717824/gSpT7s2e_normal.jpg\",\"screen_name\":\"@caffeneko\"},{\"created_at\":\"
+  8:05AM - Mar  3, 2020\",\"name\":\"Teodora Petkova\",\"body\":\"Retweet: Google,
+  Microsoft, Facebook have their own #knowledgegraphs. But there's a larger body of
+  publicly available KGs, such as @DBpedia or #Wikidata @heikopaulheim @svenhertling
+  @n_heist @dwsunima provide overview & comparison #opendata #EmergingTech #research
+  https://t.co/RZ17Ewi4Fz https://t.co/QqCTPlVTYY\",\"avatar\":\"https://pbs.twimg.com/profile_images/668365991596945408/TTqXUU-Q_normal.jpg\",\"screen_name\":\"@TheodoraPetkova\"},{\"created_at\":\"
+  8:01AM - Mar  3, 2020\",\"name\":\"Institute on Governance\",\"body\":\"Switching
+  over to the EX cadre? We've put together a few tips to help you prepare for the
+  selection process!\U0001F4A1 Wondering if the EX cadre is for you? \U0001F914 Check
+  out our \\\"To Be or Not to Be an Executive?\\\" day-course to get the real scoop
+  on EX life: https://t.co/hnHHLOpCPc #LeadersGC https://t.co/hO2iFym72b\",\"avatar\":\"https://pbs.twimg.com/profile_images/1146407830318137345/6_lnjIpo_normal.png\",\"screen_name\":\"@IOGca\"},{\"created_at\":\"
+  7:36AM - Mar  3, 2020\",\"name\":\"Giorgio Robino\",\"body\":\"Retweet: Google,
+  Microsoft, Facebook have their own #knowledgegraphs. But there's a larger body of
+  publicly available KGs, such as @DBpedia or #Wikidata @heikopaulheim @svenhertling
+  @n_heist @dwsunima provide overview & comparison #opendata #EmergingTech #research
+  https://t.co/RZ17Ewi4Fz https://t.co/QqCTPlVTYY\",\"avatar\":\"https://pbs.twimg.com/profile_images/906916269185740800/RGpMFCw3_normal.jpg\",\"screen_name\":\"@solyarisoftware\"},{\"created_at\":\"
+  7:23AM - Mar  3, 2020\",\"name\":\"George Anadiotis\",\"body\":\"Google, Microsoft,
+  Facebook have their own #knowledgegraphs. But there's a larger body of publicly
+  available KGs, such as @DBpedia or #Wikidata @heikopaulheim @svenhertling @n_heist
+  @dwsunima provide overview & comparison #opendata #EmergingTech #research https://t.co/RZ17Ewi4Fz
+  https://t.co/QqCTPlVTYY\",\"avatar\":\"https://pbs.twimg.com/profile_images/787184408503746560/aWhY3xx2_normal.jpg\",\"screen_name\":\"@linked_do\"},{\"created_at\":\"
+  6:16AM - Mar  3, 2020\",\"name\":\"Elric\",\"body\":\"Retweet: \\\"Open Data gives
+  citizens the raw materials they need to engage their governments and contribute
+  to the improvement of public services.\\\"\\n\\nFor instance, citizens can use #OpenData
+  to contribute to public planning, or provide feedback to government ministries on
+  service quality https://t.co/BBpRYTxFKN\",\"avatar\":\"https://pbs.twimg.com/profile_images/746371269327732736/MGaIDIt9_normal.jpg\",\"screen_name\":\"@elric_olalekan\"},{\"created_at\":\"
+  6:11AM - Mar  3, 2020\",\"name\":\"BBMRI-ERIC\",\"body\":\"Retweet: #datasharing
+  is at the heart of future #research. However, data is often inaccessible or underutilized
+  \ ... Our workshop informed about #OpenData within @snsf_ch funded projects and
+  provided room for discussion. Read our blog post: https://t.co/7wtzZsaDJY #BigData
+  #nrp75\",\"avatar\":\"https://pbs.twimg.com/profile_images/378800000773964326/da2d9e64a6c1581311160ff72b114f99_normal.jpeg\",\"screen_name\":\"@BBMRIERIC\"}],\"id\":\"twitter_hashtag_terms\",\"updatedAt\":1583268936402}\n\n"
+twitter_user_terms: "data: {\"comments\":[{\"created_at\":\" 2:25PM - Mar  2, 2020\",\"name\":\"Derek
+  Alton\",\"body\":\"@KayleHatt @supergovernance @seanmmcdonald @trbouma @TDAndrea23
+  @piacandrews @teh_aimee @PierreFerron @IFiniq @owbitar @scott_pm @edent @ToferC
+  @rumon @hslaird @andrewjb_ @sboots @richardjpope @ae_clarke @mgifford @LivNeal @RoboRobbins
+  @firebethfox Tho i am a big advocate for a robust civil society. 1 thing that sticks
+  with me is that civil society isnt necessarily democratic, accountable or transparent.
+  Its often the loudest voices + people who have the privledge or are resourced to
+  have time.\",\"avatar\":\"https://pbs.twimg.com/profile_images/837370914073276416/F_i4T9Pn_normal.jpg\",\"screen_name\":\"@DerekAlton\"},{\"created_at\":\"
+  9:39AM - Mar  2, 2020\",\"name\":\"Michael Karlin\",\"body\":\"@seanmmcdonald @DerekAlton
+  @trbouma @TDAndrea23 @KayleHatt @piacandrews @teh_aimee @PierreFerron @IFiniq @owbitar
+  @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @sboots @richardjpope @ae_clarke
+  @mgifford @LivNeal @RoboRobbins @firebethfox But you're right, I misworded. I shouldn't
+  have said \\\"duties\\\" but \\\"activities.\\\" We're heavily criticized when we
+  stop monitoring common threats, or when we miss something, so the knee-jerk reaction
+  is to watch more.\",\"avatar\":\"https://pbs.twimg.com/profile_images/869695918106431488/q7_8-AY2_normal.jpg\",\"screen_name\":\"@supergovernance\"},{\"created_at\":\"
   9:15AM - Mar  2, 2020\",\"name\":\"Sean McDonald\",\"body\":\"@supergovernance @DerekAlton
   @trbouma @TDAndrea23 @KayleHatt @piacandrews @teh_aimee @PierreFerron @IFiniq @owbitar
   @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @sboots @richardjpope @ae_clarke
@@ -147,14 +166,6 @@ twitter_user_terms: "data: {\"comments\":[{\"created_at\":\" 9:39AM - Mar  2, 20
   and the appalling (and sadly unsurprising) behaviour of the tech giants offering
   them, could result in such tech being hobbled or (as in my case) avoided like the
   proverbial.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1182395771108249600/DavXTVQc_normal.jpg\",\"screen_name\":\"@piacandrews\"},{\"created_at\":\"
-  7:12PM - Feb 29, 2020\",\"name\":\"Kayle Hatt\",\"body\":\"@scott_pm Sure, edited
-  audio or using a program run from a supercomputer that can't (yet) be built into
-  a smartphone ... But a publicly traded technology firm actually faking a technology
-  announcement/demo would be a SEC violation and I don't think Google would do that.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1254896702/kayle_normal.jpg\",\"screen_name\":\"@KayleHatt\"},{\"created_at\":\"
-  7:06PM - Feb 29, 2020\",\"name\":\"Kayle Hatt\",\"body\":\"@scott_pm Hey Scott,
-  the article says they were accused of faking or editing the recording, pointing
-  to the lack of background noise as a point of evidence. Even if the recording was
-  doctored for clarity on the stage, I don't believe the tech behind it is fake.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1254896702/kayle_normal.jpg\",\"screen_name\":\"@KayleHatt\"},{\"created_at\":\"
   6:44PM - Feb 29, 2020\",\"name\":\"Kayle Hatt\",\"body\":\"@DerekAlton @trbouma
   @TDAndrea23 @supergovernance @piacandrews @teh_aimee @PierreFerron @IFiniq @owbitar
   @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald @sboots @richardjpope
@@ -232,7 +243,14 @@ twitter_user_terms: "data: {\"comments\":[{\"created_at\":\" 9:39AM - Mar  2, 20
   @sboots @richardjpope @ae_clarke @mgifford @LivNeal @RoboRobbins @firebethfox I
   presented this week on what we have learned through a year doing demonstration projects
   and innovation and most of the lessons were about people or people created things.
-  Here’s the deck and you’d want the last two slides https://t.co/V8qvGyiqo6\",\"avatar\":\"https://pbs.twimg.com/profile_images/1082084674745159680/abN7iTzL_normal.jpg\",\"screen_name\":\"@trbouma\"},{\"created_at\":\"11:29AM
+  Here’s the deck and you’d want the last two slides https://t.co/V8qvGyiqo6\",\"avatar\":\"https://pbs.twimg.com/profile_images/1082084674745159680/abN7iTzL_normal.jpg\",\"screen_name\":\"@trbouma\"},{\"created_at\":\"11:47AM
+  - Feb 29, 2020\",\"name\":\"Scott McNaughton\",\"body\":\"@DerekAlton @trbouma @TDAndrea23
+  @supergovernance @KayleHatt @piacandrews @teh_aimee @PierreFerron @IFiniq @owbitar
+  @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald @sboots @richardjpope @ae_clarke
+  @mgifford @LivNeal @RoboRobbins @firebethfox I presented this week on what we have
+  learned through a year doing demonstration projects and innovation and most of the
+  lessons were about people or people created things. Here’s the deck and you’d want
+  the last two slides https://t.co/V8qvGyiqo6\",\"avatar\":\"https://pbs.twimg.com/profile_images/686309429206122496/3iTw1AIh_normal.jpg\",\"screen_name\":\"@scott_pm\"},{\"created_at\":\"11:29AM
   - Feb 29, 2020\",\"name\":\"Beth Fox\",\"body\":\"@DerekAlton @trbouma @TDAndrea23
   @supergovernance @KayleHatt @piacandrews @teh_aimee @PierreFerron @IFiniq @owbitar
   @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @seanmmcdonald @sboots @richardjpope
@@ -246,13 +264,7 @@ twitter_user_terms: "data: {\"comments\":[{\"created_at\":\" 9:39AM - Mar  2, 20
   @ae_clarke @mgifford @LivNeal @RoboRobbins I think the first 6 are outcomes.  Is
   having empowered teams driven by solid, transparent, equitable evidence and data,
   an outcome? Or is it the way we get there? Could be both really.  Either way I completely
-  agree it is essential, I just didn't have it in scope at first.\",\"avatar\":\"https://pbs.twimg.com/profile_images/837370914073276416/F_i4T9Pn_normal.jpg\",\"screen_name\":\"@DerekAlton\"},{\"created_at\":\"
-  1:04PM - Feb 28, 2020\",\"name\":\"Ericka S-R\",\"body\":\"@freethetalent @EtiennLaliberte
-  @NatashaFraser3 @pamjamhildy @steph_percival @worldofabe @frankassubc @nataliecrandal5
-  @PetalEkelman @FreeAgentLibre My take: Screens are a #catch22. Good for working,
-  but you have to have a place for them or you can feel like you’re always at work.
-  #flexGC I’m lucky to live in #cohousing and have a shared “home office” with the
-  other residents.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1088288740525498368/IiWJAtVK_normal.jpg\",\"screen_name\":\"@erickasr\"},{\"created_at\":\"12:15AM
+  agree it is essential, I just didn't have it in scope at first.\",\"avatar\":\"https://pbs.twimg.com/profile_images/837370914073276416/F_i4T9Pn_normal.jpg\",\"screen_name\":\"@DerekAlton\"},{\"created_at\":\"12:15AM
   - Feb 28, 2020\",\"name\":\"Sean Boots\",\"body\":\"Retweet: @DerekAlton @RoboRobbins
   @firebethfox @s_floresco @ColleenTiernan @TaranWasson @JaysonMcIntosh @Jillian_LeBlanc
   @ThatRobDavidson @PetalEkelman @brenna_613 @sboots @IFiniq @Joutram @jstweedie @supergovernance
@@ -273,39 +285,87 @@ twitter_user_terms: "data: {\"comments\":[{\"created_at\":\" 9:39AM - Mar  2, 20
   @jstweedie @supergovernance @RobButler @RyanAndrosoff @rumon @BiancaTomazeli @honeygolightly
   @ToferC @thePaulV @vasta @alox @opennorth @patconnolly @p_lagioia Here's a basic
   one that's been on my to-do list for months now! Its not on GCwiki or anything,
-  but anyone is welcome to contribute to it! \\nhttps://t.co/D7weBMnIu5\",\"avatar\":\"https://pbs.twimg.com/profile_images/1103291539449622528/imwFb1dH_normal.jpg\",\"screen_name\":\"@Douglas_VH\"},{\"created_at\":\"11:54PM
-  - Feb 26, 2020\",\"name\":\"Kara Eusebio\",\"body\":\"@heymosef @MobileAppQueen
-  @Jillian_LeBlanc @mariamzohouri @womenandcolor @megberetta @alexandras_dev @tackaberry
-  @HubOttawa @PinkRobotTO @drt3ch @nutpetten @ErinBlaskie @AVV @joinmovethedial @KDJWaseem
-  @iamcelinacc @BibiHakim @BrittanyAmofah @allyfreedman @wickdchiq @ChaneleMcF So
-  grateful for your support, @MobileAppQueen! As @heymosef said, we'd love to know
-  of any #OttCity leaders or groups we should be connecting with.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1156757503679651843/yYec_YRr_normal.jpg\",\"screen_name\":\"@kbeuseb\"},{\"created_at\":\"
+  but anyone is welcome to contribute to it! \\nhttps://t.co/D7weBMnIu5\",\"avatar\":\"https://pbs.twimg.com/profile_images/1103291539449622528/imwFb1dH_normal.jpg\",\"screen_name\":\"@Douglas_VH\"},{\"created_at\":\"
+  6:14PM - Feb 27, 2020\",\"name\":\"Chris Allison \U0001F1E8\U0001F1E6\",\"body\":\"Retweet:
+  @BlaiseHebert @PoDesmarchais @NatalyArar @JuliajMilner @LeadersGC @Wikisteff @Jillian_LeBlanc
+  @ToferC @TheHesterView @ryanjhum @supergovernance Two main reasons: 1. I wanted
+  to share the following article: https://t.co/jJkAPO9qMq 2. Want to get acquainted
+  with the people in the space so that I can figure out how I can best provide value
+  in the long-term (whether that’s with AI, design or foresight).\",\"avatar\":\"https://pbs.twimg.com/profile_images/630792119649701888/VqVYQkXJ_normal.jpg\",\"screen_name\":\"@ToferC\"},{\"created_at\":\"
+  5:58PM - Feb 27, 2020\",\"name\":\"annette hester\",\"body\":\"Retweet: @BlaiseHebert
+  @PoDesmarchais @NatalyArar @JuliajMilner @LeadersGC @Wikisteff @Jillian_LeBlanc
+  @ToferC @TheHesterView @ryanjhum @supergovernance Two main reasons: 1. I wanted
+  to share the following article: https://t.co/jJkAPO9qMq 2. Want to get acquainted
+  with the people in the space so that I can figure out how I can best provide value
+  in the long-term (whether that’s with AI, design or foresight).\",\"avatar\":\"https://pbs.twimg.com/profile_images/934948203434205184/BEQCCh0U_normal.jpg\",\"screen_name\":\"@TheHesterView\"},{\"created_at\":\"
+  5:40PM - Feb 27, 2020\",\"name\":\"Jacques Thibodeau\",\"body\":\"@BlaiseHebert
+  @PoDesmarchais @NatalyArar @JuliajMilner @LeadersGC @Wikisteff @Jillian_LeBlanc
+  @ToferC @TheHesterView @ryanjhum @supergovernance Two main reasons: 1. I wanted
+  to share the following article: https://t.co/jJkAPO9qMq 2. Want to get acquainted
+  with the people in the space so that I can figure out how I can best provide value
+  in the long-term (whether that’s with AI, design or foresight).\",\"avatar\":\"https://pbs.twimg.com/profile_images/1221810142154375168/-uNJcm_9_normal.jpg\",\"screen_name\":\"@JacquesThibs\"},{\"created_at\":\"
+  5:05PM - Feb 27, 2020\",\"name\":\"Jacques Thibodeau\",\"body\":\"@BlaiseHebert
+  @PoDesmarchais @NatalyArar @JuliajMilner @LeadersGC @Wikisteff @Jillian_LeBlanc
+  @ToferC @TheHesterView @ryanjhum @supergovernance I am looking for people in the
+  general field, BUT I would say that those who are working towards being more proactive
+  to slow down or stop future pandemics are the ones that interest me most! And people
+  who provide grants for scientists in the field.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1221810142154375168/-uNJcm_9_normal.jpg\",\"screen_name\":\"@JacquesThibs\"},{\"created_at\":\"
+  4:58PM - Feb 27, 2020\",\"name\":\"Jacques Thibodeau\",\"body\":\"@1matthewchan
+  @supergovernance @NatalyArar @JuliajMilner @LeadersGC @Wikisteff @Jillian_LeBlanc
+  @ToferC @PoDesmarchais @TheHesterView @ryanjhum @SheriffAbdou Thank you for working
+  on this! And I’m moreso looking to make connections and see where I can help than
+  ask for a specific question. Whether that is during NCov19 or a future crisis. I
+  was wondering if there was a GCCollab group or something to keep myself up-to-date,
+  though!\",\"avatar\":\"https://pbs.twimg.com/profile_images/1221810142154375168/-uNJcm_9_normal.jpg\",\"screen_name\":\"@JacquesThibs\"},{\"created_at\":\"
+  4:55PM - Feb 27, 2020\",\"name\":\"Matthew Chan\",\"body\":\"@supergovernance @JacquesThibs
+  @NatalyArar @JuliajMilner @LeadersGC @Wikisteff @Jillian_LeBlanc @ToferC @PoDesmarchais
+  @TheHesterView @ryanjhum @SheriffAbdou Recently finished a three week stint in the
+  Emergency Ops Centre and will likely be heading back into it shortly. Depending
+  on what you are looking for, I might be able to address or point in the right direction.
+  Like @supergovernance said, it is pretty busy rn\",\"avatar\":\"https://pbs.twimg.com/profile_images/916817302158528512/5m564Pa-_normal.jpg\",\"screen_name\":\"@1matthewchan\"},{\"created_at\":\"
   5:37PM - Feb 26, 2020\",\"name\":\"Derek Alton\",\"body\":\"@jstweedie @RoboRobbins
   @firebethfox @s_floresco @ColleenTiernan @TaranWasson @JaysonMcIntosh @Jillian_LeBlanc
   @ThatRobDavidson @PetalEkelman @brenna_613 @sboots @IFiniq @Joutram @supergovernance
   I don't have any particular date but sooner rather than later.  We could create
   a google doc or something and then crowdsource a lot of the content via our networks.
   \ That was my original thinking but wanted to make sure it didn't already exist
-  before reinventing the wheel\",\"avatar\":\"https://pbs.twimg.com/profile_images/837370914073276416/F_i4T9Pn_normal.jpg\",\"screen_name\":\"@DerekAlton\"},{\"created_at\":\"11:52AM
-  - Feb 26, 2020\",\"name\":\"Meg Beretta\",\"body\":\"@mariamzohouri @kbeuseb @womenandcolor
-  @alexandras_dev @Jillian_LeBlanc @tackaberry @HubOttawa @PinkRobotTO @drt3ch @nutpetten
-  @ErinBlaskie @AVV @samsadasivan @saraminaeian @emanelfy @MithulaNaik @DioneMiScott
-  @adriannehlee @sidewalkballet @itsMichelleNgai @sabrinaahmad_ @evadbee @JuliannaRowsell
-  - please share with your communities and/or apply! #womenintech #nomoremanels\",\"avatar\":\"https://pbs.twimg.com/profile_images/1057798438664851456/jIWiPRkI_normal.jpg\",\"screen_name\":\"@megberetta\"},{\"created_at\":\"10:33AM
-  - Feb 26, 2020\",\"name\":\"Janelle Hinds\",\"body\":\"@Jillian_LeBlanc @mariamzohouri
-  @kbeuseb @womenandcolor @megberetta @alexandras_dev @tackaberry @HubOttawa @PinkRobotTO
-  @drt3ch @nutpetten @ErinBlaskie @AVV @joinmovethedial @KDJWaseem @iamcelinacc @BibiHakim
-  @BrittanyAmofah @allyfreedman @wickdchiq @womenandcolor @heymosef @ChaneleMcF know
-  I’m here if you ever need my support. \\n\\nI’ve lost count of how many people I’ve
-  referred to @womenandcolor to both join as speakers or to look for speakers.  #DiversityandInclusion\",\"avatar\":\"https://pbs.twimg.com/profile_images/1102429602540974080/0uFjKGM4_normal.png\",\"screen_name\":\"@MobileAppQueen\"},{\"created_at\":\"
-  1:20AM - Feb 24, 2020\",\"name\":\"Ding Wang, Ph.D\",\"body\":\"@drt3ch I was just
-  thinking here, maybe, if we surround ourselves with people or a world that resemble
-  a swirl of wind, we might feel we have slowed down, given the relativity... okay,
-  I am the worst....\",\"avatar\":\"https://pbs.twimg.com/profile_images/535905725935919104/UtpVLgpF_normal.jpeg\",\"screen_name\":\"@justaturbo\"},{\"created_at\":\"
-  7:44PM - Feb 23, 2020\",\"name\":\"Jason Morris\U0001F4BB⚖️\U0001F393\U0001F1E8\U0001F1E6\",\"body\":\"@mengwong
-  @MartinClausen8 @scott_pm @verbman Sorry, what I mean to say is, don't use DMN,
-  but a representation native to something like Drools or Flora-2. DMN seems sub-optimal,
-  and BPMN seems orthogonal.\",\"avatar\":\"https://pbs.twimg.com/profile_images/1044985308771577856/IJMNO723_normal.jpg\",\"screen_name\":\"@RoundTableLaw\"}],\"id\":\"twitter_user_terms\",\"updatedAt\":1583175865309}\n\n"
-visitor_count: "data: {\"current\":1327,\"id\":\"visitor_count\",\"updatedAt\":1583175563426}\n\n"
+  before reinventing the wheel\",\"avatar\":\"https://pbs.twimg.com/profile_images/837370914073276416/F_i4T9Pn_normal.jpg\",\"screen_name\":\"@DerekAlton\"},{\"created_at\":\"
+  7:55AM - Feb 24, 2020\",\"name\":\"Donna Newman\",\"body\":\"Retweet: 7 min travel
+  time from Tunny’s to Lyon! Then some time to snap a photo or two and then read the
+  women who built Bytowne and then a ling climb of stairs to the street! Not bad #ottLRT
+  Though I am anxious about the cattle call at Tunny’s for connections at the end
+  of the day. https://t.co/T8UE3spFRX\",\"avatar\":\"https://pbs.twimg.com/profile_images/1231273361474543619/L1kRJUkV_normal.jpg\",\"screen_name\":\"@DonnaNe88647621\"},{\"created_at\":\"
+  3:24AM - Feb 24, 2020\",\"name\":\"Nour Sidawi\",\"body\":\"I’m reading, “Unconditional
+  kindness, caring, and respect” by ⁦@IFiniq⁩\\n\\n“Start each relationship with full
+  tanks of kindness, respect, and caring, and give them away generously. Don't make
+  people feel they have to earn or work for them.” \U0001F49A https://t.co/dky9ia8Zb0\",\"avatar\":\"https://pbs.twimg.com/profile_images/1020021297471008773/NPkChCUp_normal.jpg\",\"screen_name\":\"@noursidawi\"}],\"id\":\"twitter_user_terms\",\"updatedAt\":1583268939438}\n\n"
+visitor_count: "data: {\"current\":1330,\"id\":\"visitor_count\",\"updatedAt\":1583179846138}\n\n"
 episode_list: "data: {\"items\":[{\"label\":\"Episode 17\"},{\"label\":\"Episode 18\"},{\"label\":\"Episode
-  14\"},{\"label\":\"Episode 16\"},{\"label\":\"Episode 15\"}],\"id\":\"episode_list\",\"updatedAt\":1583175563702}\n\n"
+  14\"},{\"label\":\"Episode 16\"},{\"label\":\"Episode 15\"}],\"id\":\"episode_list\",\"updatedAt\":1583179846319}\n\n"
+busrides_7d_episode_list: "data: {\"items\":[{\"label\":\"Episode 17\"},{\"label\":\"Episode
+  16\"},{\"label\":\"Episode 14\"},{\"label\":\"Episode 18\"},{\"label\":\"Episode
+  11\"}],\"id\":\"busrides_7d_episode_list\",\"updatedAt\":1583268335794}\n\n"
+busrides_7d_users: "data: {\"current\":\"319\",\"last\":\"498\",\"id\":\"busrides_7d_users\",\"updatedAt\":1583268335794}\n\n"
+busrides_7d_newUsers: "data: {\"current\":\"231\",\"last\":\"405\",\"id\":\"busrides_7d_newUsers\",\"updatedAt\":1583268335794}\n\n"
+busrides_7d_returnUsers: "data: {\"current\":73,\"last\":103,\"id\":\"busrides_7d_returnUsers\",\"updatedAt\":1583183347508}\n\n"
+busrides_30d_users: "data: {\"current\":\"1371\",\"last\":\"2173\",\"id\":\"busrides_30d_users\",\"updatedAt\":1583268336367}\n\n"
+busrides_30d_newUsers: "data: {\"current\":\"1144\",\"last\":\"1903\",\"id\":\"busrides_30d_newUsers\",\"updatedAt\":1583268336367}\n\n"
+busrides_30d_returnUsers: "data: {\"current\":223,\"last\":271,\"id\":\"busrides_30d_returnUsers\",\"updatedAt\":1583183347409}\n\n"
+busrides_30d_episode_list: "data: {\"items\":[{\"label\":\"Episode 17\"},{\"label\":\"Episode
+  18\"},{\"label\":\"Episode 14\"},{\"label\":\"Episode 16\"},{\"label\":\"Episode
+  15\"}],\"id\":\"busrides_30d_episode_list\",\"updatedAt\":1583268336368}\n\n"
+busrides_desktop: "data: {\"value\":66,\"id\":\"busrides_desktop\",\"updatedAt\":1583268336367}\n\n"
+busrides_tablet: "data: {\"value\":12,\"id\":\"busrides_tablet\",\"updatedAt\":1583268336367}\n\n"
+busrides_mobile: "data: {\"value\":20,\"id\":\"busrides_mobile\",\"updatedAt\":1583268336367}\n\n"
+busrides_30d_referrers: "data: {\"items\":[{\"label\":\"canada.ca\"},{\"label\":\"google\"},{\"label\":\"Twitter\"},{\"label\":\"t.co\"},{\"label\":\"gccollab.ca\"}],\"id\":\"busrides_30d_referrers\",\"updatedAt\":1583268336367}\n\n"
+engagement_activities: "data: {\"current\":\"5096\",\"id\":\"engagement_activities\",\"updatedAt\":1583268940589}\n\n"
+engagement_events: "data: {\"current\":\"14403\",\"id\":\"engagement_events\",\"updatedAt\":1583268940589}\n\n"
+engagement_iod: "data: {\"current\":\"31,380\",\"id\":\"engagement_iod\",\"updatedAt\":1583268940589}\n\n"
+engagement_newsletters: "data: {\"current\":\"2772\",\"id\":\"engagement_newsletters\",\"updatedAt\":1583268940589}\n\n"
+engagement_twitter: "data: {\"current\":\"2896\",\"id\":\"engagement_twitter\",\"updatedAt\":1583268940589}\n\n"
+engagement_busrides: "data: {\"current\":\"23,702\",\"id\":\"engagement_busrides\",\"updatedAt\":1583268940589}\n\n"
+engagement_total_outreach: "data: {\"current\":\"74,581\",\"id\":\"engagement_total_outreach\",\"updatedAt\":1583268940589}\n\n"
+engagement_type: "data: {\"slices\":[[\"Type\",\"Participants\"],[\"Speaker\",17],[\"Workshop\",15],[\"Presentation\",15],[\"Kiosk\",5],[\"Meetup\",8]],\"id\":\"engagement_type\",\"updatedAt\":1583268940589}\n\n"
+engagement_goal: "data: {\"value\":57,\"id\":\"engagement_goal\",\"updatedAt\":1583268940412}\n\n"
+event_type: "data: {\"slices\":[[\"Type\",\"Participants\"],[\"Virtual\",12565],[\"In
+  Person\",1868]],\"id\":\"event_type\",\"updatedAt\":1583268940412}\n\n"

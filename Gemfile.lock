@@ -149,6 +149,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   google-api-client
   google_drive
   json
