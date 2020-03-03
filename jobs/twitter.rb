@@ -123,6 +123,51 @@ SCHEDULER.every "5m", :first_in => 0 do |job|
     end
     ###### End retreiving user tweets ######
 
+    #DigiAcademyCAN
+    #AcademieNumCAN
+
+    ###### Begin retreiving DigiAcademyCAN and AcademieNumCAN tweets ######
+    # initial attempt at retreiving tweets
+    tweets_digiacad_en = twitter.search("from:DigiAcademyCAN", options={tweet_mode: "extended", result_type: "recent"}).take(3)
+    tweets_digiacad_fr = twitter.search("from:AcademieNumCAN", options={tweet_mode: "extended", result_type: "recent"}).take(3)
+
+    # if the number of english tweets is 0, retry
+    breakout_counter = 0 # breakout counter to prevent looping forever, if we get timed out or the API has an issue
+    while tweets_digiacad_en.count < 2
+      tweets_digiacad_en = twitter.search("from:DigiAcademyCAN", options={tweet_mode: "extended", result_type: "recent"}).take(3)
+
+      breakout_counter = breakout_counter + 1
+      if breakout_counter == 5 then
+          break
+      end
+    end
+    
+    # if the number of english tweets is 0, retry
+    breakout_counter = 0 # breakout counter to prevent looping forever, if we get timed out or the API has an issue
+    while tweets_digiacad_fr.count < 2
+      tweets_digiacad_fr = twitter.search("from:AcademieNumCAN", options={tweet_mode: "extended", result_type: "recent"}).take(3)
+
+      breakout_counter = breakout_counter + 1
+      if breakout_counter == 5 then
+          break
+      end
+    end
+
+    if tweets_digiacad_fr && tweets_digiacad_en then
+      # decontruct the twitter response, keeping what data we need
+      parsed_en_tweets = parse_twitter_api_response(tweets_digiacad_en)
+      parsed_fr_tweets = parse_twitter_api_response(tweets_digiacad_fr)
+    
+      puts "DigitalAcademy Search Successful. Tweets detecting. Sending event. (twitter.rb)"
+      send_event("twitter_digiacad_en", comments: parsed_en_tweets)
+      send_event("twitter_digiacad_fr", comments: parsed_fr_tweets)
+    else
+      print "\e[33mNo Tweets Found by the Twitter Widget. Ensure your search term in twitter.rb is correct.\e[0m"
+    end
+    ###### End retreiving user tweets ######
+
+
+
   rescue Twitter::Error
     puts "\e[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.\e[0m"
   end
