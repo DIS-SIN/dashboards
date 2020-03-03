@@ -6,6 +6,8 @@ $background-color:  #eb9c3c;
 $title-color:       rgba(255, 255, 255, 0.7);
 $moreinfo-color:    rgba(255, 255, 255, 0.7);
 
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+
 // ----------------------------------------------------------------------------
 // Widget-comment styles
 // ----------------------------------------------------------------------------
@@ -23,11 +25,72 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
   }
 
   .comment-container {
-    display: none;
+    display: block;
   }
 
   .more-info {
     color: $moreinfo-color;
   }
 
+  .tweet-content {
+    width: 100%;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    margin-bottom: 20px;
+    line-height: 28px;
+  }
+
+  .date {
+    color: #000000;
+    font-size: 19px;
+    font-weight: 400;
+  }
+
+  .username {
+    padding: 8px;
+    box-sizing: border-box;
+    max-width: 90%;
+    float: left;
+  }
+
+  .user .name {
+    font-size: 19px;
+    font-weight: 700;
+    color: #1c2022;
+    margin-bottom: 3px;
+  }
+
+  .user .handle {
+    font-size: 19px;
+    font-weight: 400;
+    color: #8a9ba8;
+  }
+
+  .user {
+    width: 100%;
+    margin-top: 53px;
+    box-sizing: border-box;
+  }
+
+  #tweet {
+    margin: 5px;
+    margin-right: 5px;
+    padding: 7px;
+    background-color:#f8f8f8;
+    text-align: left;
+    border-radius: 25px;
+  }
+
+  #tweet .user img {
+    width: 54px;
+    height: 54px;
+    object-fit: cover;
+    border-radius: 58px;
+    margin: 0px;
+    margin-right: 5px;
+    box-sizing: border-box;
+    float: left;
+    clear: both;
+  }
 }
