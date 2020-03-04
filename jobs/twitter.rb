@@ -68,9 +68,10 @@ def parse_twitter_api_response(tweets)
   return tweets
 end
 
-# Schedule retreiving tweets from the twitter API
-SCHEDULER.every "5m", :first_in => 0 do |job|
-  begin
+begin
+  # Schedule retreiving tweets from the twitter API
+  SCHEDULER.every "5m", :first_in => 0 do |job|
+
     ###### Begin retreiving hashtags ######
     # initial attempt at retreiving tweets
     tweets_hashtags = twitter.search(get_search_string("hashtag_search_terms"), options={tweet_mode: "extended"}).take(25)
@@ -168,7 +169,7 @@ SCHEDULER.every "5m", :first_in => 0 do |job|
     ###### End retreiving user tweets ######
   end
 
-  rescue Twitter::Error
-    puts "\e[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.\e[0m"
+rescue Twitter::Error
+  puts "\e[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.\e[0m"
 end
 
