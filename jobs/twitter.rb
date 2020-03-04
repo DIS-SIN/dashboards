@@ -127,6 +127,10 @@ begin
       print "\e[33mNo Tweets Found by the Twitter Widget. Ensure your search term in twitter.rb is correct.\e[0m"
     end
     ###### End retreiving user tweets ######
+  end
+
+      # Schedule retreiving tweets from the twitter API
+  SCHEDULER.every "5m", :first_in => 0 do |job|
 
     ###### Begin retreiving DigiAcademyCAN and AcademieNumCAN tweets ######
     # initial attempt at retreiving tweets
