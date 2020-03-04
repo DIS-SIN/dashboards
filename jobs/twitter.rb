@@ -97,6 +97,10 @@ SCHEDULER.every "5m", :first_in => 0 do |job|
     end
     ###### End retreiving hashtags ######
 
+    # COMMENTED OUT - IF not readded by April 2020 delete the following multine comment block (=begin retreiving user tweets to =end)
+    # Removed the user's tweets on the dashboard, so this block and the file /jobs/user_search_terms.json is not needed
+    # Matthew Clements, March 4 2020
+
     ###### Begin retreiving user tweets ######
     # initial attempt at retreiving tweets
     tweets_users = twitter.search(get_search_string("user_search_terms"), options={tweet_mode: "extended"}).take(50)
@@ -122,11 +126,7 @@ SCHEDULER.every "5m", :first_in => 0 do |job|
       print "\e[33mNo Tweets Found by the Twitter Widget. Ensure your search term in twitter.rb is correct.\e[0m"
     end
     ###### End retreiving user tweets ######
-  end
 
-  #DigiAcademyCAN
-  #AcademieNumCAN
-  SCHEDULER.every "5m", :first_in => 0 do |job|
     ###### Begin retreiving DigiAcademyCAN and AcademieNumCAN tweets ######
     # initial attempt at retreiving tweets
     tweets_digiacad_en = twitter.search("from:DigiAcademyCAN", options={tweet_mode: "extended", result_type: "recent"}).take(3)
