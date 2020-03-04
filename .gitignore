@@ -56,4 +56,4 @@ build-iPhoneSimulator/
 jobs/keys/*
 !jobs/keys/.gitkeep
 # ignore history file
-history.yml/
+history.yml
