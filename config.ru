@@ -3,6 +3,7 @@ require 'dashing'
 
 configure do
   set :auth_token, 'YOUR_AUTH_TOKEN'
+  set :default_dashboard, 'highlevel'
 
   # See http://www.sinatrarb.com/intro.html > Available Template Languages on
   # how to add additional template languages.
@@ -20,6 +21,6 @@ map Sinatra::Application.assets_prefix do
   run Sinatra::Application.sprockets
 end
 
-set :routes_to_cycle_through, [:busrides, :engagement]
+set :routes_to_cycle_through, [:busrides, :engagement, :highlevel, :cspsmashing]
 
 run Sinatra::Application
