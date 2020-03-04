@@ -88,10 +88,10 @@ SCHEDULER.every "5m", :first_in => 0 do |job|
 
     if tweets_hashtags then
       # decontruct the twitter response, keeping what data we need
-      parsed_tweets = parse_twitter_api_response(tweets_hashtags)
+      parsed_hashtag_tweets = parse_twitter_api_response(tweets_hashtags)
 
       puts "Hashtag Search Successful. Tweets detecting. Sending event. (twitter.rb)"
-      send_event("twitter_hashtag_terms", comments: parsed_tweets)
+      send_event("twitter_hashtag_terms", comments: parsed_hashtag_tweets)
     else
       print "\e[33mNo Tweets Found by the Twitter Widget. Ensure your search term in twitter.rb is correct.\e[0m"
     end
@@ -114,18 +114,19 @@ SCHEDULER.every "5m", :first_in => 0 do |job|
 
     if tweets_users then
       # decontruct the twitter response, keeping what data we need
-      parsed_tweets = parse_twitter_api_response(tweets_users)
+      parsed_user_tweets = parse_twitter_api_response(tweets_users)
     
       puts "User Search Successful. Tweets detecting. Sending event. (twitter.rb)"
-      send_event("twitter_user_terms", comments: parsed_tweets)
+      send_event("twitter_user_terms", comments: parsed_user_tweets)
     else
       print "\e[33mNo Tweets Found by the Twitter Widget. Ensure your search term in twitter.rb is correct.\e[0m"
     end
     ###### End retreiving user tweets ######
+  end
 
-    #DigiAcademyCAN
-    #AcademieNumCAN
-
+  #DigiAcademyCAN
+  #AcademieNumCAN
+  SCHEDULER.every "5m", :first_in => 0 do |job|
     ###### Begin retreiving DigiAcademyCAN and AcademieNumCAN tweets ######
     # initial attempt at retreiving tweets
     tweets_digiacad_en = twitter.search("from:DigiAcademyCAN", options={tweet_mode: "extended", result_type: "recent"}).take(3)
@@ -165,8 +166,7 @@ SCHEDULER.every "5m", :first_in => 0 do |job|
       print "\e[33mNo Tweets Found by the Twitter Widget. Ensure your search term in twitter.rb is correct.\e[0m"
     end
     ###### End retreiving user tweets ######
-
-
+  end
 
   rescue Twitter::Error
     puts "\e[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.\e[0m"
