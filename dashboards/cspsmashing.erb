@@ -1,43 +1,46 @@
+<% content_for(:title) { "Twitter" } %>
+
 <script type='text/javascript'>
 $(function() {
-  Dashing.widget_base_dimensions = [500, 180]
-  Dashing.numColumns = 5
+  Dashing.widget_base_dimensions = [469, 130]
+  Dashing.numColumns = 4
 });
 </script>
 
-<% content_for :title do %>CSPSmashing<% end %>
 <div class="gridster">
   <ul>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="4">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="6">
       <div data-id="twitter_user_terms" data-view="Comments" style="background-color:#00afd7;" data-moreinfo="Tweets @sourceclear" ></div>
       <i class="icon-twitter icon-background"></i>
     </li>
-    <li data-row="5" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="twitter_users" data-view="Text" data-title="GC Twitter Users" data-text="What is being said by GC Twitter Users." data-moreinfo="From: wiki.gccollab.ca/GC_Twitter_Community"></div>
+    <li data-row="7" data-col="1" data-sizex="1" data-sizey="2">
+      <div data-id="twitter_users_title" data-view="Text" data-title="GC Twitter Users" data-text="What is being said by GC Twitter Users." data-moreinfo="From: wiki.gccollab.ca/GC_Twitter_Community"></div>
+    </li>
+
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="2">
+      <div data-id="twitter_hashtags_title" data-view="Text" data-title="GC Twitter Hashtags" data-text="What is being said at GC Twitter Hashtags." data-moreinfo=""></div>
+    </li>
+
+    <li data-row="3" data-col="2" data-sizex="1" data-sizey="6">
+      <div data-id="twitter_hashtag_terms" data-view="Comments" style="background-color:#00afd7;" data-moreinfo="Tweets @sourceclear" ></div>
+      <i class="icon-twitter icon-background"></i>
     </li>
     
-    <li data-row="1" data-col="2" data-sizex="1" data-sizey="2">
+    <li data-row="1" data-col="3" data-sizex="1" data-sizey="4">
       <div data-view="TwelveHourClock"></div>
     </li>
     
-    <li data-row="3" data-col="2" data-sizex="1" data-sizey="3">
+    <li data-row="5" data-col="3" data-sizex="1" data-sizey="4">
       <div data-id="forecast" data-view="Forecast" data-title="Ottawa Weather Forecast" ></div>
     </li>
 
-    <li data-row="1" data-col="3" data-sizex="1" data-sizey="3">
-      <div data-view="List" data-id="episode_list" data-title="Busrides Top Episodes" data-title-fr="Visites des 30 derniers jours pour Trajets en bus" style="background-color: #024166"></div>
+    <li data-row="1" data-col="4" data-sizex="1" data-sizey="4">
+      <div data-id="twitter_digiacad_en" data-view="Comments" style="background-color:#00afd7;" data-moreinfo="Tweets @sourceclear" ></div>
+      <i class="icon-twitter icon-background"></i>
     </li>
 
-    <li data-row="4" data-col="3" data-sizex="1" data-sizey="2">
-      <div data-view="Number" data-id="visitor_count" data-title="Busrides Visits - Past 30 Days" data-title-fr="Visites des 30 derniers jours pour Trajets en bus" style="background-color: #047177"></div>
-    </li>
-    
-    <li data-row="1" data-col="4" data-sizex="1" data-sizey="1">
-      <div data-id="twitter_users" data-view="Text" data-title="GC Twitter Hashtags" data-text="What is being said at GC Twitter Hashtags." data-moreinfo=""></div>
-    </li>
-
-    <li data-row="2" data-col="4" data-sizex="1" data-sizey="4">
-      <div data-id="twitter_hashtag_terms" data-view="Comments" style="background-color:#00afd7;" data-moreinfo="Tweets @sourceclear" ></div>
+    <li data-row="5" data-col="4" data-sizex="1" data-sizey="4">
+      <div data-id="twitter_digiacad_fr" data-view="Comments" style="background-color:#00afd7;" data-moreinfo="Tweets @sourceclear" ></div>
       <i class="icon-twitter icon-background"></i>
     </li>
 

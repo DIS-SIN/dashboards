@@ -1,7 +1,22 @@
 <h1 class="title" data-bind="title"></h1>
 <div class="comment-container">
-  <h3><img data-bind-src='current_comment.avatar'/><span data-bind='current_comment.name' class="name"></span></h3>
-  <p class="comment" data-bind='quote'></p>
+  <div id="tweet">
+    <div class="tweet-container">
+      <div class="user">
+        <img data-bind-src='current_comment.avatar' />
+        <div class="username">
+          <div class="name"><span data-bind='current_comment.name' class="name"></span></div>
+          <div class="handle" data-bind='current_comment.screen_name'></div>
+        </div>
+      </div>
+      <div class="tweet-content">
+        <p class="comment" data-bind='quote'></p>
+      </div>
+      <div class="date" data-bind='current_comment.created_at'></div>
+      <br><br>
+    </div>
+  </div>
+
 </div>
 
 <p class="more-info" data-bind="moreinfo"></p>

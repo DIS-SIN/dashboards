@@ -1,141 +1,142 @@
 ---
-valuation: "data: {\"current\":95,\"last\":38,\"id\":\"valuation\",\"updatedAt\":1583269226144}\n\n"
-karma: "data: {\"current\":36203,\"last\":172784,\"id\":\"karma\",\"updatedAt\":1583269226144}\n\n"
-synergy: "data: {\"value\":58,\"id\":\"synergy\",\"updatedAt\":1583269226144}\n\n"
-buzzwords: "data: {\"items\":[{\"label\":\"Synergy\",\"value\":0},{\"label\":\"Exit
-  strategy\",\"value\":18},{\"label\":\"Leverage\",\"value\":17},{\"label\":\"Paradigm
-  shift\",\"value\":19},{\"label\":\"Web 2.0\",\"value\":20},{\"label\":\"Turn-key\",\"value\":29},{\"label\":\"Streamlininess\",\"value\":14},{\"label\":\"Pivoting\",\"value\":15},{\"label\":\"Enterprise\",\"value\":14}],\"id\":\"buzzwords\",\"updatedAt\":1583269226144}\n\n"
-convergence: "data: {\"points\":[{\"x\":447,\"y\":7},{\"x\":448,\"y\":37},{\"x\":449,\"y\":23},{\"x\":450,\"y\":2},{\"x\":451,\"y\":33},{\"x\":452,\"y\":31},{\"x\":453,\"y\":27},{\"x\":454,\"y\":45},{\"x\":455,\"y\":37},{\"x\":456,\"y\":0}],\"id\":\"convergence\",\"updatedAt\":1583269226444}\n\n"
+valuation: "data: {\"current\":91,\"last\":5,\"id\":\"valuation\",\"updatedAt\":1583279854498}\n\n"
+karma: "data: {\"current\":110100,\"last\":103749,\"id\":\"karma\",\"updatedAt\":1583279854498}\n\n"
+synergy: "data: {\"value\":79,\"id\":\"synergy\",\"updatedAt\":1583279854498}\n\n"
+buzzwords: "data: {\"items\":[{\"label\":\"Paradigm shift\",\"value\":22},{\"label\":\"Leverage\",\"value\":5},{\"label\":\"Pivoting\",\"value\":27},{\"label\":\"Turn-key\",\"value\":23},{\"label\":\"Exit
+  strategy\",\"value\":20},{\"label\":\"Synergy\",\"value\":12},{\"label\":\"Web 2.0\",\"value\":26},{\"label\":\"Streamlininess\",\"value\":15},{\"label\":\"Enterprise\",\"value\":1}],\"id\":\"buzzwords\",\"updatedAt\":1583279854498}\n\n"
+convergence: "data: {\"points\":[{\"x\":482,\"y\":1},{\"x\":483,\"y\":8},{\"x\":484,\"y\":41},{\"x\":485,\"y\":5},{\"x\":486,\"y\":40},{\"x\":487,\"y\":31},{\"x\":488,\"y\":46},{\"x\":489,\"y\":2},{\"x\":490,\"y\":20},{\"x\":491,\"y\":41}],\"id\":\"convergence\",\"updatedAt\":1583279854498}\n\n"
 activities: "data: {\"current\":\"5096\",\"id\":\"activities\",\"updatedAt\":1583255496070}\n\n"
 events: "data: {\"current\":\"14403\",\"id\":\"events\",\"updatedAt\":1583255496070}\n\n"
 innovate_on_demand: "data: {\"current\":\"31,380\",\"id\":\"innovate_on_demand\",\"updatedAt\":1583255496070}\n\n"
 newsletters: "data: {\"current\":\"2772\",\"id\":\"newsletters\",\"updatedAt\":1583255496070}\n\n"
 twitter: "data: {\"current\":\"2896\",\"id\":\"twitter\",\"updatedAt\":1583255496070}\n\n"
 chart: "data: {\"type\":\"bar\",\"header\":\"Calories Burned\",\"labels\":[\"Day 1\",\"Day
-  2\",\"Day 3\",\"Day 4\",\"Day 5\"],\"colorNames\":[\"yellow\",\"yellow\",\"yellow\",\"yellow\",\"yellow\"],\"datasets\":[210,339,220,494,109],\"id\":\"chart\",\"updatedAt\":1583269226444}\n\n"
+  2\",\"Day 3\",\"Day 4\",\"Day 5\"],\"colorNames\":[\"yellow\",\"yellow\",\"yellow\",\"yellow\",\"yellow\"],\"datasets\":[210,339,220,494,109],\"id\":\"chart\",\"updatedAt\":1583279854499}\n\n"
 visitor_count_real_time: "data: {\"current\":\"0\",\"id\":\"visitor_count_real_time\",\"updatedAt\":1583177082606}\n\n"
 busrides_Users: "data: {\"current\":347,\"id\":\"busrides_Users\",\"updatedAt\":1583164515481}\n\n"
 busrides_newUsers: "data: {\"current\":\"274\",\"last\":\"403\",\"id\":\"busrides_newUsers\",\"updatedAt\":1583179846520}\n\n"
 busrides_users: "data: {\"current\":\"347\",\"last\":\"506\",\"id\":\"busrides_users\",\"updatedAt\":1583179846520}\n\n"
 busrides_returnUsers: "data: {\"current\":73,\"last\":103,\"id\":\"busrides_returnUsers\",\"updatedAt\":1583179846520}\n\n"
-twitter_hashtag_terms: "data: {\"comments\":[{\"created_at\":\" 3:45PM - Mar  3, 2020\",\"name\":\"frostfeet2\",\"body\":\"Retweet:
+twitter_hashtag_terms: "data: {\"comments\":[{\"created_at\":\" 6:49PM - Mar  3, 2020\",\"name\":\"Janice
+  Andrews\",\"body\":\"Retweet: Every state has its own primary or caucus, but they
+  each hold national importance. So, how do these states compare to the rest of the
+  nation? Check out #Oklahoma right here: https://t.co/drceS1Tv2f #supertuesday2020
+  #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/756944601269665792/DWoRm2UM_normal.jpg\",\"screen_name\":\"@Jcardinal72\"},{\"created_at\":\"
+  6:31PM - Mar  3, 2020\",\"name\":\"Grace College Cheer\",\"body\":\"Our third recruit
+  is Emma Miller. Emma is from Ossian, Indiana where she attends NorwelI High School.
+  She has been cheering/competing for 11 years and will be a part of the pre-veterinary
+  program at Grace, majoring in biology or chemistry.  #GC #LANCERS https://t.co/nw1R1MRKia\",\"avatar\":\"https://pbs.twimg.com/profile_images/1003966744187297797/e8ERd-HH_normal.jpg\",\"screen_name\":\"@gracecheerteam\"},{\"created_at\":\"
+  6:27PM - Mar  3, 2020\",\"name\":\"steve\",\"body\":\"Retweet: Every state has its
+  own primary or caucus, but they each hold national importance. So, how do these
+  states compare to the rest of the nation? Check out #Oklahoma right here: https://t.co/drceS1Tv2f
+  #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1197576206301966336/1_274_PA_normal.jpg\",\"screen_name\":\"@steve89914175\"},{\"created_at\":\"
+  6:16PM - Mar  3, 2020\",\"name\":\"Denny Green\",\"body\":\"Retweet: Every state
+  has its own primary or caucus, but they each hold national importance. So, how do
+  these states compare to the rest of the nation? Check out #Oklahoma right here:
+  https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/872107991205650433/Wvi8IiRY_normal.jpg\",\"screen_name\":\"@DennisG58878004\"},{\"created_at\":\"
+  5:57PM - Mar  3, 2020\",\"name\":\"alisa⁷\",\"body\":\"Retweet: Every state has
+  its own primary or caucus, but they each hold national importance. So, how do these
+  states compare to the rest of the nation? Check out #Oklahoma right here: https://t.co/drceS1Tv2f
+  #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1234272235063595009/9Gc5GbZa_normal.jpg\",\"screen_name\":\"@wootiddies\"},{\"created_at\":\"
+  5:51PM - Mar  3, 2020\",\"name\":\"Leslie Drennan\",\"body\":\"Retweet: Every state
+  has its own primary or caucus, but they each hold national importance. So, how do
+  these states compare to the rest of the nation? Check out #Oklahoma right here:
+  https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1232536201598468096/bdFEOJdx_normal.jpg\",\"screen_name\":\"@AngelsPromise1\"},{\"created_at\":\"
+  5:47PM - Mar  3, 2020\",\"name\":\"Roger L.Routh\",\"body\":\"Retweet: Every state
+  has its own primary or caucus, but they each hold national importance. So, how do
+  these states compare to the rest of the nation? Check out #Oklahoma right here:
+  https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/853955948922064896/3nD-V-rA_normal.jpg\",\"screen_name\":\"@routh_l\"},{\"created_at\":\"
+  5:46PM - Mar  3, 2020\",\"name\":\"Irvina Randall\",\"body\":\"Retweet: Every state
+  has its own primary or caucus, but they each hold national importance. So, how do
+  these states compare to the rest of the nation? Check out #Oklahoma right here:
+  https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png\",\"screen_name\":\"@randall_irvina\"},{\"created_at\":\"
+  5:34PM - Mar  3, 2020\",\"name\":\"Gypsy Joo WWG1WGA\",\"body\":\"Retweet: Every
+  state has its own primary or caucus, but they each hold national importance. So,
+  how do these states compare to the rest of the nation? Check out #Oklahoma right
+  here: https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/459609208304844800/acJibk7n_normal.jpeg\",\"screen_name\":\"@gypsyjoo\"},{\"created_at\":\"
+  5:27PM - Mar  3, 2020\",\"name\":\"TrinaD.\",\"body\":\"Retweet: Every state has
+  its own primary or caucus, but they each hold national importance. So, how do these
+  states compare to the rest of the nation? Check out #Oklahoma right here: https://t.co/drceS1Tv2f
+  #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1060965349749854209/4HRwTa_L_normal.jpg\",\"screen_name\":\"@trina_me8\"},{\"created_at\":\"
+  5:07PM - Mar  3, 2020\",\"name\":\"JoCitizen USA\",\"body\":\"Retweet: Every state
+  has its own primary or caucus, but they each hold national importance. So, how do
+  these states compare to the rest of the nation? Check out #Oklahoma right here:
+  https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/943890796750794752/1GSd7ZkP_normal.jpg\",\"screen_name\":\"@JocitizenUSA\"},{\"created_at\":\"
+  5:05PM - Mar  3, 2020\",\"name\":\"charlysnarly\",\"body\":\"Retweet: Every state
+  has its own primary or caucus, but they each hold national importance. So, how do
+  these states compare to the rest of the nation? Check out #Oklahoma right here:
+  https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1197748559602495488/rieBVIZ5_normal.jpg\",\"screen_name\":\"@charly_snarly\"},{\"created_at\":\"
+  4:52PM - Mar  3, 2020\",\"name\":\"\U0001D68A\U0001D696\U0001D6A2 \U0001D693\U0001D68E\U0001D68A\U0001D697
+  ♡\",\"body\":\"Retweet: Every state has its own primary or caucus, but they each
+  hold national importance. So, how do these states compare to the rest of the nation?
+  Check out #Oklahoma right here: https://t.co/drceS1Tv2f #supertuesday2020 #opendata
+  https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1233185860478173186/ELx7fYqE_normal.jpg\",\"screen_name\":\"@amytothegordon\"},{\"created_at\":\"
+  4:47PM - Mar  3, 2020\",\"name\":\"Mary Fowler 555⭐️⭐️⭐️\",\"body\":\"Retweet: Every
+  state has its own primary or caucus, but they each hold national importance. So,
+  how do these states compare to the rest of the nation? Check out #Oklahoma right
+  here: https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1187645662621585408/hP_32BkH_normal.jpg\",\"screen_name\":\"@Merryflower33\"},{\"created_at\":\"
+  4:41PM - Mar  3, 2020\",\"name\":\"WioAI\",\"body\":\"Retweet: Happy #TechTuesday!
+  \\n\\nLearn how you as a desktop or server user can integrate S3 buckets.\\n\\nCheck
+  out the video below for a few free & #opensource tools and some great platforms
+  that make this integration seamless. https://t.co/Zmxr37dIJv\\n\\n#bigdata #opendata
+  #MachineLearning\",\"avatar\":\"https://pbs.twimg.com/profile_images/775074946540302336/IFOC8v4-_normal.jpg\",\"screen_name\":\"@WIOMAX_PA\"},{\"created_at\":\"
+  4:39PM - Mar  3, 2020\",\"name\":\"Smartass Deplorable Dreg III\",\"body\":\"Retweet:
   Every state has its own primary or caucus, but they each hold national importance.
   So, how do these states compare to the rest of the nation? Check out #Oklahoma right
-  here: https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1097530174382444545/C0GtN7_-_normal.jpg\",\"screen_name\":\"@frostfeet21\"},{\"created_at\":\"
+  here: https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1234884153667194880/J3hr0tdh_normal.jpg\",\"screen_name\":\"@SoIrredeemabl\"},{\"created_at\":\"
+  4:36PM - Mar  3, 2020\",\"name\":\"Joe⚡️\",\"body\":\"Retweet: Every state has its
+  own primary or caucus, but they each hold national importance. So, how do these
+  states compare to the rest of the nation? Check out #Oklahoma right here: https://t.co/drceS1Tv2f
+  #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1220084098997329920/2T4VUsS6_normal.jpg\",\"screen_name\":\"@EmuCowboyBebop1\"},{\"created_at\":\"
+  4:31PM - Mar  3, 2020\",\"name\":\"Sabrina Szeto\",\"body\":\"Retweet: Looking for
+  a coding challenge this summer? @esowc_ecmwf invites applications for ECMWF's Summer
+  of Weather Code (#ESoWC2020). Check out the challenges or propose your own: https://t.co/fqsdjYPZaW
+  @CopernicusECMWF @awscloud #MachineLearning #AI #CloudComputing #opendata https://t.co/Ki0Bs3HbKH\",\"avatar\":\"https://pbs.twimg.com/profile_images/1167066731682115587/eHDdlBdW_normal.jpg\",\"screen_name\":\"@SabrinaSzeto\"},{\"created_at\":\"
+  4:28PM - Mar  3, 2020\",\"name\":\"Melanie Holloway\",\"body\":\"Retweet: Every
+  state has its own primary or caucus, but they each hold national importance. So,
+  how do these states compare to the rest of the nation? Check out #Oklahoma right
+  here: https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1085387941969567747/f7zBuGTb_normal.jpg\",\"screen_name\":\"@baltomel\"},{\"created_at\":\"
+  4:14PM - Mar  3, 2020\",\"name\":\"Christina Cyr\",\"body\":\"Retweet: If you ever
+  thought #GCDigital doesn't apply to you or your work, our learners are a perfect
+  example of those proving you wrong. They push themselves to  build new skills that
+  can benefit themselves & their teams. Meet Monique, today's #IWD20in20 & former
+  #PremiumC1 alumni! https://t.co/Dc8EhkSFz1\",\"avatar\":\"https://pbs.twimg.com/profile_images/1090280011028971526/O2mITgua_normal.jpg\",\"screen_name\":\"@cyr_christina\"},{\"created_at\":\"
+  4:13PM - Mar  3, 2020\",\"name\":\"Socialist Rifle Association - Tulsa\",\"body\":\"Retweet:
+  Every state has its own primary or caucus, but they each hold national importance.
+  So, how do these states compare to the rest of the nation? Check out #Oklahoma right
+  here: https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1103052314867351553/PIzGafsb_normal.png\",\"screen_name\":\"@RifleTulsa\"},{\"created_at\":\"
+  4:07PM - Mar  3, 2020\",\"name\":\"Ellen Coleman\",\"body\":\"Retweet: Every state
+  has its own primary or caucus, but they each hold national importance. So, how do
+  these states compare to the rest of the nation? Check out #Oklahoma right here:
+  https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png\",\"screen_name\":\"@ECole29607\"},{\"created_at\":\"
+  3:58PM - Mar  3, 2020\",\"name\":\"gerald\",\"body\":\"Retweet: Every state has
+  its own primary or caucus, but they each hold national importance. So, how do these
+  states compare to the rest of the nation? Check out #Oklahoma right here: https://t.co/drceS1Tv2f
+  #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1177226271480262657/JdAb3Ons_normal.jpg\",\"screen_name\":\"@geraldb95284126\"},{\"created_at\":\"
+  3:45PM - Mar  3, 2020\",\"name\":\"frostfeet2\",\"body\":\"Retweet: Every state
+  has its own primary or caucus, but they each hold national importance. So, how do
+  these states compare to the rest of the nation? Check out #Oklahoma right here:
+  https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1097530174382444545/C0GtN7_-_normal.jpg\",\"screen_name\":\"@frostfeet21\"},{\"created_at\":\"
   3:36PM - Mar  3, 2020\",\"name\":\"45Drives\",\"body\":\"Happy #TechTuesday! \\n\\nLearn
   how you as a desktop or server user can integrate S3 buckets.\\n\\nCheck out the
   video below for a few free & #opensource tools and some great platforms that make
-  this integration seamless. https://t.co/Zmxr37dIJv\\n\\n#bigdata #opendata #MachineLearning\",\"avatar\":\"https://pbs.twimg.com/profile_images/1197242990529597441/CChzRWHd_normal.jpg\",\"screen_name\":\"@45Drives\"},{\"created_at\":\"
-  3:14PM - Mar  3, 2020\",\"name\":\"lb\",\"body\":\"Retweet: Every state has its
-  own primary or caucus, but they each hold national importance. So, how do these
-  states compare to the rest of the nation? Check out #Oklahoma right here: https://t.co/drceS1Tv2f
-  #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/489539511173394433/yR8jT3MK_normal.jpeg\",\"screen_name\":\"@liliaballard\"},{\"created_at\":\"
-  3:12PM - Mar  3, 2020\",\"name\":\"HubofMachineLearning\",\"body\":\"Retweet: Looking
-  for a coding challenge this summer? @esowc_ecmwf invites applications for ECMWF's
-  Summer of Weather Code (#ESoWC2020). Check out the challenges or propose your own:
-  https://t.co/fqsdjYPZaW @CopernicusECMWF @awscloud #MachineLearning #AI #CloudComputing
-  #opendata https://t.co/Ki0Bs3HbKH\",\"avatar\":\"https://pbs.twimg.com/profile_images/1218282511521980418/A_mORr5l_normal.jpg\",\"screen_name\":\"@hubofml\"},{\"created_at\":\"
-  3:12PM - Mar  3, 2020\",\"name\":\"Lee Sanders\",\"body\":\"Retweet: Looking for
-  a coding challenge this summer? @esowc_ecmwf invites applications for ECMWF's Summer
-  of Weather Code (#ESoWC2020). Check out the challenges or propose your own: https://t.co/fqsdjYPZaW
-  @CopernicusECMWF @awscloud #MachineLearning #AI #CloudComputing #opendata https://t.co/Ki0Bs3HbKH\",\"avatar\":\"https://pbs.twimg.com/profile_images/1096593695346954242/rrAX47UB_normal.jpg\",\"screen_name\":\"@Lees_Sandbox\"},{\"created_at\":\"
-  3:10PM - Mar  3, 2020\",\"name\":\"Christine MacDonald\",\"body\":\"Retweet: Every
-  state has its own primary or caucus, but they each hold national importance. So,
-  how do these states compare to the rest of the nation? Check out #Oklahoma right
-  here: https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1039659369888194561/yWXuPbYp_normal.jpg\",\"screen_name\":\"@chrismac2562\"},{\"created_at\":\"
-  3:07PM - Mar  3, 2020\",\"name\":\"\U0001F1FA\U0001F1F8 Sara Conaway-Burns \U0001F1FA\U0001F1F8\",\"body\":\"Retweet:
-  Every state has its own primary or caucus, but they each hold national importance.
-  So, how do these states compare to the rest of the nation? Check out #Oklahoma right
-  here: https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1055447538201968642/wD4bGEJs_normal.jpg\",\"screen_name\":\"@PatriotPirate74\"},{\"created_at\":\"
-  2:54PM - Mar  3, 2020\",\"name\":\"SlyGentleman\U0001F339\U0001F35E☭\",\"body\":\"Retweet:
-  Every state has its own primary or caucus, but they each hold national importance.
-  So, how do these states compare to the rest of the nation? Check out #Oklahoma right
-  here: https://t.co/drceS1Tv2f #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1071458923339628546/n-p9dNdW_normal.jpg\",\"screen_name\":\"@GentlemanSly\"},{\"created_at\":\"
-  2:20PM - Mar  3, 2020\",\"name\":\"Claire Niedbala\",\"body\":\"Retweet: If you
-  ever thought #GCDigital doesn't apply to you or your work, our learners are a perfect
-  example of those proving you wrong. They push themselves to  build new skills that
-  can benefit themselves & their teams. Meet Monique, today's #IWD20in20 & former
-  #PremiumC1 alumni! https://t.co/Dc8EhkSFz1\",\"avatar\":\"https://pbs.twimg.com/profile_images/870663741121146881/UKb3xHYO_normal.jpg\",\"screen_name\":\"@nied_claire\"},{\"created_at\":\"
-  1:46PM - Mar  3, 2020\",\"name\":\"Christine Copers\",\"body\":\"Retweet: Google,
-  Microsoft, Facebook have their own #knowledgegraphs. But there's a larger body of
-  publicly available KGs, such as @DBpedia or #Wikidata @heikopaulheim @svenhertling
-  @n_heist @dwsunima provide overview & comparison #opendata #EmergingTech #research
-  https://t.co/RZ17Ewi4Fz https://t.co/QqCTPlVTYY\",\"avatar\":\"https://pbs.twimg.com/profile_images/880406331563397120/p9QIphK8_normal.jpg\",\"screen_name\":\"@ChristineCopers\"},{\"created_at\":\"12:48PM
-  - Mar  3, 2020\",\"name\":\"Matteo Brunati\",\"body\":\"Retweet: Google, Microsoft,
-  Facebook have their own #knowledgegraphs. But there's a larger body of publicly
-  available KGs, such as @DBpedia or #Wikidata @heikopaulheim @svenhertling @n_heist
-  @dwsunima provide overview & comparison #opendata #EmergingTech #research https://t.co/RZ17Ewi4Fz
-  https://t.co/QqCTPlVTYY\",\"avatar\":\"https://pbs.twimg.com/profile_images/452104500698812417/WTFK1iwB_normal.jpeg\",\"screen_name\":\"@dagoneye\"},{\"created_at\":\"12:11PM
-  - Mar  3, 2020\",\"name\":\"Genevieve\",\"body\":\"Retweet: Virginia's population
-  in 2019 was 8,535,519 or 2.6% of the American population. With 99 delegates up for
-  grabs in VA on #SuperTuesday, what will be influencing voters in that state? Get
-  the facts #opendata #USAFacts https://t.co/Ad4MIZkveU https://t.co/uI1zstgjFY\",\"avatar\":\"https://pbs.twimg.com/profile_images/1230290209616650241/VEdUER5N_normal.jpg\",\"screen_name\":\"@HoneysuklDesign\"},{\"created_at\":\"12:07PM
-  - Mar  3, 2020\",\"name\":\"Ani Lopez\",\"body\":\"#opendata of course but #openalgorithms
-  too.\\n\\\"Being ruled through secret source code or algorithms should never be
-  allowed in a democratic country under the rule of law\\\" @civio\\nhttps://t.co/P6YqG9nDhu\",\"avatar\":\"https://pbs.twimg.com/profile_images/1161079166399393794/h9bMdWiu_normal.jpg\",\"screen_name\":\"@anilopez\"},{\"created_at\":\"12:01PM
-  - Mar  3, 2020\",\"name\":\"Qutub Lab\",\"body\":\"Retweet: Interested in space
-  tech? #AI, #biotech or #opendata? Compete in the 2020 Act In Space International
-  Hackathon. @QutubLab is hosting @UTSA in San Antonio April 24-25 https://t.co/qdh2QeNn18\",\"avatar\":\"https://pbs.twimg.com/profile_images/1088995217913524224/Yjir92Mh_normal.jpg\",\"screen_name\":\"@QutubLab\"},{\"created_at\":\"12:00PM
-  - Mar  3, 2020\",\"name\":\"CSPS Digital Academy\",\"body\":\"If you ever thought
-  #GCDigital doesn't apply to you or your work, our learners are a perfect example
-  of those proving you wrong. They push themselves to  build new skills that can benefit
-  themselves & their teams. Meet Monique, today's #IWD20in20 & former #PremiumC1 alumni!
-  https://t.co/Dc8EhkSFz1\",\"avatar\":\"https://pbs.twimg.com/profile_images/1230530655110348803/aHk8Dj4t_normal.jpg\",\"screen_name\":\"@DigiAcademyCAN\"},{\"created_at\":\"11:45AM
-  - Mar  3, 2020\",\"name\":\"George Anadiotis\",\"body\":\"Building a #KnowledgeGraph
-  from a #Wikipedia Category from scratch: scrape the Wikipedia hierarchy, or use
-  #data dump #softwareengineering #datascience #tutorial #opendata https://t.co/fu7t1xf7ni
-  https://t.co/rMFFYe4fEh\",\"avatar\":\"https://pbs.twimg.com/profile_images/787184408503746560/aWhY3xx2_normal.jpg\",\"screen_name\":\"@linked_do\"},{\"created_at\":\"11:30AM
-  - Mar  3, 2020\",\"name\":\"NYC Opportunity\",\"body\":\"How can we use #OpenData
-  to help low-income New Yorkers navigate public benefits? Join us for Open Data Week
-  2020 workshops exploring data sets & API resources 3/3 or 3/6 RSVP: https://t.co/tYvSl5aXGp
-  Full schedule: https://t.co/MJlTJ7N8ml Organized w/ @BetaNYC @NYCAnalytics https://t.co/ferlYRrTx8\",\"avatar\":\"https://pbs.twimg.com/profile_images/1091349809540354050/nL8POa5-_normal.jpg\",\"screen_name\":\"@NYCOpportunity\"},{\"created_at\":\"
-  9:22AM - Mar  3, 2020\",\"name\":\"USAFacts\",\"body\":\"Every state has its own
-  primary or caucus, but they each hold national importance. So, how do these states
-  compare to the rest of the nation? Check out #Oklahoma right here: https://t.co/drceS1Tv2f
-  #supertuesday2020 #opendata https://t.co/fJqGsb15P7\",\"avatar\":\"https://pbs.twimg.com/profile_images/1228080445780193280/UpnPsKs5_normal.jpg\",\"screen_name\":\"@USAFacts\"},{\"created_at\":\"
-  8:53AM - Mar  3, 2020\",\"name\":\"Visual Culture Caffe\",\"body\":\"Retweet: Google,
-  Microsoft, Facebook have their own #knowledgegraphs. But there's a larger body of
-  publicly available KGs, such as @DBpedia or #Wikidata @heikopaulheim @svenhertling
-  @n_heist @dwsunima provide overview & comparison #opendata #EmergingTech #research
-  https://t.co/RZ17Ewi4Fz https://t.co/QqCTPlVTYY\",\"avatar\":\"https://pbs.twimg.com/profile_images/823981526320717824/gSpT7s2e_normal.jpg\",\"screen_name\":\"@caffeneko\"},{\"created_at\":\"
-  8:05AM - Mar  3, 2020\",\"name\":\"Teodora Petkova\",\"body\":\"Retweet: Google,
-  Microsoft, Facebook have their own #knowledgegraphs. But there's a larger body of
-  publicly available KGs, such as @DBpedia or #Wikidata @heikopaulheim @svenhertling
-  @n_heist @dwsunima provide overview & comparison #opendata #EmergingTech #research
-  https://t.co/RZ17Ewi4Fz https://t.co/QqCTPlVTYY\",\"avatar\":\"https://pbs.twimg.com/profile_images/668365991596945408/TTqXUU-Q_normal.jpg\",\"screen_name\":\"@TheodoraPetkova\"},{\"created_at\":\"
-  8:01AM - Mar  3, 2020\",\"name\":\"Institute on Governance\",\"body\":\"Switching
-  over to the EX cadre? We've put together a few tips to help you prepare for the
-  selection process!\U0001F4A1 Wondering if the EX cadre is for you? \U0001F914 Check
-  out our \\\"To Be or Not to Be an Executive?\\\" day-course to get the real scoop
-  on EX life: https://t.co/hnHHLOpCPc #LeadersGC https://t.co/hO2iFym72b\",\"avatar\":\"https://pbs.twimg.com/profile_images/1146407830318137345/6_lnjIpo_normal.png\",\"screen_name\":\"@IOGca\"},{\"created_at\":\"
-  7:36AM - Mar  3, 2020\",\"name\":\"Giorgio Robino\",\"body\":\"Retweet: Google,
-  Microsoft, Facebook have their own #knowledgegraphs. But there's a larger body of
-  publicly available KGs, such as @DBpedia or #Wikidata @heikopaulheim @svenhertling
-  @n_heist @dwsunima provide overview & comparison #opendata #EmergingTech #research
-  https://t.co/RZ17Ewi4Fz https://t.co/QqCTPlVTYY\",\"avatar\":\"https://pbs.twimg.com/profile_images/906916269185740800/RGpMFCw3_normal.jpg\",\"screen_name\":\"@solyarisoftware\"},{\"created_at\":\"
-  7:23AM - Mar  3, 2020\",\"name\":\"George Anadiotis\",\"body\":\"Google, Microsoft,
-  Facebook have their own #knowledgegraphs. But there's a larger body of publicly
-  available KGs, such as @DBpedia or #Wikidata @heikopaulheim @svenhertling @n_heist
-  @dwsunima provide overview & comparison #opendata #EmergingTech #research https://t.co/RZ17Ewi4Fz
-  https://t.co/QqCTPlVTYY\",\"avatar\":\"https://pbs.twimg.com/profile_images/787184408503746560/aWhY3xx2_normal.jpg\",\"screen_name\":\"@linked_do\"},{\"created_at\":\"
-  6:16AM - Mar  3, 2020\",\"name\":\"Elric\",\"body\":\"Retweet: \\\"Open Data gives
-  citizens the raw materials they need to engage their governments and contribute
-  to the improvement of public services.\\\"\\n\\nFor instance, citizens can use #OpenData
-  to contribute to public planning, or provide feedback to government ministries on
-  service quality https://t.co/BBpRYTxFKN\",\"avatar\":\"https://pbs.twimg.com/profile_images/746371269327732736/MGaIDIt9_normal.jpg\",\"screen_name\":\"@elric_olalekan\"},{\"created_at\":\"
-  6:11AM - Mar  3, 2020\",\"name\":\"BBMRI-ERIC\",\"body\":\"Retweet: #datasharing
-  is at the heart of future #research. However, data is often inaccessible or underutilized
-  \ ... Our workshop informed about #OpenData within @snsf_ch funded projects and
-  provided room for discussion. Read our blog post: https://t.co/7wtzZsaDJY #BigData
-  #nrp75\",\"avatar\":\"https://pbs.twimg.com/profile_images/378800000773964326/da2d9e64a6c1581311160ff72b114f99_normal.jpeg\",\"screen_name\":\"@BBMRIERIC\"}],\"id\":\"twitter_hashtag_terms\",\"updatedAt\":1583268936402}\n\n"
-twitter_user_terms: "data: {\"comments\":[{\"created_at\":\" 2:25PM - Mar  2, 2020\",\"name\":\"Derek
-  Alton\",\"body\":\"@KayleHatt @supergovernance @seanmmcdonald @trbouma @TDAndrea23
-  @piacandrews @teh_aimee @PierreFerron @IFiniq @owbitar @scott_pm @edent @ToferC
-  @rumon @hslaird @andrewjb_ @sboots @richardjpope @ae_clarke @mgifford @LivNeal @RoboRobbins
-  @firebethfox Tho i am a big advocate for a robust civil society. 1 thing that sticks
-  with me is that civil society isnt necessarily democratic, accountable or transparent.
-  Its often the loudest voices + people who have the privledge or are resourced to
-  have time.\",\"avatar\":\"https://pbs.twimg.com/profile_images/837370914073276416/F_i4T9Pn_normal.jpg\",\"screen_name\":\"@DerekAlton\"},{\"created_at\":\"
+  this integration seamless. https://t.co/Zmxr37dIJv\\n\\n#bigdata #opendata #MachineLearning\",\"avatar\":\"https://pbs.twimg.com/profile_images/1197242990529597441/CChzRWHd_normal.jpg\",\"screen_name\":\"@45Drives\"}],\"id\":\"twitter_hashtag_terms\",\"updatedAt\":1583279794647}\n\n"
+twitter_user_terms: "data: {\"comments\":[{\"created_at\":\" 5:49PM - Mar  3, 2020\",\"name\":\"Natasha
+  Bates\",\"body\":\"@SherryAske @CPHO_Canada I have seen this. It is very basic.
+  What I want to know is who to contact in case of symptoms. Not me or anyone I know
+  has them right now, but if it happens I want to know who to call.\",\"avatar\":\"https://pbs.twimg.com/profile_images/824738242968817664/yjKd9VEY_normal.jpg\",\"screen_name\":\"@natasha367b\"},{\"created_at\":\"
+  8:54AM - Mar  3, 2020\",\"name\":\"Shannon\",\"body\":\"Retweet: \U0001F44F\\\"How
+  often do #designers stand back and ask whether they are creating a real problem,
+  that is to say a problem that exists outside the balance sheet, at the same time
+  they are solving a business problem, or delighting an individual customer?\\\"@mulegirl
+  https://t.co/Arx7R7k8Xr\",\"avatar\":\"https://pbs.twimg.com/profile_images/655842158960734208/fOdyP7ux_normal.jpg\",\"screen_name\":\"@hurleygirly\"},{\"created_at\":\"
+  2:25PM - Mar  2, 2020\",\"name\":\"Derek Alton\",\"body\":\"@KayleHatt @supergovernance
+  @seanmmcdonald @trbouma @TDAndrea23 @piacandrews @teh_aimee @PierreFerron @IFiniq
+  @owbitar @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @sboots @richardjpope
+  @ae_clarke @mgifford @LivNeal @RoboRobbins @firebethfox Tho i am a big advocate
+  for a robust civil society. 1 thing that sticks with me is that civil society isnt
+  necessarily democratic, accountable or transparent. Its often the loudest voices
+  + people who have the privledge or are resourced to have time.\",\"avatar\":\"https://pbs.twimg.com/profile_images/837370914073276416/F_i4T9Pn_normal.jpg\",\"screen_name\":\"@DerekAlton\"},{\"created_at\":\"
   9:39AM - Mar  2, 2020\",\"name\":\"Michael Karlin\",\"body\":\"@seanmmcdonald @DerekAlton
   @trbouma @TDAndrea23 @KayleHatt @piacandrews @teh_aimee @PierreFerron @IFiniq @owbitar
   @scott_pm @edent @ToferC @rumon @hslaird @andrewjb_ @sboots @richardjpope @ae_clarke
@@ -323,49 +324,77 @@ twitter_user_terms: "data: {\"comments\":[{\"created_at\":\" 2:25PM - Mar  2, 20
   Emergency Ops Centre and will likely be heading back into it shortly. Depending
   on what you are looking for, I might be able to address or point in the right direction.
   Like @supergovernance said, it is pretty busy rn\",\"avatar\":\"https://pbs.twimg.com/profile_images/916817302158528512/5m564Pa-_normal.jpg\",\"screen_name\":\"@1matthewchan\"},{\"created_at\":\"
-  5:37PM - Feb 26, 2020\",\"name\":\"Derek Alton\",\"body\":\"@jstweedie @RoboRobbins
-  @firebethfox @s_floresco @ColleenTiernan @TaranWasson @JaysonMcIntosh @Jillian_LeBlanc
-  @ThatRobDavidson @PetalEkelman @brenna_613 @sboots @IFiniq @Joutram @supergovernance
-  I don't have any particular date but sooner rather than later.  We could create
-  a google doc or something and then crowdsource a lot of the content via our networks.
-  \ That was my original thinking but wanted to make sure it didn't already exist
-  before reinventing the wheel\",\"avatar\":\"https://pbs.twimg.com/profile_images/837370914073276416/F_i4T9Pn_normal.jpg\",\"screen_name\":\"@DerekAlton\"},{\"created_at\":\"
-  7:55AM - Feb 24, 2020\",\"name\":\"Donna Newman\",\"body\":\"Retweet: 7 min travel
-  time from Tunny’s to Lyon! Then some time to snap a photo or two and then read the
-  women who built Bytowne and then a ling climb of stairs to the street! Not bad #ottLRT
-  Though I am anxious about the cattle call at Tunny’s for connections at the end
-  of the day. https://t.co/T8UE3spFRX\",\"avatar\":\"https://pbs.twimg.com/profile_images/1231273361474543619/L1kRJUkV_normal.jpg\",\"screen_name\":\"@DonnaNe88647621\"},{\"created_at\":\"
-  3:24AM - Feb 24, 2020\",\"name\":\"Nour Sidawi\",\"body\":\"I’m reading, “Unconditional
-  kindness, caring, and respect” by ⁦@IFiniq⁩\\n\\n“Start each relationship with full
-  tanks of kindness, respect, and caring, and give them away generously. Don't make
-  people feel they have to earn or work for them.” \U0001F49A https://t.co/dky9ia8Zb0\",\"avatar\":\"https://pbs.twimg.com/profile_images/1020021297471008773/NPkChCUp_normal.jpg\",\"screen_name\":\"@noursidawi\"}],\"id\":\"twitter_user_terms\",\"updatedAt\":1583268939438}\n\n"
+  9:37PM - Feb 26, 2020\",\"name\":\"rumon carter\",\"body\":\"@ToferC @bcdevexchange
+  Gonna lean hard into the effort. And gonna do so aware that there's not a ton that's
+  unique about the service pattern noun-verb pairs like \\\"be authenticated\\\" or
+  \\\"pay/be paid by government,\\\" so perhaps if we do this in the open we can serve
+  people and teams beyond BC... \U0001F914\U0001F642\",\"avatar\":\"https://pbs.twimg.com/profile_images/880818747220475904/5VKZmyzY_normal.jpg\",\"screen_name\":\"@rumon\"},{\"created_at\":\"
+  6:04PM - Feb 26, 2020\",\"name\":\"Gillian Dawson\",\"body\":\"@cdnKiran thanks
+  for your reply, Kiran. It takes so much energy to reprogram old ways of thinking
+  with new ones. So much devotion to learn from what was presented to us, instead
+  of fighting it or resenting it happened. It's a journey\U0001F917\",\"avatar\":\"https://pbs.twimg.com/profile_images/1189194580010459137/h_hZ2Iv6_normal.jpg\",\"screen_name\":\"@GillianDaws\"},{\"created_at\":\"
+  3:15PM - Feb 26, 2020\",\"name\":\"Mahendran V\",\"body\":\"Retweet: 2 great pics
+  from the #HNTSO Program Services team in support of #PinkShirtDay2020. Can’t decide
+  if I like serious or silly better?! ⁦@BrePaterson⁩ ⁦@shanjazz⁩ https://t.co/5lvlBtFCyO\",\"avatar\":\"https://pbs.twimg.com/profile_images/1037060283091447808/-xcSk_ha_normal.jpg\",\"screen_name\":\"@mahenv7\"},{\"created_at\":\"12:23PM
+  - Feb 26, 2020\",\"name\":\"Cheryl Coker\",\"body\":\"Retweet: 2 great pics from
+  the #HNTSO Program Services team in support of #PinkShirtDay2020. Can’t decide if
+  I like serious or silly better?! ⁦@BrePaterson⁩ ⁦@shanjazz⁩ https://t.co/5lvlBtFCyO\",\"avatar\":\"https://pbs.twimg.com/profile_images/1143286687096803328/44YhEHl-_normal.jpg\",\"screen_name\":\"@shanjazz\"},{\"created_at\":\"12:20PM
+  - Feb 26, 2020\",\"name\":\"Dan Russell\",\"body\":\"2 great pics from the #HNTSO
+  Program Services team in support of #PinkShirtDay2020. Can’t decide if I like serious
+  or silly better?! ⁦@BrePaterson⁩ ⁦@shanjazz⁩ https://t.co/5lvlBtFCyO\",\"avatar\":\"https://pbs.twimg.com/profile_images/884098478422577152/D0MnSUaa_normal.jpg\",\"screen_name\":\"@russellmania369\"},{\"created_at\":\"10:12AM
+  - Feb 26, 2020\",\"name\":\"Rob Butler\",\"body\":\"@NatalyArar Or #GCStickyNotes,
+  or #GCStickies lol\",\"avatar\":\"https://pbs.twimg.com/profile_images/1072880021881073664/XiLVPbhN_normal.jpg\",\"screen_name\":\"@RobButler\"},{\"created_at\":\"
+  7:11AM - Feb 26, 2020\",\"name\":\"Andrew Sinkinson\",\"body\":\"Retweet: @CDS_GC
+  @DigitalCDN @ShadeWyrm @nschonni @TBS_Canada @smellems @ToferC @GuillCharest @alexefilion
+  @CalvinR @boardom_ca @AshleyCasovan @dexterchief @mgifford Check out the post and,
+  if you have any feedback or questions, don’t hesitate to give a shout! https://t.co/zJMTZR3O1X
+  #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/378800000157581884/e162c80cecdd46a77eefcef2fcbfed49_normal.jpeg\",\"screen_name\":\"@sinkinsona\"},{\"created_at\":\"
+  5:14PM - Feb 25, 2020\",\"name\":\"Martin Choquette\",\"body\":\"Retweet: @CDS_GC
+  @DigitalCDN @ShadeWyrm @nschonni @TBS_Canada @smellems @ToferC @GuillCharest @alexefilion
+  @CalvinR @boardom_ca @AshleyCasovan @dexterchief @mgifford Check out the post and,
+  if you have any feedback or questions, don’t hesitate to give a shout! https://t.co/zJMTZR3O1X
+  #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/1230623405843603456/mZ0NuzdZ_normal.jpg\",\"screen_name\":\"@MRT1N_\"},{\"created_at\":\"
+  5:13PM - Feb 25, 2020\",\"name\":\"Chris Allison \U0001F1E8\U0001F1E6\",\"body\":\"Retweet:
+  @CDS_GC @DigitalCDN @ShadeWyrm @nschonni @TBS_Canada @smellems @ToferC @GuillCharest
+  @alexefilion @CalvinR @boardom_ca @AshleyCasovan @dexterchief @mgifford Check out
+  the post and, if you have any feedback or questions, don’t hesitate to give a shout!
+  https://t.co/zJMTZR3O1X #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/630792119649701888/VqVYQkXJ_normal.jpg\",\"screen_name\":\"@ToferC\"},{\"created_at\":\"12:54PM
+  - Feb 25, 2020\",\"name\":\"Stéphane Tourangeau\",\"body\":\"Retweet: @CDS_GC @DigitalCDN
+  @ShadeWyrm @nschonni @TBS_Canada @smellems @ToferC @GuillCharest @alexefilion @CalvinR
+  @boardom_ca @AshleyCasovan @dexterchief @mgifford Check out the post and, if you
+  have any feedback or questions, don’t hesitate to give a shout! https://t.co/zJMTZR3O1X
+  #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/883405546644164608/8xoGEJpI_normal.jpg\",\"screen_name\":\"@stourang\"},{\"created_at\":\"12:54PM
+  - Feb 25, 2020\",\"name\":\"Sean Boots\",\"body\":\"@CDS_GC @DigitalCDN @ShadeWyrm
+  @nschonni @TBS_Canada @smellems @ToferC @GuillCharest @alexefilion @CalvinR @boardom_ca
+  @AshleyCasovan @dexterchief @mgifford Check out the post and, if you have any feedback
+  or questions, don’t hesitate to give a shout! https://t.co/zJMTZR3O1X #GCdigital\",\"avatar\":\"https://pbs.twimg.com/profile_images/1237150005/twitterz_normal.jpg\",\"screen_name\":\"@sboots\"}],\"id\":\"twitter_user_terms\",\"updatedAt\":1583279797096}\n\n"
 visitor_count: "data: {\"current\":1330,\"id\":\"visitor_count\",\"updatedAt\":1583179846138}\n\n"
 episode_list: "data: {\"items\":[{\"label\":\"Episode 17\"},{\"label\":\"Episode 18\"},{\"label\":\"Episode
   14\"},{\"label\":\"Episode 16\"},{\"label\":\"Episode 15\"}],\"id\":\"episode_list\",\"updatedAt\":1583179846319}\n\n"
 busrides_7d_episode_list: "data: {\"items\":[{\"label\":\"Episode 17\"},{\"label\":\"Episode
-  16\"},{\"label\":\"Episode 14\"},{\"label\":\"Episode 18\"},{\"label\":\"Episode
-  11\"}],\"id\":\"busrides_7d_episode_list\",\"updatedAt\":1583268335794}\n\n"
-busrides_7d_users: "data: {\"current\":\"319\",\"last\":\"498\",\"id\":\"busrides_7d_users\",\"updatedAt\":1583268335794}\n\n"
-busrides_7d_newUsers: "data: {\"current\":\"231\",\"last\":\"405\",\"id\":\"busrides_7d_newUsers\",\"updatedAt\":1583268335794}\n\n"
+  14\"},{\"label\":\"Episode 16\"},{\"label\":\"Episode 18\"},{\"label\":\"Episode
+  15\"}],\"id\":\"busrides_7d_episode_list\",\"updatedAt\":1583278894264}\n\n"
+busrides_7d_users: "data: {\"current\":\"329\",\"last\":\"498\",\"id\":\"busrides_7d_users\",\"updatedAt\":1583278894264}\n\n"
+busrides_7d_newUsers: "data: {\"current\":\"239\",\"last\":\"405\",\"id\":\"busrides_7d_newUsers\",\"updatedAt\":1583278894264}\n\n"
 busrides_7d_returnUsers: "data: {\"current\":73,\"last\":103,\"id\":\"busrides_7d_returnUsers\",\"updatedAt\":1583183347508}\n\n"
-busrides_30d_users: "data: {\"current\":\"1371\",\"last\":\"2173\",\"id\":\"busrides_30d_users\",\"updatedAt\":1583268336367}\n\n"
-busrides_30d_newUsers: "data: {\"current\":\"1144\",\"last\":\"1903\",\"id\":\"busrides_30d_newUsers\",\"updatedAt\":1583268336367}\n\n"
+busrides_30d_users: "data: {\"current\":\"1379\",\"last\":\"2173\",\"id\":\"busrides_30d_users\",\"updatedAt\":1583278894980}\n\n"
+busrides_30d_newUsers: "data: {\"current\":\"1152\",\"last\":\"1903\",\"id\":\"busrides_30d_newUsers\",\"updatedAt\":1583278894980}\n\n"
 busrides_30d_returnUsers: "data: {\"current\":223,\"last\":271,\"id\":\"busrides_30d_returnUsers\",\"updatedAt\":1583183347409}\n\n"
 busrides_30d_episode_list: "data: {\"items\":[{\"label\":\"Episode 17\"},{\"label\":\"Episode
   18\"},{\"label\":\"Episode 14\"},{\"label\":\"Episode 16\"},{\"label\":\"Episode
-  15\"}],\"id\":\"busrides_30d_episode_list\",\"updatedAt\":1583268336368}\n\n"
-busrides_desktop: "data: {\"value\":66,\"id\":\"busrides_desktop\",\"updatedAt\":1583268336367}\n\n"
-busrides_tablet: "data: {\"value\":12,\"id\":\"busrides_tablet\",\"updatedAt\":1583268336367}\n\n"
-busrides_mobile: "data: {\"value\":20,\"id\":\"busrides_mobile\",\"updatedAt\":1583268336367}\n\n"
-busrides_30d_referrers: "data: {\"items\":[{\"label\":\"canada.ca\"},{\"label\":\"google\"},{\"label\":\"Twitter\"},{\"label\":\"t.co\"},{\"label\":\"gccollab.ca\"}],\"id\":\"busrides_30d_referrers\",\"updatedAt\":1583268336367}\n\n"
-engagement_activities: "data: {\"current\":\"5096\",\"id\":\"engagement_activities\",\"updatedAt\":1583268940589}\n\n"
-engagement_events: "data: {\"current\":\"14403\",\"id\":\"engagement_events\",\"updatedAt\":1583268940589}\n\n"
-engagement_iod: "data: {\"current\":\"31,380\",\"id\":\"engagement_iod\",\"updatedAt\":1583268940589}\n\n"
-engagement_newsletters: "data: {\"current\":\"2772\",\"id\":\"engagement_newsletters\",\"updatedAt\":1583268940589}\n\n"
-engagement_twitter: "data: {\"current\":\"2896\",\"id\":\"engagement_twitter\",\"updatedAt\":1583268940589}\n\n"
-engagement_busrides: "data: {\"current\":\"23,702\",\"id\":\"engagement_busrides\",\"updatedAt\":1583268940589}\n\n"
-engagement_total_outreach: "data: {\"current\":\"74,581\",\"id\":\"engagement_total_outreach\",\"updatedAt\":1583268940589}\n\n"
-engagement_type: "data: {\"slices\":[[\"Type\",\"Participants\"],[\"Speaker\",17],[\"Workshop\",15],[\"Presentation\",15],[\"Kiosk\",5],[\"Meetup\",8]],\"id\":\"engagement_type\",\"updatedAt\":1583268940589}\n\n"
-engagement_goal: "data: {\"value\":57,\"id\":\"engagement_goal\",\"updatedAt\":1583268940412}\n\n"
+  15\"}],\"id\":\"busrides_30d_episode_list\",\"updatedAt\":1583278894980}\n\n"
+busrides_desktop: "data: {\"value\":66,\"id\":\"busrides_desktop\",\"updatedAt\":1583278894980}\n\n"
+busrides_tablet: "data: {\"value\":12,\"id\":\"busrides_tablet\",\"updatedAt\":1583278894980}\n\n"
+busrides_mobile: "data: {\"value\":20,\"id\":\"busrides_mobile\",\"updatedAt\":1583278894980}\n\n"
+busrides_30d_referrers: "data: {\"items\":[{\"label\":\"canada.ca\"},{\"label\":\"google\"},{\"label\":\"Twitter\"},{\"label\":\"t.co\"},{\"label\":\"dal.brightspace.com\"}],\"id\":\"busrides_30d_referrers\",\"updatedAt\":1583278894980}\n\n"
+engagement_activities: "data: {\"current\":\"5096\",\"id\":\"engagement_activities\",\"updatedAt\":1583279498368}\n\n"
+engagement_events: "data: {\"current\":\"14403\",\"id\":\"engagement_events\",\"updatedAt\":1583279498368}\n\n"
+engagement_iod: "data: {\"current\":\"31,380\",\"id\":\"engagement_iod\",\"updatedAt\":1583279498368}\n\n"
+engagement_newsletters: "data: {\"current\":\"2772\",\"id\":\"engagement_newsletters\",\"updatedAt\":1583279498368}\n\n"
+engagement_twitter: "data: {\"current\":\"2896\",\"id\":\"engagement_twitter\",\"updatedAt\":1583279498368}\n\n"
+engagement_busrides: "data: {\"current\":\"23,702\",\"id\":\"engagement_busrides\",\"updatedAt\":1583279498368}\n\n"
+engagement_total_outreach: "data: {\"current\":\"74,581\",\"id\":\"engagement_total_outreach\",\"updatedAt\":1583279498368}\n\n"
+engagement_type: "data: {\"slices\":[[\"Type\",\"Participants\"],[\"Speaker\",17],[\"Workshop\",15],[\"Presentation\",15],[\"Kiosk\",5],[\"Meetup\",8]],\"id\":\"engagement_type\",\"updatedAt\":1583279498368}\n\n"
+engagement_goal: "data: {\"value\":57,\"id\":\"engagement_goal\",\"updatedAt\":1583279498180}\n\n"
 event_type: "data: {\"slices\":[[\"Type\",\"Participants\"],[\"Virtual\",12565],[\"In
-  Person\",1868]],\"id\":\"event_type\",\"updatedAt\":1583268940412}\n\n"
+  Person\",1868]],\"id\":\"event_type\",\"updatedAt\":1583279498180}\n\n"
