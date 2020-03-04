@@ -12,6 +12,10 @@ profile_id = "203959040" # Analytics profile ID.
 Analytics = Google::Apis::AnalyticsV3
 service = Analytics::AnalyticsService.new
 
+# get episodes list from file
+episodes_file = File.read("./jobs/busrides_resources/episodes.json")
+episodes_list = JSON.parse(episodes_file)
+
 def getCredentials(service, key_file)
 
   # Open Google credentials json
@@ -56,13 +60,13 @@ SCHEDULER.every '12h', :first_in => 0 do
     if row[0].include?("/en/ep-") then
       item = row[0].gsub("/en/ep-","")
       item = item.gsub("-en/","")
-      top_episodes << { 'label' =>  "Episode " + item}
+      top_episodes << { 'label' => episodes_list[item]}
     elsif row[0].include?("/fr/ep-") then
       item = row[0].gsub("/fr/ep-","")
       item = item.gsub("-fr/","")
-      top_episodes << { 'label' =>  "Episode " + item}
+      top_episodes << { 'label' =>  episodes_list[item]}
     else
-      top_episodes << { 'label' =>  item}
+      top_episodes << { 'label' =>  row[0]}
     end
 
     puts "Busride analytics data read succesfully. Sending event. (busrides.rb)"
@@ -153,13 +157,13 @@ SCHEDULER.every '12h', :first_in => 0 do
     if row[0].include?("/en/ep-") then
       item = row[0].gsub("/en/ep-","")
       item = item.gsub("-en/","")
-      top_episodes << { 'label' =>  "Episode " + item}
+      top_episodes << { 'label' =>  episodes_list[item]}
     elsif row[0].include?("/fr/ep-") then
       item = row[0].gsub("/fr/ep-","")
       item = item.gsub("-fr/","")
-      top_episodes << { 'label' =>  "Episode " + item}
+      top_episodes << { 'label' =>  episodes_list[item]}
     else
-      top_episodes << { 'label' =>  item}
+      top_episodes << { 'label' =>  row[0]}
     end
 
     send_event("busrides_30d_episode_list", { items: top_episodes })
