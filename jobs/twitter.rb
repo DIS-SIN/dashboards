@@ -98,11 +98,6 @@ begin
     end
     ###### End retreiving hashtags ######
 
-  end
-
-      # Schedule retreiving tweets from the twitter API
-  SCHEDULER.every "5m", :first_in => 0 do |job|
-
     ###### Begin retreiving DigiAcademyCAN and AcademieNumCAN tweets ######
     # initial attempt at retreiving tweets
     tweets_digiacad_en = twitter.search("from:DigiAcademyCAN", options={tweet_mode: "extended", result_type: "recent"}).take(3)
