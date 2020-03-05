@@ -98,35 +98,6 @@ begin
     end
     ###### End retreiving hashtags ######
 
-    # COMMENTED OUT - IF not readded by April 2020 delete the following multine comment block (=begin retreiving user tweets to =end)
-    # Removed the user's tweets on the dashboard, so this block and the file /jobs/user_search_terms.json is not needed
-    # Matthew Clements, March 4 2020
-
-    ###### Begin retreiving user tweets ######
-    # initial attempt at retreiving tweets
-    tweets_users = twitter.search(get_search_string("user_search_terms"), options={tweet_mode: "extended"}).take(50)
-
-    # if the number of tweets is 0, retry
-    breakout_counter = 0 # breakout counter to prevent looping forever, if we get timed out or the API has an issue
-    while tweets_users.count < 10
-      tweets_users = twitter.search(get_search_string("user_search_terms"), options={tweet_mode: "extended"}).take(50)
-
-      breakout_counter = breakout_counter + 1
-      if breakout_counter == 5 then
-          break
-      end
-    end
-
-    if tweets_users then
-      # decontruct the twitter response, keeping what data we need
-      parsed_user_tweets = parse_twitter_api_response(tweets_users)
-    
-      puts "User Search Successful. Tweets detecting. Sending event. (twitter.rb)"
-      send_event("twitter_user_terms", comments: parsed_user_tweets)
-    else
-      print "\e[33mNo Tweets Found by the Twitter Widget. Ensure your search term in twitter.rb is correct.\e[0m"
-    end
-    ###### End retreiving user tweets ######
   end
 
       # Schedule retreiving tweets from the twitter API
