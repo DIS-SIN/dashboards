@@ -28,7 +28,7 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
   # Get Summary Sheet details
   engagement_activites = summary_sheet[2,2]
   events = summary_sheet[3,2]
-  busrdides = summary_sheet[6,2]
+  busrides = summary_sheet[6,2]
   innovate_on_demand = summary_sheet[7,2]
   slack = summary_sheet[10,2]
   newsletters = summary_sheet[11,2]
@@ -36,6 +36,13 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
   twitter = summary_sheet[13,2]
   total_outreach = summary_sheet[16,2]
 
+  send_event('engagement_activities', { current: engagement_activites })
+  send_event('engagement_events', { current: events })
+  send_event('engagement_iod', { current: innovate_on_demand })
+  send_event('engagement_newsletters', { current: newsletters })
+  send_event('engagement_twitter', { current: twitter })
+  send_event('engagement_busrides', { current: busrides })
+  send_event('engagement_total_outreach', { current: total_outreach })
   # Events Variables
 
   events_virtual = 0
@@ -63,7 +70,7 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
     ['In Person', events_in_person]
   ]})
 
-  send_event('engagement_goal', { value: ((events_in_person + events_virtual) / 25000.0 * 100).to_i })
+  send_event('engagement_goal', { value: ((engagement_activites.to_i + events.to_i) / 25000.0 * 100).to_i })
 
   # Engagement Variabless
   engagement_speaker = 0
@@ -106,12 +113,6 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
   ]})
  
 
-  send_event('engagement_activities', { current: engagement_activites })
-  send_event('engagement_events', { current: events })
-  send_event('engagement_iod', { current: innovate_on_demand })
-  send_event('engagement_newsletters', { current: newsletters })
-  send_event('engagement_twitter', { current: twitter })
-  send_event('engagement_busrides', { current: busrdides })
-  send_event('engagement_total_outreach', { current: total_outreach })
+
 
 end
