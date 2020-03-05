@@ -57,7 +57,7 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
       events_virtual = events_virtual + events_sheet.rows[x][5].to_i
     end
 
-    if (Integer(events_sheet.rows[x][5]) rescue false)
+    if (Integer(events_sheet.rows[x][6]) rescue false)
       events_in_person = events_in_person + events_sheet.rows[x][6].to_i
     end
 
