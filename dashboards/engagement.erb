@@ -15,7 +15,7 @@ $(function() {
       <div data-id="engagement_total_outreach" data-view="Number" data-title="Total Outreach" style="background-color:#47bbb3;"></div>
     </li>
     <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
-      <div data-id="engagement_activities" data-view="Number" data-title="Engagements" style="background-color:#47bbb3";></div>
+      <div data-id="engagement_activities" data-view="Number" data-title="Engagements" style="background-color:#47bbb3;"></div>
     </li>
     <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
       <div data-id="engagement_events" data-view="Number" data-title="Events" style="background-color:#47bbb3;"></div>
@@ -36,9 +36,24 @@ $(function() {
       <div data-id="engagement_type" data-view="GooglePie" data-is_3d="true" data-legend_position="left" data-colors="purple, blue, green, brown, orange" data-title="Engagement Type" style="background-color:#47bbb3;"></div>
     </li>
     <li data-row="3" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="qr" data-view="QRCode" data-qr="/engagement_qr.png" data-moreinfo="Engagement Dashboard"></div>
+      <div data-id="ta_tweets" data-view="NumberPercentage" data-title="Tweets" style="background-color:#47bbb3;" data-moreinfo="28 day summary"></div>
+    </li>
+    <li data-row="3" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="ta_impression" data-view="NumberPercentage" data-title="Impressions" style="background-color:#47bbb3;" data-moreinfo="28 day summary"></div>
+    </li>
+    <li data-row="3" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="ta_profile_visits" data-view="NumberPercentage" data-title="Profile Visits" style="background-color:#47bbb3;" data-moreinfo="28 day summary"></div>
+    </li>
+    <li data-row="3" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="ta_mentions" data-view="NumberPercentage" data-title="Mentions" style="background-color:#47bbb3;" data-moreinfo="28 day summary"></div>
     </li>
     <li data-row="3" data-col="5" data-sizex="1" data-sizey="1">
+      <div data-id="ta_followers" data-view="NumberPercentage" data-title="Followers" style="background-color:#47bbb3;" data-moreinfo="28 day summary"></div>
+    </li>
+    <li data-row="4" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="qr" data-view="QRCode" data-qr="/engagement_qr.png" data-moreinfo="Engagement Dashboard"></div>
+    </li>
+    <li data-row="4" data-col="5" data-sizex="1" data-sizey="1">
       <div data-id="qr" data-view="QRCode" data-qr="/cycle_20s_qr.png" data-moreinfo="Cycle through all Dashboards"></div>
     </li>
 
