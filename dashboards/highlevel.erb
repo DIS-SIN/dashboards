@@ -5,7 +5,7 @@ $(function() {
   // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
   // Dashing.gridsterLayout('[{"col":2,"row":1},{"col":1,"row":1},{"col":3,"row":1},{"col":2,"row":2},{"col":3,"row":2},{"col":1,"row":2},{"col":5,"row":1},{"col":4,"row":2},{"col":2,"row":3}]')
   // Dashing.widget_base_dimensions = [275, 275]
-  Dashing.numColumns = 5
+  Dashing.numColumns = 6
 });
 </script>
 
@@ -15,33 +15,36 @@ $(function() {
       <div data-id="image" data-view="Image" data-title="Busrides" data-image="/busrides_logo_small.png"></div>
     </li>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="busrides_7d_users" data-view="Number" data-title="Weekly Total Users" style="background-color:#00D0A1;"></div>
+      <div data-id="busrides_7d_users" data-view="Number" data-title="Weekly Total Users" style="background-color:#ce3f3f;"></div>
     </li>
     <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="busrides_7d_episode_list" data-view="List" data-title="Weekly Top Episodes" style="background-color:#00D0A1;"></div>
+      <div data-id="busrides_7d_episode_list" data-view="List" data-title="Weekly Top Episodes" style="background-color:#ce3f3f;"></div>
     </li>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="busrides_30d_referrers" data-view="List" data-title="Monthly Top Referrers" style="background-color:#00D0A1;"></div>
+      <div data-id="busrides_30d_referrers" data-view="List" data-title="Monthly Top Referrers" style="background-color:#ce3f3f;"></div>
     </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="image" data-view="Image" data-title="Engagement" data-image="/engagement_logo_small.png" style="background-color:#47bbb3;"></div>
-    </li>
-    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="engagement_goal" data-view="Meter" data-title="Engagement Goal" data-min="0" data-max="100" data-suffix="%"  style="background-color:#47bbb3;"></div>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="2">
+      <div data-id="engagement_timeline" data-view="Timeline" data-title="Engagement Timeline" style="background-color:#222;"></div>
     </li>
     <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="engagement_total_outreach" data-view="Number" data-title="Total Outreach" style="background-color:#47bbb3;"></div>
+      <div data-id="image" data-view="Image" data-title="Engagement" data-image="/engagement_logo_small.png" style="background-color:#0880AD;"></div>
     </li>
-    <li data-row="3" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="event_type" data-view="GooglePie" data-is_3d="true" data-legend_position="left" data-colors="blue, purple" data-title="Participation Type" style="background-color:#47bbb3;"></div>
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="engagement_goal" data-view="Meter" data-title="Engagement Goal" data-moreinfo="25K Goal" data-min="0" data-max="25000" data-suffix=""  style="background-color:#0880AD;"></div>
     </li>
-    <li data-row="3" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="engagement_type" data-view="GooglePie" data-is_3d="true" data-legend_position="left" data-colors="purple, blue, green, brown, orange" data-title="Engagement Type" style="background-color:#47bbb3;"></div>
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="engagement_total_outreach" data-view="Number" data-title="Total Outreach" style="background-color:#0880AD;"></div>
     </li>
-    <li data-row="4" data-col="1" data-sizex="1" data-sizey="1">
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="ta_impression" data-view="NumberPercentage" data-title="Twitter Impressions" style="background-color:#0880AD;" data-moreinfo="28 day summary"></div>
+    </li>
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="ta_profile_visits" data-view="NumberPercentage" data-title="Twitter Profile Visits" style="background-color:#0880AD;" data-moreinfo="28 day summary"></div>
+    </li>
+    <li data-row="3" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="qr" data-view="QRCode" data-qr="/highlevel_qr.png" data-moreinfo="Highlevel Dashboard"></div>
     </li>
-    <li data-row="4" data-col="5" data-sizex="1" data-sizey="1">
+    <li data-row="3" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="qr" data-view="QRCode" data-qr="/cycle_20s_qr.png" data-moreinfo="Cycle through all Dashboards"></div>
     </li>
   </ul>

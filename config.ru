@@ -21,6 +21,6 @@ map Sinatra::Application.assets_prefix do
   run Sinatra::Application.sprockets
 end
 
-set :routes_to_cycle_through, [:highlevel, :busrides, :engagement]
+set :routes_to_cycle_through, [:highlevel, :busrides, :engagement, :twitter]
 
 run Sinatra::Application

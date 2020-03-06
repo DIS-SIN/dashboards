@@ -4,8 +4,8 @@
 $(function() {
   // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
   // Dashing.gridsterLayout('[{"col":2,"row":1},{"col":1,"row":1},{"col":3,"row":1},{"col":2,"row":2},{"col":3,"row":2},{"col":1,"row":2},{"col":5,"row":1},{"col":4,"row":2},{"col":2,"row":3}]')
-  // Dashing.widget_base_dimensions = [275, 275]
-  Dashing.numColumns = 5
+  Dashing.widget_base_dimensions = [275, 275]
+  Dashing.numColumns = 7
 });
 </script>
 
@@ -14,45 +14,54 @@ $(function() {
 <div class="gridster">
   <ul>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-view="Text" data-title="Last 7 Days" style="background-color:#00D0A1;"></div>
     </li>
     <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
-      <div data-id="busrides_7d_users" data-view="Number" data-title="Total Users" style="background-color:#00D0A1;"></div>
+      <div data-view="Text" data-title="Last 7 Days" style="background-color:#b93939;"></div>
     </li>
     <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
-      <div data-id="busrides_7d_newUsers" data-view="Number" data-title="New Users" style="background-color:#00D0A1;"></div>
+      <div data-id="busrides_7d_users" data-view="Number" data-title="Total Users" style="background-color:#b93939;"></div>
     </li>
-    <li data-row="1" data-col="4" data-sizex="2" data-sizey="1">
-      <div data-id="busrides_7d_episode_list" data-view="List" data-title="Top Episodes" style="background-color:#00D0A1;"></div>
+    <li data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="busrides_7d_newUsers" data-view="Number" data-title="New Users" style="background-color:#b93939;"></div>
+    </li>
+    <li data-row="1" data-col="5" data-sizex="2" data-sizey="1">
+      <div data-id="busrides_7d_episode_list" data-view="List" data-title="Top Episodes" style="background-color:#b93939;"></div>
+    </li>
+    <li data-row="1" data-col="6" data-sizex="1" data-sizey="1">
     </li>
     <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-view="Text" data-title="Last 30 Days" style="background-color:#47bbb3;"></div>
     </li>
     <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
-      <div data-id="busrides_30d_users" data-view="Number" data-title="Total Users" style="background-color:#47bbb3;"></div>
+      <div data-view="Text" data-title="Last 30 Days" style="background-color:#7c2626;"></div>
     </li>
     <li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
-      <div data-id="busrides_30d_newUsers" data-view="Number" data-title="New Users" style="background-color:#47bbb3;"></div>
+      <div data-id="busrides_30d_users" data-view="Number" data-title="Total Users" style="background-color:#7c2626;"></div>
     </li>
-    <li data-row="2" data-col="4" data-sizex="2" data-sizey="1">
-      <div data-id="busrides_30d_episode_list" data-view="List" data-title="Top Episodes" style="background-color:#47bbb3;"></div>
+    <li data-row="2" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="busrides_30d_newUsers" data-view="Number" data-title="New Users" style="background-color:#7c2626;"></div>
+    </li>
+    <li data-row="2" data-col="5" data-sizex="2" data-sizey="1">
+      <div data-id="busrides_30d_episode_list" data-view="List" data-title="Top Episodes" style="background-color:#7c2626;"></div>
+    </li>
+    </li>
+    <li data-row="2" data-col="6" data-sizex="1" data-sizey="1">
     </li>
     <li data-row="3" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="busrides_desktop" data-view="Meter" data-title="Desktop" data-min="0" data-max="100" data-suffix="%"  style="background-color:#47bbb3;"></div>
-    </li>
-    <li data-row="3" data-col="2" data-sizex="1" data-sizey="1">
-      <div data-id="busrides_tablet" data-view="Meter" data-title="Tablet" data-min="0" data-max="100" data-suffix="%"  style="background-color:#47bbb3;"></div>
-    </li>
-    <li data-row="3" data-col="3" data-sizex="1" data-sizey="1">
-      <div data-id="busrides_mobile" data-view="Meter" data-title="Mobile" data-min="0" data-max="100" data-suffix="%"  style="background-color:#47bbb3;"></div>
-    </li> 
-    <li data-row="3" data-col="4" data-sizex="2" data-sizey="1">
-      <div data-id="busrides_30d_referrers" data-view="List" data-title="Top Referrers" style="background-color:#47bbb3;"></div>
-    </li>
-    <li data-row="4" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="qr" data-view="QRCode" data-qr="/busrides_qr.png" data-moreinfo="Busrides Dashboard"></div>
     </li>
-    <li data-row="4" data-col="5" data-sizex="1" data-sizey="1">
+    <li data-row="3" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="busrides_desktop" data-view="Meter" data-title="Desktop" data-min="0" data-max="100" data-suffix="%"  style="background-color:#3e1313;"></div>
+    </li>
+    <li data-row="3" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="busrides_tablet" data-view="Meter" data-title="Tablet" data-min="0" data-max="100" data-suffix="%"  style="background-color:#3e1313;"></div>
+    </li>
+    <li data-row="3" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="busrides_mobile" data-view="Meter" data-title="Mobile" data-min="0" data-max="100" data-suffix="%"  style="background-color:#3e1313;"></div>
+    </li> 
+    <li data-row="3" data-col="5" data-sizex="2" data-sizey="1">
+      <div data-id="busrides_30d_referrers" data-view="List" data-title="Top Referrers" style="background-color:#3e1313;"></div>
+    </li>
+    <li data-row="3" data-col="6" data-sizex="1" data-sizey="1">
       <div data-id="qr" data-view="QRCode" data-qr="/cycle_20s_qr.png" data-moreinfo="Cycle through all Dashboards"></div>
     </li>
   </ul>
