@@ -43,6 +43,26 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
   send_event('engagement_twitter', { current: twitter })
   send_event('engagement_busrides', { current: busrides })
   send_event('engagement_total_outreach', { current: total_outreach })
+  
+  # Get Twitter Analytics Summary
+  tweet_amount = summary_sheet[29,2]
+  tweet_percent = summary_sheet[29,3]
+  impression_amount = summary_sheet[30,2]
+  impression_percent = summary_sheet[30,3]
+  profile_visit_amount = summary_sheet[31,2]
+  profile_visit_percent = summary_sheet[31,3]
+  mentions_amount = summary_sheet[32,2]
+  mentions_percent = summary_sheet[32,3]
+  followers_amount = summary_sheet[33,2]
+  followers_percent = summary_sheet[33,3]
+
+  # Send Twitter Analytics Events
+  send_event('ta_tweets', { current: tweet_amount, difference: tweet_percent})
+  send_event('ta_impression', { current: impression_amount, difference: impression_percent})
+  send_event('ta_profile_visits', { current: profile_visit_amount, difference: profile_visit_percent})
+  send_event('ta_mentions', { current: mentions_amount, difference: mentions_percent})
+  send_event('ta_followers', { current: followers_amount, difference: followers_percent})
+
   # Events Variables
 
   events_virtual = 0
