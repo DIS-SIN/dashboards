@@ -105,7 +105,6 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
 
   next_3_events = []
   num_of_events = 3
-  today = Date.today
 
   event_data.each do |event|
     days_away = (event["date"] - today).to_i
@@ -118,7 +117,19 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
     end
   end
 
-  send_event("events_next_3", {items: next_3_events})
+  send_event("events_next_3", {items: next_3_events, unordered: true})
+
+  # last event
+  last_event = nil
+  event_data.each do |event|
+    days_away = (event["date"] - today).to_i
+    if (days_away < 0)
+      last_event = event
+    end
+  end
+
+  send_event("events_text", {text:"Last Event", items: [{'label' => last_event["event"], 'value' => last_event["date"].strftime("%b %-d")}]})
+
 
 end
 
@@ -188,28 +199,39 @@ engagement_list = [
   {'label' => "Meetup", 'value' => engagement_meetup }
 ]
 
-engagement_list.sort_by!{|item| -item["value"]}
+  engagement_list.sort_by!{|item| -item["value"]}
 
-send_event('engagement_type', {items: engagement_list})
+  send_event('engagement_type', {items: engagement_list, unordered: true})
 
-# Next 3 Engagements
+  # Next 3 Engagements
 
-next_3_engagements = []
-num_of_engagements = 3
-today = Date.today
+  next_3_engagements = []
+  num_of_engagements = 3
 
-engagement_data.each do |engagement|
-  days_away = (engagement["date"] - today).to_i
+  engagement_data.each do |engagement|
+    days_away = (engagement["date"] - today).to_i
   if(days_away >= 0 && num_of_engagements > 0)
     next_3_engagements.push({
       'label' => engagement["engagement"],
       'value' => engagement["date"].strftime("%b %-d")
   })
     num_of_engagements = num_of_engagements - 1
+    end
   end
-end
 
-send_event("engagements_next_3", {items: next_3_engagements})
+  send_event("engagements_next_3", {items: next_3_engagements, unordered: true})
+
+  # last engagement
+  last_engagement = nil
+  engagement_data.each do |event|
+    days_away = (event["date"] - today).to_i
+    if (days_away < 0)
+      last_engagement = event
+    end
+  end
+
+  send_event("engagements_text", {text:"Last Engagement", items: [{'label' => last_engagement["engagement"], 'value' => last_engagement["date"].strftime("%b %-d")}]})
+
 
 end
 
