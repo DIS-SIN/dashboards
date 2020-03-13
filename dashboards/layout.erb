@@ -8,17 +8,31 @@
 
   <title><%= yield_content(:title) %></title>
   <!-- moment.js for timeline widgets -->
-  <script type="text/javascript" src="/assets/moment.min.js"></script>
   <!-- The javascript and css are managed by sprockets. The files can be found in the /assets folder-->
-  <script type="text/javascript" src="/assets/application.js"></script>
-  <link rel="stylesheet" href="/assets/application.css">
+
 
   <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-  <link rel="icon" href="/public/favicon.ico">
+
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/assets/application.js"></script>
+  <script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+
+
+
+  <link rel="stylesheet" type="/assets/js_query.css">
+  <link rel="stylesheet" href="/assets/application.css">
 
 </head>
   <body>
-    <div id="container">
+    <div id="container" class="container-transform">
       <%= yield %>
     </div>
   
@@ -30,4 +44,5 @@
       <a href="#saving-instructions" id="save-gridster">Save this layout</a>
     <% end %>
   </body>
+
 </html>

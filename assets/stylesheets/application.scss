@@ -278,3 +278,10 @@ h3 {
   overflow: visible;
   position: static;
 }
+
+.container-transform {
+  transform-origin: top left;
+  position: relative;
+  vertical-align: middle;
+}
+

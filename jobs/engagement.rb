@@ -105,7 +105,6 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
 
   next_3_events = []
   num_of_events = 3
-  today = Date.today
 
   event_data.each do |event|
     days_away = (event["date"] - today).to_i
@@ -118,7 +117,19 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
     end
   end
 
-  send_event("events_next_3", {items: next_3_events})
+  send_event("events_next_3", {items: next_3_events, unordered: true})
+
+  # last event
+  last_event = nil
+  event_data.each do |event|
+    days_away = (event["date"] - today).to_i
+    if (days_away < 0)
+      last_event = event
+    end
+  end
+
+  send_event("events_text", {text:"Last Event", items: [{'label' => last_event["event"], 'value' => last_event["date"].strftime("%b %-d")}]})
+
 
 end
 
@@ -154,62 +165,73 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
 
   send_event("engagement_28d_summary", { value1: people_reached_28d, value2: engagements_28d_items.count })
 
- # of types and count
- engagement_speaker = 0
- engagement_workshop = 0
- engagement_presentation = 0
- engagement_kiosk = 0
- engagement_meetup = 0
+  # of types and count
+  engagement_speaker = 0
+  engagement_workshop = 0
+  engagement_presentation = 0
+  engagement_kiosk = 0
+  engagement_meetup = 0
 
- engagement_data.each do |engagement|
-  if (Integer(engagement["attendees"]) rescue false)
-     case engagement["activity"]
-     when /speaker/i
-       engagement_speaker += 1
-     when /workshop/i
-       engagement_workshop += 1
-     when /presentation/i
-       engagement_presentation += 1
-     when /kiosk/i
-       engagement_kiosk += 1
-     when /meetup/i
-       engagement_meetup += 1
-     else
-       p "unknown value:" + engagement["activity"]
-     end
-   end
+  engagement_data.each do |engagement|
+    if (Integer(engagement["attendees"]) rescue false)
+      case engagement["activity"]
+      when /speaker/i
+        engagement_speaker += 1
+      when /workshop/i
+        engagement_workshop += 1
+      when /presentation/i
+        engagement_presentation += 1
+      when /kiosk/i
+        engagement_kiosk += 1
+      when /meetup/i
+        engagement_meetup += 1
+      else
+        p "unknown value:" + engagement["activity"]
+      end
+    end
 
- end
-engagement_list = [
-  {'label' => "Speaker", 'value' => engagement_speaker },
-  {'label' => "Workshop", 'value' => engagement_workshop },
-  {'label' => "Presentation", 'value' => engagement_presentation },
-  {'label' => "Kiosk", 'value' => engagement_kiosk },
-  {'label' => "Meetup", 'value' => engagement_meetup }
-]
-
-engagement_list.sort_by!{|item| -item["value"]}
-
-send_event('engagement_type', {items: engagement_list})
-
-# Next 3 Engagements
-
-next_3_engagements = []
-num_of_engagements = 3
-today = Date.today
-
-engagement_data.each do |engagement|
-  days_away = (engagement["date"] - today).to_i
-  if(days_away >= 0 && num_of_engagements > 0)
-    next_3_engagements.push({
-      'label' => engagement["engagement"],
-      'value' => engagement["date"].strftime("%b %-d")
-  })
-    num_of_engagements = num_of_engagements - 1
   end
-end
+  engagement_list = [
+    {'label' => "Speaker", 'value' => engagement_speaker },
+    {'label' => "Workshop", 'value' => engagement_workshop },
+    {'label' => "Presentation", 'value' => engagement_presentation },
+    {'label' => "Kiosk", 'value' => engagement_kiosk },
+    {'label' => "Meetup", 'value' => engagement_meetup }
+  ]
 
-send_event("engagements_next_3", {items: next_3_engagements})
+  engagement_list.sort_by!{|item| -item["value"]}
+
+  send_event('engagement_type', {items: engagement_list, unordered: true})
+
+  # Next 3 Engagements
+
+  next_3_engagements = []
+  num_of_engagements = 3
+
+  engagement_data.each do |engagement|
+    days_away = (engagement["date"] - today).to_i
+    if(days_away >= 0 && num_of_engagements > 0)
+      next_3_engagements.push({
+        'label' => engagement["engagement"],
+        'value' => engagement["date"].strftime("%b %-d")
+    })
+      num_of_engagements = num_of_engagements - 1
+    end
+  end
+
+  send_event("engagements_next_3", {items: next_3_engagements, unordered: true})
+
+  # last engagement
+  last_engagement = nil
+  engagement_data.each do |event|
+    days_away = (event["date"] - today).to_i
+    if (days_away < 0)
+      last_engagement = event
+    end
+  end
+
+  send_event("engagements_text", {text:"Last Engagement", items: [{'label' => last_engagement["engagement"], 'value' => last_engagement["date"].strftime("%b %-d")}]})
+
 
 end
 
@@ -221,16 +243,16 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
   summary_sheet.reload
 
   # Get Twitter Analytics Summary
-  tweet_amount = summary_sheet[29,2]
-  tweet_percent = summary_sheet[29,3]
-  impression_amount = summary_sheet[30,2]
-  impression_percent = summary_sheet[30,3]
-  profile_visit_amount = summary_sheet[31,2]
-  profile_visit_percent = summary_sheet[31,3]
-  mentions_amount = summary_sheet[32,2]
-  mentions_percent = summary_sheet[32,3]
-  followers_amount = summary_sheet[33,2]
-  followers_percent = summary_sheet[33,3]
+  tweet_amount = summary_sheet[30,2]
+  tweet_percent = summary_sheet[30,3]
+  impression_amount = summary_sheet[31,2]
+  impression_percent = summary_sheet[31,3]
+  profile_visit_amount = summary_sheet[32,2]
+  profile_visit_percent = summary_sheet[32,3]
+  mentions_amount = summary_sheet[33,2]
+  mentions_percent = summary_sheet[33,3]
+  followers_amount = summary_sheet[34,2]
+  followers_percent = summary_sheet[34,3]
 
   # Send Twitter Analytics Events
   send_event('ta_tweets', { current: tweet_amount, difference: tweet_percent})
