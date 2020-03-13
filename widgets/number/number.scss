@@ -28,6 +28,13 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
     color: $value-color;
   }
 
+  .target-value {
+    font-weight: 500;
+    font-size: 30px;
+    color: $value-color;
+    height: 30px;
+  }
+
   .more-info {
     color: $moreinfo-color;
   }
