@@ -262,8 +262,8 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
   send_event('ta_followers', { current: followers_amount, difference: followers_percent})
 
   # Get Engagement Summary numbers
-  engagement_total = summary_sheet[4,2].to_i
-  engagement_total_outreach = summary_sheet[4,2].to_i + summary_sheet[6,2].to_i + summary_sheet[14,2].to_i
+  engagement_total = summary_sheet[5,2].to_i
+  engagement_total_outreach = summary_sheet[5,2].to_i + summary_sheet[7,2].to_i
   send_event("engagement_goal", {value: engagement_total})
   send_event("engagement_total_outreach", {current: engagement_total_outreach})
 
