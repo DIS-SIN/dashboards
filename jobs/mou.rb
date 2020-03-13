@@ -15,38 +15,80 @@ session = GoogleDrive::Session.from_access_token(auth_client)
 google_worksheet = session.spreadsheet_by_key("1APS9XScf2weoSBQscubTFfUQ12IbG-yWVbdF3Jw4xeo")
 mou_sheet = google_worksheet.worksheets[0]
 
+# Helper function
+def remove_Formatting(value)
+  format_removed_value = value.to_s.strip.delete("$ ,")
+  return format_removed_value.to_i
+end
+
+
+def parse_MOU(sheet)
+  # load data from sheet
+  parsed_object = []
+  sheet.rows.each do |row|
+    parsed_object.push({
+      'department' => row[0],
+      'f19' => remove_Formatting(row[1]),
+      'f20' => remove_Formatting(row[2]),
+      'f21' => remove_Formatting(row[3]),
+      'f22' => remove_Formatting(row[4]),
+      'status' => row[6],
+    })
+  end
+
+  # drop anything that doesn't have a status
+  parsed_object.reject!{|row| !["Signed",
+  "Draft",
+  "Discussions",
+  "Requested",
+  "Declined",
+  "Not Pursued"].include?(row["status"])}
+
+  return parsed_object
+end
+
+
+
+
+
 # Get the MoU data from the sheet
 SCHEDULER.every '10m', :first_in => 0 do |job|
     # Refresh MoU sheets
     mou_sheet.reload
 
-    # Get values from sheet
-    mou_amount_all_fiscal = mou_sheet[25, 6]
-    mou_amount_current_fiscal = mou_sheet[25, 2]
-    draft_amount_total = mou_sheet[26, 6]
+    mou_data = parse_MOU(mou_sheet)
 
-    # Get all of the rows that have signed MoUs
-    signed_rows = []
-    for i in 0..20
-        current_row = mou_sheet.rows[i+2] # +2 to skip header rows
-
-        # if the row is marked as signed, save it
-        if current_row[6] == "Signed"
-            # Read the fiscal amount, but strip leading dollar sign and any commas
-            fiscal_amount_stripped = current_row[1].to_s.strip.delete("$ ,")
-
-            # Add to collection of rows that were signed
-            signed_rows << {"department" => current_row[0], "fiscal_amount" => fiscal_amount_stripped.to_i}
-        end
+    # mou ammount for all fiscal years
+    mou_amount_all_fiscal = 0
+    mou_data.each do |mou|
+      mou_amount = mou["f19"] + mou["f20"] + mou["f21"] + mou["f22"]
+      mou_amount_all_fiscal = mou_amount_all_fiscal + mou_amount
     end
 
+    #mou ammount this fical
+    mou_amount_current_fiscal = 0
+    mou_data.each do |mou|
+      mou_amount_current_fiscal = mou_amount_current_fiscal + mou["f19"]
+    end
+    # draft total amount all fiscal years
+    draft_amount_total = 0
+    mou_data.each do |mou|
+      if(mou["status"] == "Draft")
+        mou_amount = mou["f19"] + mou["f20"] + mou["f21"] + mou["f22"]
+        draft_amount_total = draft_amount_total + mou_amount
+      end
+    end
+
+    # Get all of the rows that have signed MoUs
+    signed_rows = mou_data.reject{|mou| !mou["status"]=="Signed"}
+
     # Sort the signed rows based on the fiscal amount in descending order
-    signed_rows = signed_rows.sort_by { |hsh| -hsh["fiscal_amount"] }
+    signed_rows.sort_by!{ |hsh| -hsh["f19"] }
     
     # We now have a sorted array, the first 5 object are our top 5 departments
     top_departments = []
     for i in 0..4
-        top_departments << {'label' => signed_rows[i]["department"]}
+        top_departments << {'label' => signed_rows[i]["department"], 'value' => ("$" + signed_rows[i]["f19"].to_s)}
     end
 
     # Send the events to the dashboard to be rendered

@@ -2,30 +2,29 @@
 
 <script type='text/javascript'>
 $(function() {
-  Dashing.widget_base_dimensions = [580, 120]
   Dashing.numColumns = 4
+  Dashing.numRows = 2
 });
 </script>
 
 <div class="gridster">
   <ul>
 
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="3">
-      <div data-id="mou_cur_fiscal" data-view="Number" data-title="MoUs - Current Fiscal" data-target-value="Out of $1,100,000" style="background-color:#47bbb3;" data-moreinfo="Total MOU$ amounts signed current FY towards target 1.1M"></div>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="mou_cur_fiscal" data-view="Number" data-title="MoUs - Current Fiscal" data-suffix="$"  data-target-value="Goal: $1,000,000" style="background-color:#47bbb3;" data-moreinfo="Total MOU$ amounts signed current FY"></div>
     </li>
 
-    <li data-row="1" data-col="2" data-sizex="1" data-sizey="3">
-      <div data-id="mou_all_fiscal" data-view="Number" data-title="MoUs - All Fiscals" style="background-color:#47bbb3;" data-moreinfo="Total MOU$ amount signed all FY"></div>
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="mou_all_fiscal" data-view="Number" data-title="MoUs - All Fiscals" data-suffix="$"  style="background-color:#47bbb3;" data-moreinfo="Total MOU$ amount signed all FY"></div>
     </li>
     
-    <li data-row="1" data-col="3" data-sizex="1" data-sizey="3">
+    <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
       <div data-id="mou_draft_total" data-view="Number" data-title="MoUs - Drafts" style="background-color:#47bbb3;" data-moreinfo="Total MOU$ Draft"></div>
     </li>
 
-    <li data-row="1" data-col="4" data-sizex="1" data-sizey="3">
+    <li data-row="2" data-col="1" data-sizex="3" data-sizey="1">
       <div data-id="mou_top_departments" data-view="List" data-title="Top Departments" style="background-color:#47bbb3;" data-moreinfo="List Top 5 Depts by amount"></div>
     </li>
 
   </ul>
-  <center><div style="font-size: 12px"></div></center>
 </div>
