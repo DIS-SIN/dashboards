@@ -33,11 +33,11 @@ end
 SCHEDULER.every '12h', :first_in => 0 do
   analytics = getCredentials(service, key_file)
 
-  ga_response = analytics.get_ga_data("ga:" + profile_id, "7daysAgo", "today","ga:users,ga:newUsers")
+  ga_response = analytics.get_ga_data("ga:" + profile_id, "7daysAgo", "yesterday","ga:users,ga:newUsers")
   ga_comparative = analytics.get_ga_data("ga:" + profile_id, "14daysAgo", "7daysAgo", "ga:users,ga:newUsers")
   ga_topArticles = analytics.get_ga_data("ga:" + profile_id, 
   "7daysAgo",
-  "today",
+  "yesterday",
   "ga:pageviews",
   sort:"-ga:pageviews",
   dimensions: "ga:pagePath",
