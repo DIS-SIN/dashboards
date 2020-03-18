@@ -128,7 +128,7 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
     end
   end
 
-  send_event("events_text", {text:"Last Event", items: [{'label' => last_event["event"], 'value' => last_event["date"].strftime("%b %-d")}]})
+  send_event("events_text", {items: [{'label' => last_event["event"], 'value' => last_event["date"].strftime("%b %-d")}] , unordered: true})
 
 
 end
@@ -230,7 +230,7 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
     end
   end
 
-  send_event("engagements_text", {text:"Last Engagement", items: [{'label' => last_engagement["engagement"], 'value' => last_engagement["date"].strftime("%b %-d")}]})
+  send_event("engagements_text", {items: [{'label' => last_engagement["engagement"], 'value' => last_engagement["date"].strftime("%b %-d")}], unordered: true})
 
 
 end
