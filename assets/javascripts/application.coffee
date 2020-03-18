@@ -17,7 +17,7 @@ Dashing.on 'ready', ->
 
   Batman.setImmediate ->
     $('.gridster').width(contentWidth)
-    $('.gridster ul:first').gridster
+    $('.gridster ul.section ').gridster
       widget_margins: Dashing.widget_margins
       widget_base_dimensions: Dashing.widget_base_dimensions
       avoid_overlapped_widgets: !Dashing.customGridsterLayout
@@ -26,12 +26,12 @@ Dashing.on 'ready', ->
         start: -> Dashing.currentWidgetPositions = Dashing.getWidgetPositions()
         items: "none"
 
-  setScale(contentWidth, contentHeight)
+  setScale(contentWidth, contentHeight, Dashing.widget_margins[1], Dashing.widget_margins[0] )
   
 
 
 
-setScale = (content_width, content_height) ->
+setScale = (content_width, content_height, heightMargin, widthMargin) ->
   e = window
   a = "inner"
   unless "innerWidth" of window
@@ -40,8 +40,15 @@ setScale = (content_width, content_height) ->
   width= e[a + "Width"]
   height= e[a + "Height"]
 
-  scaleWidth = width / content_width
-  scaleHeight = height / content_height
+  # Correct content_height for possible section headings
+  numSections = $('.section-heading').length
+  sectionHeight = $('.section-heading:visible').css('height')
+  if (sectionHeight)
+    sectionHeight = parseInt((sectionHeight.replace /px/, ""), 10)
+    content_height = content_height + (sectionHeight + heightMargin * 2) * numSections
+
+  scaleWidth = width / (content_width + 40)
+  scaleHeight = height / (content_height + 40)
 
   scale = 0
   
@@ -55,6 +62,10 @@ setScale = (content_width, content_height) ->
     $(".container-transform").css({
       "transform-origin": "top left"
     })
+  
+  $('.section-heading').css({
+    "margin": Dashing.widget_margins[0] + "px " + Dashing.widget_margins[1] + "px"
+  })
 
   $('#container').css({
     transform: "scale(" + scale + ")"

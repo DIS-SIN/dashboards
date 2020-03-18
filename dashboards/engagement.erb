@@ -5,7 +5,7 @@ $(function() {
   // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
   // Dashing.gridsterLayout('[{"col":2,"row":1},{"col":1,"row":1},{"col":3,"row":1},{"col":2,"row":2},{"col":3,"row":2},{"col":1,"row":2},{"col":5,"row":1},{"col":4,"row":2},{"col":2,"row":3}]')
   // Dashing.widget_base_dimensions = [275, 275]
-  Dashing.numColumns = 7
+  Dashing.numColumns = 5
   Dashing.numRows = 3
 
   //Remove IoD from total Engagement Level number
@@ -24,60 +24,73 @@ $(function() {
 });
 </script>
 
+
 <div class="gridster">
-  <ul>
-    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
-      <div data-id="events_text" data-view="TextList" data-title="Official Events" style="background-color:#1456A9;"></div>
+
+<div class="section-heading" style="background-color:#1456A9;">
+  <h1>Official Events</h1>
+</div>
+
+  <ul class="section">    
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="events_text" data-view="List" data-title="Last Event" style="background-color:#1456A9;"></div>
     </li>
-    <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="events_num_fytd" data-view="Number" data-title="Events this fiscal" style="background-color:#1456A9;"></div>
     </li>
-    <li data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="events_reached_fytd" data-view="Number" data-title="Reached this fiscal" style="background-color:#1456A9;"></div>
     </li>
-    <li data-row="1" data-col="5" data-sizex="1" data-sizey="1">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="events_28d_summary" data-view="NumberSplit" data-title1="Reached 28 days" data-title2="Events # 28 days" style="background-color:#1456A9;"></div>
     </li>
-    <li data-row="1" data-col="6" data-sizex="1" data-sizey="1">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="events_next_3" data-view="List" data-title="Next Events" style="background-color:#1456A9;"></div>
     </li>
-    <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
-      <div data-id="engagements_text" data-view="TextList" data-title="Engagements" style="background-color:#7108AD;"></div>
+  </ul>
+
+  <div class="section-heading" style="background-color:#7108AD;">
+    <h1>Engagements</h1>
+  </div>
+
+  <ul class="section">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="engagements_text" data-view="List" data-title="Last Engagement" style="background-color:#7108AD;"></div>
     </li>
-    <li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="engagement_type" data-view="List" data-title="Types" style="background-color:#7108AD;"></div>
     </li>
-    <li data-row="2" data-col="4" data-sizex="1" data-sizey="1">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="engagement_reached_fytd" data-view="Number" data-title="People Reached 19/20" style="background-color:#7108AD;"></div>
     </li>
-    <li data-row="2" data-col="5" data-sizex="1" data-sizey="1">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="engagement_28d_summary" data-view="NumberSplit" data-title1="Reached 28 days" data-title2="Engagements # 28 days" style="background-color:#7108AD;"></div>
     </li>
-    <li data-row="2" data-col="6" data-sizex="1" data-sizey="1">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="engagements_next_3" data-view="List" data-title="Next Engagements" style="background-color:#7108AD;"></div>
     </li>
-    <li data-row="3" data-col="2" data-sizex="1" data-sizey="1">
+  </ul>
+
+  <div class="section-heading" style="background-color:#0880AD;">
+    <h1>Social Media</h1>
+  </div>
+
+  <ul class="section">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="ta_tweets" data-view="NumberPercentage" data-title="Tweets" style="background-color:#0880AD;" data-moreinfo="28 day summary"></div>
     </li>
-    <li data-row="3" data-col="3" data-sizex="1" data-sizey="1">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="ta_impression" data-view="NumberPercentage" data-title="Impressions" style="background-color:#0880AD;" data-moreinfo="28 day summary"></div>
     </li>
-    <li data-row="3" data-col="4" data-sizex="1" data-sizey="1">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="ta_profile_visits" data-view="NumberPercentage" data-title="Profile Visits" style="background-color:#0880AD;" data-moreinfo="28 day summary"></div>
     </li>
-    <li data-row="3" data-col="5" data-sizex="1" data-sizey="1">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="ta_mentions" data-view="NumberPercentage" data-title="Mentions" style="background-color:#0880AD;" data-moreinfo="28 day summary"></div>
     </li>
-    <li data-row="3" data-col="6" data-sizex="1" data-sizey="1">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="ta_followers" data-view="NumberPercentage" data-title="Followers" style="background-color:#0880AD;" data-moreinfo="28 day summary"></div>
     </li>
-    <li data-row="3" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="qr" data-view="QRCode" data-qr="/engagement_qr.png" data-moreinfo="Engagement Dashboard"></div>
-    </li>
-    <li data-row="3" data-col="7" data-sizex="1" data-sizey="1">
-      <div data-id="qr" data-view="QRCode" data-qr="/cycle_20s_qr.png" data-moreinfo="Cycle through all Dashboards"></div>
-    </li>
-
   </ul>
 
 </div>

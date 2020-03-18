@@ -260,6 +260,18 @@ h3 {
 // Custom Classes
 // ----------------------------------------------------------------------------
 
+
+.section-heading {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  text-align: left;
+}
+
+.section-heading h1 {
+  text-align: left;
+}
+
+
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);

@@ -6,12 +6,12 @@ $(function() {
   // Dashing.gridsterLayout('[{"col":2,"row":1},{"col":1,"row":1},{"col":3,"row":1},{"col":2,"row":2},{"col":3,"row":2},{"col":1,"row":2},{"col":5,"row":1},{"col":4,"row":2},{"col":2,"row":3}]')
   // Dashing.widget_base_dimensions = [275, 275]
   Dashing.numColumns = 5
-  Dashing.numRows = 3
+  Dashing.numRows = 2
 });
 </script>
 
 <div class="gridster">
-  <ul>
+  <ul class="section">
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="image" data-view="Image" data-title="Busrides" data-image="/busrides_logo_small.png"></div>
     </li>
@@ -38,12 +38,6 @@ $(function() {
     </li>
     <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="ta_profile_visits" data-view="NumberPercentage" data-title="Twitter Profile Visits" style="background-color:#0880AD;" data-moreinfo="28 day summary"></div>
-    </li>
-    <li data-row="3" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="qr" data-view="QRCode" data-qr="/highlevel_qr.png" data-moreinfo="Highlevel Dashboard"></div>
-    </li>
-    <li data-row="3" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="qr" data-view="QRCode" data-qr="/cycle_20s_qr.png" data-moreinfo="Cycle through all Dashboards"></div>
     </li>
   </ul>
 </div>
