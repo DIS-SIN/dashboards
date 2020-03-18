@@ -30,6 +30,34 @@ def getCredentials(service, key_file)
   return service
 end
 
+def getDeviceMetrics(data)
+
+  desktop = 0
+  tablet = 0
+  mobile = 0
+
+  # Get meter info for devices
+  data.rows.each do |row|
+
+    if row[0].eql?("desktop") then
+      desktop = row[1].to_i
+    elsif row[0].eql?("tablet") then
+      tablet = row[1].to_i
+    else row[0].eql?("mobile")
+      mobile = row[1].to_i
+    end
+  end
+
+  device_total = data.totals_for_all_results["ga:users"].to_f
+  desktop = desktop / device_total * 100
+  tablet = tablet / device_total * 100
+  mobile = mobile / device_total * 100
+
+  return [desktop.to_i, tablet.to_i, mobile.to_i]
+
+end
+
+
 SCHEDULER.every '12h', :first_in => 0 do
   analytics = getCredentials(service, key_file)
 
@@ -94,6 +122,7 @@ SCHEDULER.every '12h', :first_in => 0 do
   ga_comparative = analytics.get_ga_data("ga:" + profile_id, comparative_startDate, startDate, "ga:users,ga:newUsers")
   ga_referrers = analytics.get_ga_data("ga:" + profile_id, startDate, endDate, "ga:users", dimensions:"ga:source", start_index:2, max_results:5, sort:"-ga:users")
   ga_device = analytics.get_ga_data("ga:" + profile_id, startDate, endDate, "ga:users", dimensions:"ga:deviceCategory")
+  ga_device_compartive = analytics.get_ga_data("ga:" + profile_id, comparative_startDate, startDate, "ga:users", dimensions:"ga:deviceCategory")
 
   # Get the Google Analytics data for top pages in the last month
   top_pages_monthly = analytics.get_ga_data("ga:" + profile_id, 
@@ -109,30 +138,13 @@ SCHEDULER.every '12h', :first_in => 0 do
   users = ga_response.totals_for_all_results["ga:users"]
   newUsers = ga_response.totals_for_all_results["ga:newUsers"]
   # returnUsers = users.to_i - newUsers.to_i
-  desktop = 0
-  tablet = 0
-  mobile = 0
 
-  # Get meter info for devices
-  ga_device.rows.each do |row|
+  deviceMetrics = getDeviceMetrics(ga_device)
+  deviceMetrics_comparative = getDeviceMetrics(ga_device_compartive)
 
-    if row[0].eql?("desktop") then
-      desktop = row[1].to_i
-    elsif row[0].eql?("tablet") then
-      tablet = row[1].to_i
-    else row[0].eql?("mobile")
-      mobile = row[1].to_i
-    end
-  end
-
-  device_total = ga_device.totals_for_all_results["ga:users"].to_f
-  desktop = desktop / device_total * 100
-  tablet = tablet / device_total * 100
-  mobile = mobile / device_total * 100
-
-  send_event('busrides_desktop', { value: desktop.to_i})
-  send_event('busrides_tablet', { value: tablet.to_i})
-  send_event('busrides_mobile', { value: mobile.to_i})
+  send_event('busrides_desktop', value: deviceMetrics[0] , last: deviceMetrics_comparative[0])
+  send_event('busrides_tablet',  value: deviceMetrics[1], last: deviceMetrics_comparative[1])
+  send_event('busrides_mobile',  value: deviceMetrics[2], last: deviceMetrics_comparative[2])
 
   previous_users = ga_comparative.totals_for_all_results["ga:users"]
   previous_newUsers = ga_comparative.totals_for_all_results["ga:newUsers"]
@@ -145,7 +157,7 @@ SCHEDULER.every '12h', :first_in => 0 do
   top_referrers = []
 
   ga_referrers.rows.each do |row|
-    top_referrers << { 'label' => row[0] }
+    top_referrers << { 'label' => row[0], 'value' => row[1] + " users" }
   end
 
   send_event("busrides_30d_referrers", { items: top_referrers })
