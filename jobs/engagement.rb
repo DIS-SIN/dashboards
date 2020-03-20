@@ -110,7 +110,7 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
     days_away = (event["date"] - today).to_i
     if(days_away >= 0 && num_of_events > 0)
       next_3_events.push({
-        'label' => event["event"],
+        'label' => event["description"],
         'value' => event["date"].strftime("%b %-d")
     })
       num_of_events = num_of_events - 1
