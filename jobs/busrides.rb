@@ -160,6 +160,13 @@ SCHEDULER.every '12h', :first_in => 0 do
     top_referrers << { 'label' => row[0], 'value' => row[1] + " users" }
   end
 
+  top_referrers.each do |referrer|
+    p referrer
+    if referrer["label"].eql?("t.co")
+      referrer["label"] = "twitter"
+    end
+  end
+
   send_event("busrides_30d_referrers", { items: top_referrers })
 
   top_episodes = []
