@@ -161,7 +161,6 @@ SCHEDULER.every '12h', :first_in => 0 do
   end
 
   top_referrers.each do |referrer|
-    p referrer
     if referrer["label"].eql?("t.co")
       referrer["label"] = "twitter"
     end
