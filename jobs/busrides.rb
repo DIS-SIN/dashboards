@@ -88,11 +88,11 @@ SCHEDULER.every '12h', :first_in => 0 do
     if row[0].include?("/en/ep-") then
       item = row[0].gsub("/en/ep-","")
       item = item.gsub("-en/","")
-      top_episodes << { 'label' => episodes_list[item]}
+      top_episodes << { 'label' => episodes_list[item] + " {EN}"}
     elsif row[0].include?("/fr/ep-") then
       item = row[0].gsub("/fr/ep-","")
       item = item.gsub("-fr/","")
-      top_episodes << { 'label' =>  episodes_list[item]}
+      top_episodes << { 'label' =>  episodes_list[item] + " {FR}"}
     else
       top_episodes << { 'label' =>  row[0]}
     end
@@ -175,11 +175,11 @@ SCHEDULER.every '12h', :first_in => 0 do
     if row[0].include?("/en/ep-") then
       item = row[0].gsub("/en/ep-","")
       item = item.gsub("-en/","")
-      top_episodes << { 'label' =>  episodes_list[item]}
+      top_episodes << { 'label' =>  episodes_list[item] + " {EN}"}
     elsif row[0].include?("/fr/ep-") then
       item = row[0].gsub("/fr/ep-","")
       item = item.gsub("-fr/","")
-      top_episodes << { 'label' =>  episodes_list[item]}
+      top_episodes << { 'label' =>  episodes_list[item] + " {FR}"}
     else
       top_episodes << { 'label' =>  row[0]}
     end
