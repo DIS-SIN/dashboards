@@ -61,14 +61,18 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
     # mou ammount for all fiscal years
     mou_amount_all_fiscal = 0
     mou_data.each do |mou|
-      mou_amount = mou["f19"] + mou["f20"] + mou["f21"] + mou["f22"]
-      mou_amount_all_fiscal = mou_amount_all_fiscal + mou_amount
+      if (mou["status"] == "Signed")
+        mou_amount = mou["f19"] + mou["f20"] + mou["f21"] + mou["f22"]
+        mou_amount_all_fiscal = mou_amount_all_fiscal + mou_amount
+      end
     end
 
     #mou ammount this fical
     mou_amount_current_fiscal = 0
     mou_data.each do |mou|
-      mou_amount_current_fiscal = mou_amount_current_fiscal + mou["f20"]
+      if(mou["status" == "Signed"])
+        mou_amount_current_fiscal = mou_amount_current_fiscal + mou["f20"]
+      end
     end
     # draft total amount all fiscal years
     draft_amount_total = 0
