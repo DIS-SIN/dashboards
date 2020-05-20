@@ -1,0 +1,20 @@
+<% content_for(:title) { "Navigation" } %>
+
+<script type='text/javascript'>
+$(function() {
+  Dashing.numColumns = 4
+  Dashing.numRows = 2
+});
+</script>
+
+<div class="gridster">
+  <ul class="section">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="busrides" data-text="Busrides" data-view="Navigation" data-url="busrides" data-image="/busrides_logo_small.png"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="busrides_7d_users" data-view="Number" data-title="Weekly Total Users" style="background-color:#ce3f3f;"></div>
+    </li>
+  </ul>
+</div>
+

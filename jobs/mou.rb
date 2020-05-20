@@ -68,7 +68,7 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
     #mou ammount this fical
     mou_amount_current_fiscal = 0
     mou_data.each do |mou|
-      mou_amount_current_fiscal = mou_amount_current_fiscal + mou["f19"]
+      mou_amount_current_fiscal = mou_amount_current_fiscal + mou["f20"]
     end
     # draft total amount all fiscal years
     draft_amount_total = 0
