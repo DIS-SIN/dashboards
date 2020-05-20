@@ -12,7 +12,7 @@ auth_client.fetch_access_token!
 
 # Create an auth session with Google Drive using service account
 session = GoogleDrive::Session.from_access_token(auth_client)
-google_worksheet = session.spreadsheet_by_key("1APS9XScf2weoSBQscubTFfUQ12IbG-yWVbdF3Jw4xeo")
+google_worksheet = session.spreadsheet_by_key("1Vb2BkqXDNH_vRzFQ3Tv1XH-RDb7QJd7VIlIFqJZ2_-g")
 mou_sheet = google_worksheet.worksheets[0]
 
 # Helper function
@@ -38,6 +38,7 @@ def parse_MOU(sheet)
 
   # drop anything that doesn't have a status
   parsed_object.reject!{|row| !["Signed",
+  "Prospecting",
   "Draft",
   "Discussions",
   "Requested",
@@ -61,23 +62,23 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
     # mou ammount for all fiscal years
     mou_amount_all_fiscal = 0
     mou_data.each do |mou|
-      if (mou["status"] == "Signed")
-        mou_amount = mou["f19"] + mou["f20"] + mou["f21"] + mou["f22"]
-        mou_amount_all_fiscal = mou_amount_all_fiscal + mou_amount
+      if (mou['status'].eql?("Signed"))
+        puts mou
+        mou_amount_all_fiscal = mou["f19"] + mou["f20"] + mou["f21"] + mou["f22"] + mou_amount_all_fiscal
       end
     end
 
     #mou ammount this fical
     mou_amount_current_fiscal = 0
     mou_data.each do |mou|
-      if(mou["status" == "Signed"])
+      if(mou["status"].eql?("Signed"))
         mou_amount_current_fiscal = mou_amount_current_fiscal + mou["f20"]
       end
     end
     # draft total amount all fiscal years
     draft_amount_total = 0
     mou_data.each do |mou|
-      if(mou["status"] == "Draft")
+      if(mou["status"].eql?("Draft"))
         mou_amount = mou["f19"] + mou["f20"] + mou["f21"] + mou["f22"]
         draft_amount_total = draft_amount_total + mou_amount
       end
