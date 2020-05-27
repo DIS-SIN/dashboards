@@ -63,6 +63,7 @@ SCHEDULER.every '12h', :first_in => 0 do
 
   ga_response = analytics.get_ga_data("ga:" + profile_id, "7daysAgo", "yesterday","ga:users,ga:newUsers")
   ga_comparative = analytics.get_ga_data("ga:" + profile_id, "14daysAgo", "7daysAgo", "ga:users,ga:newUsers")
+  
   ga_topArticles = analytics.get_ga_data("ga:" + profile_id, 
   "7daysAgo",
   "yesterday",
@@ -96,10 +97,18 @@ SCHEDULER.every '12h', :first_in => 0 do
     else
       top_episodes << { 'label' =>  row[0]}
     end
-
-    puts "Busride analytics data read succesfully. Sending event. (busrides.rb)"
-    send_event("busrides_7d_episode_list", { items: top_episodes })
   end
+
+  puts "Busride analytics data read succesfully. Sending event. (busrides.rb)"
+  send_event("busrides_7d_episode_list", { items: top_episodes })
+  # Testing for Search API
+  #page_url = "/en/ep-22-en" + "/"
+
+  #page_index = ga_topArticles.rows.index{ |row| row[0] == page_url }
+  #puts page_index
+  #if page_index then
+  #  puts ga_topArticles.rows[page_index][1]
+  #end
 
 
   send_event('busrides_7d_users', current: users, last: previous_users)

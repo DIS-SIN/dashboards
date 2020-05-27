@@ -63,7 +63,6 @@ SCHEDULER.every '10m', :first_in => 0 do |job|
     mou_amount_all_fiscal = 0
     mou_data.each do |mou|
       if (mou['status'].eql?("Signed"))
-        puts mou
         mou_amount_all_fiscal = mou["f19"] + mou["f20"] + mou["f21"] + mou["f22"] + mou_amount_all_fiscal
       end
     end
